@@ -1,6 +1,6 @@
 library quran;
 
-var quranText = [
+var _quranText = [
     {
       "surah_number": 1,
       "verse_number": 1,
@@ -31183,7 +31183,7 @@ var quranText = [
     }
   ];
 
-var surah = [
+var _surah = [
     {
        "id":1,
        "name":"Al Fatiha",
@@ -31537,7 +31537,7 @@ var surah = [
     {
        "id":71,
        "name":"Nooh",
-       "aya":45
+       "aya":28
     },
     {
        "id":72,
@@ -31760,19 +31760,19 @@ var surah = [
    if(surahNumber > 114 || surahNumber <= 0){
      throw "No Surah found with given surahNumber";
    }
-    return surah[surahNumber-1]['name'];
+    return _surah[surahNumber-1]['name'];
   }
 
   int getAyaCount(int surahNumber){
     if(surahNumber > 114 || surahNumber <= 0){
       throw "No aya found with given surahNumber";
     }
-    return surah[surahNumber-1]['aya'];
+    return _surah[surahNumber-1]['aya'];
   }
  
  String getVerse(int surahNumber, int verseNumber){
    String verse = "";
-   for(var i in quranText){
+   for(var i in _quranText){
      if(i['surah_number'] == surahNumber && i['verse_number'] == verseNumber){
        verse = i['content'];
        break;
@@ -31784,6 +31784,14 @@ var surah = [
    }
 
    return verse;
+ }
+
+ int getTotalAyaCount(){
+   return 6236;
+ }
+
+ int getTotalSurahCount(){
+   return 114;
  }
 
 

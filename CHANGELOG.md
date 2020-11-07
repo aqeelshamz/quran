@@ -2,6 +2,6 @@
 
 * Initial release.
 
-## [0.0.2] - Release 2.
+## [0.0.6] - Version 0.0.6
 
-* Release 2
+* Get total aya and surah count

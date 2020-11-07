@@ -1,8 +1,7 @@
 name: quran
 description: Full Quran text and Surah details
-version: 0.0.1
-author:
-homepage:
+version: 0.0.2
+homepage: https://github.com/aqeelshamz/quran
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

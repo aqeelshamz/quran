@@ -1,6 +1,6 @@
 name: quran
-description: Full Quran text and Surah details including Surah Name, Aya Count, English title, Verse, Place of Revelation, Total Aya Count, Total Surah Count etc.
-version: 0.0.7
+description: Full Quran text and aya, surah, place of revelation details etc.
+version: 0.0.8
 homepage: https://github.com/aqeelshamz/quran
 
 environment:

@@ -7,10 +7,13 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 **Functions:**
 
 * **`getSurahName(int surahNumber)`** - Get Surah Name by surah number
+* **`getSurahNameEnglish(int surahNumber)`** - Get Surah English Title by surah number
 * **`getAyaCount(int surahNumber)`** - Get Aya Count by surah number
+* **`getPlaceOfRevelation(int surahNumber)`** - Get Place of Revelation (Makkah / Madinah)
 * **`getVerse(int surahNumber, int verseNumber)`** - Get Verse (text) by surah number and verse number
 * **`getTotalAyaCount()`** - Get total aya count
 * **`getTotalSurahCount()`** - Get total surah count
+
 
 ## Example
 ![example](https://raw.githubusercontent.com/aqeelshamz/quran/main/images/1.png)

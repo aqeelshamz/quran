@@ -35,7 +35,7 @@ void main(){
 }
 ```
 
-![example2](https://raw.githubusercontent.com/aqeelshamz/quran/main/images/1.png)
+![example2](https://raw.githubusercontent.com/aqeelshamz/quran/main/images/2.png)
 
 ```dart
 import 'package:flutter/material.dart';

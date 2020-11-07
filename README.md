@@ -1,5 +1,3 @@
-# quran
-
 Full Quran text and Surah details
 
 ## Getting Started

@@ -11,6 +11,7 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 * **`getVerse(int surahNumber, int verseNumber)`** - Get Verse (text) by surah number and verse number
 
 ## Example
+![example](./images/1.png)
 
 ```dart
 import 'package:flutter/material.dart';

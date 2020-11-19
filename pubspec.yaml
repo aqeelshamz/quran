@@ -1,6 +1,6 @@
 name: quran
 description: Full Quran text and aya, surah, place of revelation details etc.
-version: 0.0.8
+version: 0.0.9
 homepage: https://github.com/aqeelshamz/quran
 
 environment:

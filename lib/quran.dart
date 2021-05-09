@@ -1,7 +1,5 @@
 library quran;
 
-import 'package:flutter/cupertino.dart';
-
 var _quranText = [
   {
     "surah_number": 1,
@@ -35753,7 +35751,7 @@ String getSurahName(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {
     throw "No Surah found with given surahNumber";
   }
-  return _surah[surahNumber - 1]['name'];
+  return _surah[surahNumber - 1]['name'].toString();
 }
 
 ///Takes [surahNumber] returns the Surah name in English
@@ -35761,7 +35759,7 @@ String getSurahNameEnglish(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {
     throw "No Surah found with given surahNumber";
   }
-  return _surah[surahNumber - 1]['english'];
+  return _surah[surahNumber - 1]['english'].toString();
 }
 
 ///Takes [surahNumber] and returns the place of revelation (Makkah / Madinah) of the surah
@@ -35769,7 +35767,7 @@ String getPlaceOfRevelation(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {
     throw "No Surah found with given surahNumber";
   }
-  return _surah[surahNumber - 1]['place'];
+  return _surah[surahNumber - 1]['place'].toString();
 }
 
 ///Takes [surahNumber] and returns the count of total Verses in the Surah
@@ -35777,15 +35775,16 @@ int getVerseCount(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {
     throw "No verse found with given surahNumber";
   }
-  return _surah[surahNumber - 1]['aya'];
+  return int.parse(_surah[surahNumber - 1]['aya'].toString());
 }
 
 ///Takes [surahNumber], [verseNumber] & [verseEndSymbol] (optional) and returns the Verse in Arabic
-String getVerse(int surahNumber, int verseNumber, {bool verseEndSymbol = false}) {
+String getVerse(int surahNumber, int verseNumber,
+    {bool verseEndSymbol = false}) {
   String verse = "";
   for (var i in _quranText) {
     if (i['surah_number'] == surahNumber && i['verse_number'] == verseNumber) {
-      verse = i['content'];
+      verse = i['content'].toString();
       break;
     }
   }
@@ -35833,39 +35832,30 @@ String getVerseURL(int surahNumber, int verseNumber) {
 }
 
 ///Takes [verseNumber] and returns '۝' symbol with verse number
-String getVerseEndSymbol(int verseNumber){
+String getVerseEndSymbol(int verseNumber) {
   String arabicNumeric = " ";
 
-  for(int i = verseNumber.toString().length - 1; i >= 0; i--){
-    String digit = verseNumber.toString().split("")[i]; 
-    if(digit == "0"){
+  for (int i = verseNumber.toString().length - 1; i >= 0; i--) {
+    String digit = verseNumber.toString().split("")[i];
+    if (digit == "0") {
       arabicNumeric += "٠";
-    }
-    else if(digit == "1"){
+    } else if (digit == "1") {
       arabicNumeric += "۱";
-    }
-    else if(digit == "2"){
+    } else if (digit == "2") {
       arabicNumeric += "۲";
-    }
-    else if(digit == "3"){
+    } else if (digit == "3") {
       arabicNumeric += "۳";
-    }
-    else if(digit == "4"){
+    } else if (digit == "4") {
       arabicNumeric += "۴";
-    }
-    else if(digit == "5"){
+    } else if (digit == "5") {
       arabicNumeric += "۵";
-    }
-    else if(digit == "6"){
+    } else if (digit == "6") {
       arabicNumeric += "۶";
-    }
-    else if(digit == "7"){
+    } else if (digit == "7") {
       arabicNumeric += "۷";
-    }
-    else if(digit == "8"){
+    } else if (digit == "8") {
       arabicNumeric += "۸";
-    }
-    else if(digit == "9"){
+    } else if (digit == "9") {
       arabicNumeric += "۹";
     }
   }
@@ -35873,5 +35863,4 @@ String getVerseEndSymbol(int verseNumber){
   arabicNumeric += "\u06dd";
 
   return arabicNumeric;
-
 }

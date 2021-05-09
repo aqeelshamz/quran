@@ -29,3 +29,7 @@
 
 * Get Verse end symbol '۝' with verse number
 * verseEndSymbol bool added in getVerse() function
+
+## [1.0.3] - Version 1.0.3
+
+* Bug fix

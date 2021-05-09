@@ -14,3 +14,7 @@
 
 * Basmala removed from first ayas
 * Get Basmala function added
+
+## [1.0.0] - Version 1.0.0
+
+* Get Surah and Verse URLs (from Quran.com)

@@ -9,3 +9,8 @@
 ## [0.0.7] - Version 0.0.7
 
 * Get Surah english titles and place of revelation (Makkah / Madinah)
+
+## [0.1.0] - Version 0.1.0
+
+* Basmala removed from first ayas
+* Get Basmala function added

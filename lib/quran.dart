@@ -35525,6 +35525,14 @@ var _surah = [
   }
 ];
 
+String getVerseURL(int surahNumber, int verseNumber){
+  return "https://quran.com/$surahNumber/$verseNumber";
+}
+
+String getSurahURL(int surahNumber){
+  return "https://quran.com/$surahNumber";
+}
+
 String getBasmala(){
   return "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
 }
@@ -35550,9 +35558,9 @@ String getPlaceOfRevelation(int surahNumber) {
   return _surah[surahNumber - 1]['place'];
 }
 
-int getAyaCount(int surahNumber) {
+int getVerseCount(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {
-    throw "No aya found with given surahNumber";
+    throw "No verse found with given surahNumber";
   }
   return _surah[surahNumber - 1]['aya'];
 }
@@ -35573,7 +35581,7 @@ String getVerse(int surahNumber, int verseNumber) {
   return verse;
 }
 
-int getTotalAyaCount() {
+int getTotalVerseCount() {
   return 6236;
 }
 

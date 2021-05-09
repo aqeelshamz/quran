@@ -8,23 +8,23 @@ void main() {
         title: Text("Quran Demo"),
       ),
       body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text("Surah: ${quran.getSurahName(1)}"),
-            Text("English title: ${quran.getSurahNameEnglish(1)}"),
-            Text("Aya: ${quran.getAyaCount(1)}"),
-            Text("Place of Revelation: ${quran.getPlaceOfRevelation(1)}"),
-            Text("Verses: "),
-            Expanded(
-              child: ListView.builder(
-                itemCount: quran.getAyaCount(1),
-                itemBuilder: (context, index) {
-                  return Text("${index+1}. ${quran.getVerse(1, index + 1)}");
-                },
-              ),
-            ),
-          ],
+        child: Padding(
+          padding: EdgeInsets.all(15.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text("Juz Number: \n" + quran.getJuzNumber(18, 1).toString()),
+              Text("\nJuz URL: \n" + quran.getJuzURL(15)),
+              Text("\nSurah and Verses in Juz 15: \n" + quran.getSurahAndVersesFromJuz(15).toString()),
+              Text("\nSurah Name: \n" + quran.getSurahName(18)),
+              Text("\nSurah Name (English): \n" + quran.getSurahNameEnglish(18)),
+              Text("\nSurah URL: \n" + quran.getSurahURL(18)),
+              Text("\nTotal Verses: \n" + quran.getVerseCount(18).toString()),
+              Text("\nPlace of Revelation: \n" + quran.getPlaceOfRevelation(18)),
+              Text("\nBasmala: \n" + quran.getBasmala()),
+              Text("\nVerse 1: \n" + quran.getVerse(18, 1))
+            ],
+          ),
         ),
       ),
     ),

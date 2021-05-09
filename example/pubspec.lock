@@ -91,10 +91,10 @@ packages:
   quran:
     dependency: "direct main"
     description:
-      name: quran
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.0.8"
+      path: ".."
+      relative: true
+    source: path
+    version: "1.0.2"
   sky_engine:
     dependency: transitive
     description: flutter

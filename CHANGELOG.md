@@ -24,3 +24,8 @@
 * Get Juz Number
 * Get Juz URL
 * Get Surah and Verse numbers from Juz
+
+## [1.0.2] - Version 1.0.2
+
+* Get Verse end symbol '۝' with verse number
+* verseEndSymbol bool added in getVerse() function

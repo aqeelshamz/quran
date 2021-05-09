@@ -1,5 +1,7 @@
 library quran;
 
+import 'package:flutter/cupertino.dart';
+
 var _quranText = [
   {
     "surah_number": 1,
@@ -35778,8 +35780,8 @@ int getVerseCount(int surahNumber) {
   return _surah[surahNumber - 1]['aya'];
 }
 
-///Takes [surahNumber] & [verseNumber] and returns the verse in Arabic
-String getVerse(int surahNumber, int verseNumber) {
+///Takes [surahNumber], [verseNumber] & [verseEndSymbol] (optional) and returns the Verse in Arabic
+String getVerse(int surahNumber, int verseNumber, {bool verseEndSymbol = false}) {
   String verse = "";
   for (var i in _quranText) {
     if (i['surah_number'] == surahNumber && i['verse_number'] == verseNumber) {
@@ -35792,7 +35794,7 @@ String getVerse(int surahNumber, int verseNumber) {
     throw "No verse found with given surahNumber and verseNumber.\n\n";
   }
 
-  return verse;
+  return verse + (verseEndSymbol ? getVerseEndSymbol(verseNumber) : "");
 }
 
 ///Reurns total juz count
@@ -35828,4 +35830,48 @@ String getSurahURL(int surahNumber) {
 ///Takes [surahNumber] & [verseNumber] and returns Verse URL (from Quran.com)
 String getVerseURL(int surahNumber, int verseNumber) {
   return "https://quran.com/$surahNumber/$verseNumber";
+}
+
+///Takes [verseNumber] and returns '۝' symbol with verse number
+String getVerseEndSymbol(int verseNumber){
+  String arabicNumeric = " ";
+
+  for(int i = verseNumber.toString().length - 1; i >= 0; i--){
+    String digit = verseNumber.toString().split("")[i]; 
+    if(digit == "0"){
+      arabicNumeric += "٠";
+    }
+    else if(digit == "1"){
+      arabicNumeric += "۱";
+    }
+    else if(digit == "2"){
+      arabicNumeric += "۲";
+    }
+    else if(digit == "3"){
+      arabicNumeric += "۳";
+    }
+    else if(digit == "4"){
+      arabicNumeric += "۴";
+    }
+    else if(digit == "5"){
+      arabicNumeric += "۵";
+    }
+    else if(digit == "6"){
+      arabicNumeric += "۶";
+    }
+    else if(digit == "7"){
+      arabicNumeric += "۷";
+    }
+    else if(digit == "8"){
+      arabicNumeric += "۸";
+    }
+    else if(digit == "9"){
+      arabicNumeric += "۹";
+    }
+  }
+
+  arabicNumeric += "\u06dd";
+
+  return arabicNumeric;
+
 }

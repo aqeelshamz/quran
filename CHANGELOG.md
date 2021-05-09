@@ -18,3 +18,9 @@
 ## [1.0.0] - Version 1.0.0
 
 * Get Surah and Verse URLs (from Quran.com)
+
+## [1.0.1] - Version 1.0.1
+
+* Get Juz Number
+* Get Juz URL
+* Get Surah and Verse numbers from Juz

@@ -29,11 +29,7 @@ var _quranText = [
     "content":
         "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ"
   },
-  {
-    "surah_number": 2,
-    "verse_number": 1,
-    "content": "الٓمٓ"
-  },
+  {"surah_number": 2, "verse_number": 1, "content": "الٓمٓ"},
   {
     "surah_number": 2,
     "verse_number": 2,
@@ -1737,11 +1733,7 @@ var _quranText = [
     "content":
         "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ"
   },
-  {
-    "surah_number": 3,
-    "verse_number": 1,
-    "content": "الٓمٓ"
-  },
+  {"surah_number": 3, "verse_number": 1, "content": "الٓمٓ"},
   {
     "surah_number": 3,
     "verse_number": 2,
@@ -5683,11 +5675,7 @@ var _quranText = [
     "content":
         "وَهُوَ ٱلَّذِى جَعَلَكُمْ خَلَٰٓئِفَ ٱلْأَرْضِ وَرَفَعَ بَعْضَكُمْ فَوْقَ بَعْضٍ دَرَجَٰتٍ لِّيَبْلُوَكُمْ فِى مَآ ءَاتَىٰكُمْ إِنَّ رَبَّكَ سَرِيعُ ٱلْعِقَابِ وَإِنَّهُۥ لَغَفُورٌ رَّحِيمٌۢ"
   },
-  {
-    "surah_number": 7,
-    "verse_number": 1,
-    "content": "الٓمٓصٓ"
-  },
+  {"surah_number": 7, "verse_number": 1, "content": "الٓمٓصٓ"},
   {
     "surah_number": 7,
     "verse_number": 2,
@@ -8124,8 +8112,7 @@ var _quranText = [
   {
     "surah_number": 10,
     "verse_number": 1,
-    "content":
-        "الٓر تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْحَكِيمِ"
+    "content": "الٓر تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْحَكِيمِ"
   },
   {
     "surah_number": 10,
@@ -9502,8 +9489,7 @@ var _quranText = [
   {
     "surah_number": 12,
     "verse_number": 1,
-    "content":
-        "الٓر تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْمُبِينِ"
+    "content": "الٓر تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْمُبِينِ"
   },
   {
     "surah_number": 12,
@@ -10724,8 +10710,7 @@ var _quranText = [
   {
     "surah_number": 15,
     "verse_number": 1,
-    "content":
-        "الٓر تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ وَقُرْءَانٍ مُّبِينٍ"
+    "content": "الٓر تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ وَقُرْءَانٍ مُّبِينٍ"
   },
   {
     "surah_number": 15,
@@ -13300,11 +13285,7 @@ var _quranText = [
     "content":
         "قُلْ إِنَّمَآ أَنَا۠ بَشَرٌ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَٰهُكُمْ إِلَٰهٌ وَٰحِدٌ فَمَن كَانَ يَرْجُوا۟ لِقَآءَ رَبِّهِۦ فَلْيَعْمَلْ عَمَلًا صَٰلِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِۦٓ أَحَدًۢا"
   },
-  {
-    "surah_number": 19,
-    "verse_number": 1,
-    "content": "كٓهيعٓصٓ"
-  },
+  {"surah_number": 19, "verse_number": 1, "content": "كٓهيعٓصٓ"},
   {
     "surah_number": 19,
     "verse_number": 2,
@@ -13867,11 +13848,7 @@ var _quranText = [
     "content":
         "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هَلْ تُحِسُّ مِنْهُم مِّنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزًۢا"
   },
-  {
-    "surah_number": 20,
-    "verse_number": 1,
-    "content": "طه"
-  },
+  {"surah_number": 20, "verse_number": 1, "content": "طه"},
   {
     "surah_number": 20,
     "verse_number": 2,
@@ -15726,8 +15703,7 @@ var _quranText = [
   {
     "surah_number": 23,
     "verse_number": 1,
-    "content":
-        "قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ"
+    "content": "قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ"
   },
   {
     "surah_number": 23,
@@ -17217,11 +17193,7 @@ var _quranText = [
     "content":
         "قُلْ مَا يَعْبَؤُا۟ بِكُمْ رَبِّى لَوْلَا دُعَآؤُكُمْ فَقَدْ كَذَّبْتُمْ فَسَوْفَ يَكُونُ لِزَامًۢا"
   },
-  {
-    "surah_number": 26,
-    "verse_number": 1,
-    "content": "طسٓمٓ"
-  },
+  {"surah_number": 26, "verse_number": 1, "content": "طسٓمٓ"},
   {
     "surah_number": 26,
     "verse_number": 2,
@@ -18403,8 +18375,7 @@ var _quranText = [
   {
     "surah_number": 27,
     "verse_number": 1,
-    "content":
-        "طسٓ تِلْكَ ءَايَٰتُ ٱلْقُرْءَانِ وَكِتَابٍ مُّبِينٍ"
+    "content": "طسٓ تِلْكَ ءَايَٰتُ ٱلْقُرْءَانِ وَكِتَابٍ مُّبِينٍ"
   },
   {
     "surah_number": 27,
@@ -18946,11 +18917,7 @@ var _quranText = [
     "content":
         "وَقُلِ ٱلْحَمْدُ لِلَّهِ سَيُرِيكُمْ ءَايَٰتِهِۦ فَتَعْرِفُونَهَا وَمَا رَبُّكَ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ"
   },
-  {
-    "surah_number": 28,
-    "verse_number": 1,
-    "content": "طسٓمٓ"
-  },
+  {"surah_number": 28, "verse_number": 1, "content": "طسٓمٓ"},
   {
     "surah_number": 28,
     "verse_number": 2,
@@ -19470,11 +19437,7 @@ var _quranText = [
     "content":
         "وَلَا تَدْعُ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ لَآ إِلَٰهَ إِلَّا هُوَ كُلُّ شَىْءٍ هَالِكٌ إِلَّا وَجْهَهُۥ لَهُ ٱلْحُكْمُ وَإِلَيْهِ تُرْجَعُونَ"
   },
-  {
-    "surah_number": 29,
-    "verse_number": 1,
-    "content": "الٓمٓ"
-  },
+  {"surah_number": 29, "verse_number": 1, "content": "الٓمٓ"},
   {
     "surah_number": 29,
     "verse_number": 2,
@@ -19880,11 +19843,7 @@ var _quranText = [
     "content":
         "وَٱلَّذِينَ جَٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ"
   },
-  {
-    "surah_number": 30,
-    "verse_number": 1,
-    "content": "الٓمٓ"
-  },
+  {"surah_number": 30, "verse_number": 1, "content": "الٓمٓ"},
   {"surah_number": 30, "verse_number": 2, "content": "غُلِبَتِ ٱلرُّومُ"},
   {
     "surah_number": 30,
@@ -20231,11 +20190,7 @@ var _quranText = [
     "content":
         "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَلَا يَسْتَخِفَّنَّكَ ٱلَّذِينَ لَا يُوقِنُونَ"
   },
-  {
-    "surah_number": 31,
-    "verse_number": 1,
-    "content": "الٓمٓ"
-  },
+  {"surah_number": 31, "verse_number": 1, "content": "الٓمٓ"},
   {
     "surah_number": 31,
     "verse_number": 2,
@@ -20432,11 +20387,7 @@ var _quranText = [
     "content":
         "إِنَّ ٱللَّهَ عِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ ٱلْغَيْثَ وَيَعْلَمُ مَا فِى ٱلْأَرْحَامِ وَمَا تَدْرِى نَفْسٌ مَّاذَا تَكْسِبُ غَدًا وَمَا تَدْرِى نَفْسٌۢ بِأَىِّ أَرْضٍ تَمُوتُ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۢ"
   },
-  {
-    "surah_number": 32,
-    "verse_number": 1,
-    "content": "الٓمٓ"
-  },
+  {"surah_number": 32, "verse_number": 1, "content": "الٓمٓ"},
   {
     "surah_number": 32,
     "verse_number": 2,
@@ -21623,11 +21574,7 @@ var _quranText = [
     "content":
         "وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ بِمَا كَسَبُوا۟ مَا تَرَكَ عَلَىٰ ظَهْرِهَا مِن دَآبَّةٍ وَلَٰكِن يُؤَخِّرُهُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى فَإِذَا جَآءَ أَجَلُهُمْ فَإِنَّ ٱللَّهَ كَانَ بِعِبَادِهِۦ بَصِيرًۢا"
   },
-  {
-    "surah_number": 36,
-    "verse_number": 1,
-    "content": "يسٓ"
-  },
+  {"surah_number": 36, "verse_number": 1, "content": "يسٓ"},
   {
     "surah_number": 36,
     "verse_number": 2,
@@ -22094,11 +22041,7 @@ var _quranText = [
     "content":
         "فَسُبْحَٰنَ ٱلَّذِى بِيَدِهِۦ مَلَكُوتُ كُلِّ شَىْءٍ وَإِلَيْهِ تُرْجَعُونَ"
   },
-  {
-    "surah_number": 37,
-    "verse_number": 1,
-    "content": "وَٱلصَّٰٓفَّٰتِ صَفًّا"
-  },
+  {"surah_number": 37, "verse_number": 1, "content": "وَٱلصَّٰٓفَّٰتِ صَفًّا"},
   {"surah_number": 37, "verse_number": 2, "content": "فَٱلزَّٰجِرَٰتِ زَجْرًا"},
   {"surah_number": 37, "verse_number": 3, "content": "فَٱلتَّٰلِيَٰتِ ذِكْرًا"},
   {
@@ -23005,8 +22948,7 @@ var _quranText = [
   {
     "surah_number": 38,
     "verse_number": 1,
-    "content":
-        "صٓ وَٱلْقُرْءَانِ ذِى ٱلذِّكْرِ"
+    "content": "صٓ وَٱلْقُرْءَانِ ذِى ٱلذِّكْرِ"
   },
   {
     "surah_number": 38,
@@ -23494,8 +23436,7 @@ var _quranText = [
   {
     "surah_number": 39,
     "verse_number": 1,
-    "content":
-        "تَنزِيلُ ٱلْكِتَٰبِ مِنَ ٱللَّهِ ٱلْعَزِيزِ ٱلْحَكِيمِ"
+    "content": "تَنزِيلُ ٱلْكِتَٰبِ مِنَ ٱللَّهِ ٱلْعَزِيزِ ٱلْحَكِيمِ"
   },
   {
     "surah_number": 39,
@@ -23935,11 +23876,7 @@ var _quranText = [
     "content":
         "وَتَرَى ٱلْمَلَٰٓئِكَةَ حَآفِّينَ مِنْ حَوْلِ ٱلْعَرْشِ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَقُضِىَ بَيْنَهُم بِٱلْحَقِّ وَقِيلَ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ"
   },
-  {
-    "surah_number": 40,
-    "verse_number": 1,
-    "content": "حمٓ"
-  },
+  {"surah_number": 40, "verse_number": 1, "content": "حمٓ"},
   {
     "surah_number": 40,
     "verse_number": 2,
@@ -24436,11 +24373,7 @@ var _quranText = [
     "content":
         "فَلَمْ يَكُ يَنفَعُهُمْ إِيمَٰنُهُمْ لَمَّا رَأَوْا۟ بَأْسَنَا سُنَّتَ ٱللَّهِ ٱلَّتِى قَدْ خَلَتْ فِى عِبَادِهِۦ وَخَسِرَ هُنَالِكَ ٱلْكَٰفِرُونَ"
   },
-  {
-    "surah_number": 41,
-    "verse_number": 1,
-    "content": "حمٓ"
-  },
+  {"surah_number": 41, "verse_number": 1, "content": "حمٓ"},
   {
     "surah_number": 41,
     "verse_number": 2,
@@ -24756,11 +24689,7 @@ var _quranText = [
     "content":
         "أَلَآ إِنَّهُمْ فِى مِرْيَةٍ مِّن لِّقَآءِ رَبِّهِمْ أَلَآ إِنَّهُۥ بِكُلِّ شَىْءٍ مُّحِيطٌۢ"
   },
-  {
-    "surah_number": 42,
-    "verse_number": 1,
-    "content": "حمٓ"
-  },
+  {"surah_number": 42, "verse_number": 1, "content": "حمٓ"},
   {"surah_number": 42, "verse_number": 2, "content": "عٓسٓقٓ"},
   {
     "surah_number": 42,
@@ -25064,11 +24993,7 @@ var _quranText = [
     "content":
         "صِرَٰطِ ٱللَّهِ ٱلَّذِى لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ أَلَآ إِلَى ٱللَّهِ تَصِيرُ ٱلْأُمُورُ"
   },
-  {
-    "surah_number": 43,
-    "verse_number": 1,
-    "content": "حمٓ"
-  },
+  {"surah_number": 43, "verse_number": 1, "content": "حمٓ"},
   {"surah_number": 43, "verse_number": 2, "content": "وَٱلْكِتَٰبِ ٱلْمُبِينِ"},
   {
     "surah_number": 43,
@@ -25574,11 +25499,7 @@ var _quranText = [
     "verse_number": 89,
     "content": "فَٱصْفَحْ عَنْهُمْ وَقُلْ سَلَٰمٌ فَسَوْفَ يَعْلَمُونَ"
   },
-  {
-    "surah_number": 44,
-    "verse_number": 1,
-    "content": "حمٓ"
-  },
+  {"surah_number": 44, "verse_number": 1, "content": "حمٓ"},
   {"surah_number": 44, "verse_number": 2, "content": "وَٱلْكِتَٰبِ ٱلْمُبِينِ"},
   {
     "surah_number": 44,
@@ -25867,11 +25788,7 @@ var _quranText = [
     "verse_number": 59,
     "content": "فَٱرْتَقِبْ إِنَّهُم مُّرْتَقِبُونَ"
   },
-  {
-    "surah_number": 45,
-    "verse_number": 1,
-    "content": "حمٓ"
-  },
+  {"surah_number": 45, "verse_number": 1, "content": "حمٓ"},
   {
     "surah_number": 45,
     "verse_number": 2,
@@ -26085,11 +26002,7 @@ var _quranText = [
     "content":
         "وَلَهُ ٱلْكِبْرِيَآءُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ"
   },
-  {
-    "surah_number": 46,
-    "verse_number": 1,
-    "content": "حمٓ"
-  },
+  {"surah_number": 46, "verse_number": 1, "content": "حمٓ"},
   {
     "surah_number": 46,
     "verse_number": 2,
@@ -26521,8 +26434,7 @@ var _quranText = [
   {
     "surah_number": 48,
     "verse_number": 1,
-    "content":
-        "إِنَّا فَتَحْنَا لَكَ فَتْحًا مُّبِينًا"
+    "content": "إِنَّا فَتَحْنَا لَكَ فَتْحًا مُّبِينًا"
   },
   {
     "surah_number": 48,
@@ -26800,8 +26712,7 @@ var _quranText = [
   {
     "surah_number": 50,
     "verse_number": 1,
-    "content":
-        "قٓ وَٱلْقُرْءَانِ ٱلْمَجِيدِ"
+    "content": "قٓ وَٱلْقُرْءَانِ ٱلْمَجِيدِ"
   },
   {
     "surah_number": 50,
@@ -27050,11 +26961,7 @@ var _quranText = [
     "content":
         "نَّحْنُ أَعْلَمُ بِمَا يَقُولُونَ وَمَآ أَنتَ عَلَيْهِم بِجَبَّارٍ فَذَكِّرْ بِٱلْقُرْءَانِ مَن يَخَافُ وَعِيدِ"
   },
-  {
-    "surah_number": 51,
-    "verse_number": 1,
-    "content": "وَٱلذَّٰرِيَٰتِ ذَرْوًا"
-  },
+  {"surah_number": 51, "verse_number": 1, "content": "وَٱلذَّٰرِيَٰتِ ذَرْوًا"},
   {"surah_number": 51, "verse_number": 2, "content": "فَٱلْحَٰمِلَٰتِ وِقْرًا"},
   {"surah_number": 51, "verse_number": 3, "content": "فَٱلْجَٰرِيَٰتِ يُسْرًا"},
   {
@@ -27357,11 +27264,7 @@ var _quranText = [
     "content":
         "فَوَيْلٌ لِّلَّذِينَ كَفَرُوا۟ مِن يَوْمِهِمُ ٱلَّذِى يُوعَدُونَ"
   },
-  {
-    "surah_number": 52,
-    "verse_number": 1,
-    "content": "وَٱلطُّورِ"
-  },
+  {"surah_number": 52, "verse_number": 1, "content": "وَٱلطُّورِ"},
   {"surah_number": 52, "verse_number": 2, "content": "وَكِتَٰبٍ مَّسْطُورٍ"},
   {"surah_number": 52, "verse_number": 3, "content": "فِى رَقٍّ مَّنشُورٍ"},
   {
@@ -27913,8 +27816,7 @@ var _quranText = [
   {
     "surah_number": 54,
     "verse_number": 1,
-    "content":
-        "ٱقْتَرَبَتِ ٱلسَّاعَةُ وَٱنشَقَّ ٱلْقَمَرُ"
+    "content": "ٱقْتَرَبَتِ ٱلسَّاعَةُ وَٱنشَقَّ ٱلْقَمَرُ"
   },
   {
     "surah_number": 54,
@@ -28207,11 +28109,7 @@ var _quranText = [
     "verse_number": 55,
     "content": "فِى مَقْعَدِ صِدْقٍ عِندَ مَلِيكٍ مُّقْتَدِرٍۭ"
   },
-  {
-    "surah_number": 55,
-    "verse_number": 1,
-    "content": "ٱلرَّحْمَٰنُ"
-  },
+  {"surah_number": 55, "verse_number": 1, "content": "ٱلرَّحْمَٰنُ"},
   {"surah_number": 55, "verse_number": 2, "content": "عَلَّمَ ٱلْقُرْءَانَ"},
   {"surah_number": 55, "verse_number": 3, "content": "خَلَقَ ٱلْإِنسَٰنَ"},
   {"surah_number": 55, "verse_number": 4, "content": "عَلَّمَهُ ٱلْبَيَانَ"},
@@ -28587,8 +28485,7 @@ var _quranText = [
   {
     "surah_number": 56,
     "verse_number": 1,
-    "content":
-        "إِذَا وَقَعَتِ ٱلْوَاقِعَةُ"
+    "content": "إِذَا وَقَعَتِ ٱلْوَاقِعَةُ"
   },
   {
     "surah_number": 56,
@@ -30182,8 +30079,7 @@ var _quranText = [
   {
     "surah_number": 68,
     "verse_number": 1,
-    "content":
-        "نٓ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ"
+    "content": "نٓ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ"
   },
   {
     "surah_number": 68,
@@ -30449,11 +30345,7 @@ var _quranText = [
     "verse_number": 52,
     "content": "وَمَا هُوَ إِلَّا ذِكْرٌ لِّلْعَٰلَمِينَ"
   },
-  {
-    "surah_number": 69,
-    "verse_number": 1,
-    "content": "ٱلْحَآقَّةُ"
-  },
+  {"surah_number": 69, "verse_number": 1, "content": "ٱلْحَآقَّةُ"},
   {"surah_number": 69, "verse_number": 2, "content": "مَا ٱلْحَآقَّةُ"},
   {
     "surah_number": 69,
@@ -30698,8 +30590,7 @@ var _quranText = [
   {
     "surah_number": 70,
     "verse_number": 1,
-    "content":
-        "سَأَلَ سَآئِلٌۢ بِعَذَابٍ وَاقِعٍ"
+    "content": "سَأَلَ سَآئِلٌۢ بِعَذَابٍ وَاقِعٍ"
   },
   {
     "surah_number": 70,
@@ -31227,8 +31118,7 @@ var _quranText = [
   {
     "surah_number": 73,
     "verse_number": 1,
-    "content":
-        "يَٰٓأَيُّهَا ٱلْمُزَّمِّلُ"
+    "content": "يَٰٓأَيُّهَا ٱلْمُزَّمِّلُ"
   },
   {
     "surah_number": 73,
@@ -31336,8 +31226,7 @@ var _quranText = [
   {
     "surah_number": 74,
     "verse_number": 1,
-    "content":
-        "يَٰٓأَيُّهَا ٱلْمُدَّثِّرُ"
+    "content": "يَٰٓأَيُّهَا ٱلْمُدَّثِّرُ"
   },
   {"surah_number": 74, "verse_number": 2, "content": "قُمْ فَأَنذِرْ"},
   {"surah_number": 74, "verse_number": 3, "content": "وَرَبَّكَ فَكَبِّرْ"},
@@ -31560,8 +31449,7 @@ var _quranText = [
   {
     "surah_number": 75,
     "verse_number": 1,
-    "content":
-        "لَآ أُقْسِمُ بِيَوْمِ ٱلْقِيَٰمَةِ"
+    "content": "لَآ أُقْسِمُ بِيَوْمِ ٱلْقِيَٰمَةِ"
   },
   {
     "surah_number": 75,
@@ -32153,11 +32041,7 @@ var _quranText = [
     "verse_number": 50,
     "content": "فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ"
   },
-  {
-    "surah_number": 78,
-    "verse_number": 1,
-    "content": "عَمَّ يَتَسَآءَلُونَ"
-  },
+  {"surah_number": 78, "verse_number": 1, "content": "عَمَّ يَتَسَآءَلُونَ"},
   {
     "surah_number": 78,
     "verse_number": 2,
@@ -32333,11 +32217,7 @@ var _quranText = [
     "content":
         "إِنَّآ أَنذَرْنَٰكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ ٱلْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ ٱلْكَافِرُ يَٰلَيْتَنِى كُنتُ تُرَٰبًۢا"
   },
-  {
-    "surah_number": 79,
-    "verse_number": 1,
-    "content": "وَٱلنَّٰزِعَٰتِ غَرْقًا"
-  },
+  {"surah_number": 79, "verse_number": 1, "content": "وَٱلنَّٰزِعَٰتِ غَرْقًا"},
   {"surah_number": 79, "verse_number": 2, "content": "وَٱلنَّٰشِطَٰتِ نَشْطًا"},
   {"surah_number": 79, "verse_number": 3, "content": "وَٱلسَّٰبِحَٰتِ سَبْحًا"},
   {"surah_number": 79, "verse_number": 4, "content": "فَٱلسَّٰبِقَٰتِ سَبْقًا"},
@@ -32537,11 +32417,7 @@ var _quranText = [
     "content":
         "كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ ضُحَىٰهَا"
   },
-  {
-    "surah_number": 80,
-    "verse_number": 1,
-    "content": "عَبَسَ وَتَوَلَّىٰٓ"
-  },
+  {"surah_number": 80, "verse_number": 1, "content": "عَبَسَ وَتَوَلَّىٰٓ"},
   {
     "surah_number": 80,
     "verse_number": 2,
@@ -32702,8 +32578,7 @@ var _quranText = [
   {
     "surah_number": 81,
     "verse_number": 1,
-    "content":
-        "إِذَا ٱلشَّمْسُ كُوِّرَتْ"
+    "content": "إِذَا ٱلشَّمْسُ كُوِّرَتْ"
   },
   {
     "surah_number": 81,
@@ -32833,8 +32708,7 @@ var _quranText = [
   {
     "surah_number": 82,
     "verse_number": 1,
-    "content":
-        "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ"
+    "content": "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ"
   },
   {
     "surah_number": 82,
@@ -33097,8 +32971,7 @@ var _quranText = [
   {
     "surah_number": 84,
     "verse_number": 1,
-    "content":
-        "إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ"
+    "content": "إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ"
   },
   {
     "surah_number": 84,
@@ -33221,8 +33094,7 @@ var _quranText = [
   {
     "surah_number": 85,
     "verse_number": 1,
-    "content":
-        "وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ"
+    "content": "وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ"
   },
   {
     "surah_number": 85,
@@ -33324,8 +33196,7 @@ var _quranText = [
   {
     "surah_number": 86,
     "verse_number": 1,
-    "content":
-        "وَٱلسَّمَآءِ وَٱلطَّارِقِ"
+    "content": "وَٱلسَّمَآءِ وَٱلطَّارِقِ"
   },
   {
     "surah_number": 86,
@@ -33398,8 +33269,7 @@ var _quranText = [
   {
     "surah_number": 87,
     "verse_number": 1,
-    "content":
-        "سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى"
+    "content": "سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى"
   },
   {
     "surah_number": 87,
@@ -33495,8 +33365,7 @@ var _quranText = [
   {
     "surah_number": 88,
     "verse_number": 1,
-    "content":
-        "هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَٰشِيَةِ"
+    "content": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَٰشِيَةِ"
   },
   {
     "surah_number": 88,
@@ -33611,11 +33480,7 @@ var _quranText = [
     "verse_number": 26,
     "content": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم"
   },
-  {
-    "surah_number": 89,
-    "verse_number": 1,
-    "content": "وَٱلْفَجْرِ"
-  },
+  {"surah_number": 89, "verse_number": 1, "content": "وَٱلْفَجْرِ"},
   {"surah_number": 89, "verse_number": 2, "content": "وَلَيَالٍ عَشْرٍ"},
   {"surah_number": 89, "verse_number": 3, "content": "وَٱلشَّفْعِ وَٱلْوَتْرِ"},
   {"surah_number": 89, "verse_number": 4, "content": "وَٱلَّيْلِ إِذَا يَسْرِ"},
@@ -33747,8 +33612,7 @@ var _quranText = [
   {
     "surah_number": 90,
     "verse_number": 1,
-    "content":
-        "لَآ أُقْسِمُ بِهَٰذَا ٱلْبَلَدِ"
+    "content": "لَآ أُقْسِمُ بِهَٰذَا ٱلْبَلَدِ"
   },
   {
     "surah_number": 90,
@@ -33835,11 +33699,7 @@ var _quranText = [
     "verse_number": 20,
     "content": "عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌۢ"
   },
-  {
-    "surah_number": 91,
-    "verse_number": 1,
-    "content": "وَٱلشَّمْسِ وَضُحَىٰهَا"
-  },
+  {"surah_number": 91, "verse_number": 1, "content": "وَٱلشَّمْسِ وَضُحَىٰهَا"},
   {
     "surah_number": 91,
     "verse_number": 2,
@@ -33914,8 +33774,7 @@ var _quranText = [
   {
     "surah_number": 92,
     "verse_number": 1,
-    "content":
-        "وَٱلَّيْلِ إِذَا يَغْشَىٰ"
+    "content": "وَٱلَّيْلِ إِذَا يَغْشَىٰ"
   },
   {
     "surah_number": 92,
@@ -34005,11 +33864,7 @@ var _quranText = [
     "content": "إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ"
   },
   {"surah_number": 92, "verse_number": 21, "content": "وَلَسَوْفَ يَرْضَىٰ"},
-  {
-    "surah_number": 93,
-    "verse_number": 1,
-    "content": "وَٱلضُّحَىٰ"
-  },
+  {"surah_number": 93, "verse_number": 1, "content": "وَٱلضُّحَىٰ"},
   {"surah_number": 93, "verse_number": 2, "content": "وَٱلَّيْلِ إِذَا سَجَىٰ"},
   {
     "surah_number": 93,
@@ -34059,8 +33914,7 @@ var _quranText = [
   {
     "surah_number": 94,
     "verse_number": 1,
-    "content":
-        "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ"
+    "content": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ"
   },
   {
     "surah_number": 94,
@@ -34138,8 +33992,7 @@ var _quranText = [
   {
     "surah_number": 96,
     "verse_number": 1,
-    "content":
-        "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ"
+    "content": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ"
   },
   {
     "surah_number": 96,
@@ -34295,8 +34148,7 @@ var _quranText = [
   {
     "surah_number": 99,
     "verse_number": 1,
-    "content":
-        "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا"
+    "content": "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا"
   },
   {
     "surah_number": 99,
@@ -34389,11 +34241,7 @@ var _quranText = [
     "verse_number": 11,
     "content": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌۢ"
   },
-  {
-    "surah_number": 101,
-    "verse_number": 1,
-    "content": "ٱلْقَارِعَةُ"
-  },
+  {"surah_number": 101, "verse_number": 1, "content": "ٱلْقَارِعَةُ"},
   {"surah_number": 101, "verse_number": 2, "content": "مَا ٱلْقَارِعَةُ"},
   {
     "surah_number": 101,
@@ -34435,8 +34283,7 @@ var _quranText = [
   {
     "surah_number": 102,
     "verse_number": 1,
-    "content":
-        "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ"
+    "content": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ"
   },
   {
     "surah_number": 102,
@@ -34469,11 +34316,7 @@ var _quranText = [
     "verse_number": 8,
     "content": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ"
   },
-  {
-    "surah_number": 103,
-    "verse_number": 1,
-    "content": "وَٱلْعَصْرِ"
-  },
+  {"surah_number": 103, "verse_number": 1, "content": "وَٱلْعَصْرِ"},
   {
     "surah_number": 103,
     "verse_number": 2,
@@ -34488,8 +34331,7 @@ var _quranText = [
   {
     "surah_number": 104,
     "verse_number": 1,
-    "content":
-        "وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ"
+    "content": "وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ"
   },
   {
     "surah_number": 104,
@@ -34534,8 +34376,7 @@ var _quranText = [
   {
     "surah_number": 105,
     "verse_number": 1,
-    "content":
-        "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ"
+    "content": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ"
   },
   {
     "surah_number": 105,
@@ -34557,11 +34398,7 @@ var _quranText = [
     "verse_number": 5,
     "content": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ"
   },
-  {
-    "surah_number": 106,
-    "verse_number": 1,
-    "content": "لِإِيلَٰفِ قُرَيْشٍ"
-  },
+  {"surah_number": 106, "verse_number": 1, "content": "لِإِيلَٰفِ قُرَيْشٍ"},
   {
     "surah_number": 106,
     "verse_number": 2,
@@ -34580,8 +34417,7 @@ var _quranText = [
   {
     "surah_number": 107,
     "verse_number": 1,
-    "content":
-        "أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ"
+    "content": "أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ"
   },
   {
     "surah_number": 107,
@@ -34616,8 +34452,7 @@ var _quranText = [
   {
     "surah_number": 108,
     "verse_number": 1,
-    "content":
-        "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ"
+    "content": "إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ"
   },
   {
     "surah_number": 108,
@@ -34632,8 +34467,7 @@ var _quranText = [
   {
     "surah_number": 109,
     "verse_number": 1,
-    "content":
-        "قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ"
+    "content": "قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ"
   },
   {
     "surah_number": 109,
@@ -34663,8 +34497,7 @@ var _quranText = [
   {
     "surah_number": 110,
     "verse_number": 1,
-    "content":
-        "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ"
+    "content": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ"
   },
   {
     "surah_number": 110,
@@ -34680,8 +34513,7 @@ var _quranText = [
   {
     "surah_number": 111,
     "verse_number": 1,
-    "content":
-        "تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ"
+    "content": "تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ"
   },
   {
     "surah_number": 111,
@@ -34722,8 +34554,7 @@ var _quranText = [
   {
     "surah_number": 113,
     "verse_number": 1,
-    "content":
-        "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ"
+    "content": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ"
   },
   {"surah_number": 113, "verse_number": 2, "content": "مِن شَرِّ مَا خَلَقَ"},
   {
@@ -34744,8 +34575,7 @@ var _quranText = [
   {
     "surah_number": 114,
     "verse_number": 1,
-    "content":
-        "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ"
+    "content": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ"
   },
   {"surah_number": 114, "verse_number": 2, "content": "مَلِكِ ٱلنَّاسِ"},
   {"surah_number": 114, "verse_number": 3, "content": "إِلَٰهِ ٱلنَّاسِ"},
@@ -35525,18 +35355,398 @@ var _surah = [
   }
 ];
 
-String getVerseURL(int surahNumber, int verseNumber){
-  return "https://quran.com/$surahNumber/$verseNumber";
+List<Map<String, dynamic>> _juz = [
+  {
+    "id": 1,
+    "surahs": [1, 2],
+    "verses": {
+      1: [1, 7],
+      2: [1, 141]
+    }
+  },
+  {
+    "id": 2,
+    "surahs": [2],
+    "verses": {
+      2: [142, 252]
+    }
+  },
+  {
+    "id": 3,
+    "surahs": [2, 3],
+    "verses": {
+      2: [253, 286],
+      3: [1, 92]
+    }
+  },
+  {
+    "id": 4,
+    "surahs": [3, 4],
+    "verses": {
+      3: [93, 200],
+      4: [1, 23]
+    }
+  },
+  {
+    "id": 5,
+    "surahs": [4],
+    "verses": {
+      4: [24, 147]
+    }
+  },
+  {
+    "id": 6,
+    "surahs": [4, 5],
+    "verses": {
+      4: [148, 176],
+      5: [1, 81]
+    }
+  },
+  {
+    "id": 7,
+    "surahs": [5, 6],
+    "verses": {
+      5: [82, 120],
+      6: [1, 110]
+    }
+  },
+  {
+    "id": 8,
+    "surahs": [6, 7],
+    "verses": {
+      6: [111, 165],
+      7: [1, 87]
+    }
+  },
+  {
+    "id": 9,
+    "surahs": [7, 8],
+    "verses": {
+      7: [88, 206],
+      8: [1, 40]
+    }
+  },
+  {
+    "id": 10,
+    "surahs": [8, 9],
+    "verses": {
+      8: [41, 75],
+      9: [1, 92]
+    }
+  },
+  {
+    "id": 11,
+    "surahs": [9, 10, 11],
+    "verses": {
+      9: [92, 129],
+      10: [1, 109],
+      11: [1, 5]
+    }
+  },
+  {
+    "id": 12,
+    "surahs": [11, 12],
+    "verses": {
+      11: [6, 123],
+      12: [1, 52]
+    }
+  },
+  {
+    "id": 13,
+    "surahs": [12, 13, 14],
+    "verses": {
+      12: [53, 111],
+      13: [1, 43],
+      14: [1, 52]
+    }
+  },
+  {
+    "id": 14,
+    "surahs": [15, 16],
+    "verses": {
+      15: [1, 99],
+      16: [1, 128]
+    }
+  },
+  {
+    "id": 15,
+    "surahs": [17, 18],
+    "verses": {
+      17: [1, 111],
+      18: [1, 74]
+    }
+  },
+  {
+    "id": 16,
+    "surahs": [18, 19, 20],
+    "verses": {
+      18: [75, 110],
+      19: [1, 98],
+      20: [1, 135]
+    }
+  },
+  {
+    "id": 17,
+    "surahs": [21, 22],
+    "verses": {
+      21: [1, 112],
+      22: [1, 78]
+    }
+  },
+  {
+    "id": 18,
+    "surahs": [23, 24, 25],
+    "verses": {
+      23: [1, 118],
+      24: [1, 64],
+      25: [1, 20]
+    }
+  },
+  {
+    "id": 19,
+    "surahs": [25, 26, 27],
+    "verses": {
+      25: [21, 77],
+      26: [1, 227],
+      27: [1, 55]
+    }
+  },
+  {
+    "id": 20,
+    "surahs": [27, 28, 29],
+    "verses": {
+      27: [56, 93],
+      28: [1, 88],
+      29: [1, 45]
+    }
+  },
+  {
+    "id": 21,
+    "surahs": [29, 30, 31, 32, 33],
+    "verses": {
+      29: [46, 69],
+      30: [1, 60],
+      31: [1, 34],
+      32: [1, 30],
+      33: [1, 30]
+    }
+  },
+  {
+    "id": 22,
+    "surahs": [33, 34, 35, 36],
+    "verses": {
+      33: [31, 73],
+      34: [1, 54],
+      35: [1, 45],
+      36: [1, 27]
+    }
+  },
+  {
+    "id": 23,
+    "surahs": [36, 37, 38, 39],
+    "verses": {
+      36: [28, 83],
+      37: [1, 182],
+      38: [1, 88],
+      39: [1, 31]
+    }
+  },
+  {
+    "id": 24,
+    "surahs": [39, 40, 41],
+    "verses": {
+      39: [32, 75],
+      40: [1, 85],
+      41: [1, 46]
+    }
+  },
+  {
+    "id": 25,
+    "surahs": [41, 42, 43, 44, 45],
+    "verses": {
+      41: [47, 54],
+      42: [1, 53],
+      43: [1, 89],
+      44: [1, 59],
+      45: [1, 37]
+    }
+  },
+  {
+    "id": 26,
+    "surahs": [46, 47, 48, 49, 50, 51],
+    "verses": {
+      46: [1, 35],
+      47: [1, 38],
+      48: [1, 29],
+      49: [1, 18],
+      50: [1, 45],
+      51: [1, 30]
+    }
+  },
+  {
+    "id": 27,
+    "surahs": [51, 52, 53, 54, 55, 56, 57],
+    "verses": {
+      51: [31, 60],
+      52: [1, 49],
+      53: [1, 62],
+      54: [1, 55],
+      55: [1, 78],
+      56: [1, 96],
+      57: [1, 29]
+    }
+  },
+  {
+    "id": 28,
+    "surahs": [58, 59, 60, 61, 62, 63, 64, 65, 66],
+    "verses": {
+      58: [1, 22],
+      59: [1, 24],
+      60: [1, 13],
+      61: [1, 14],
+      62: [1, 11],
+      63: [1, 11],
+      64: [1, 18],
+      65: [1, 12],
+      66: [1, 12]
+    }
+  },
+  {
+    "id": 29,
+    "surahs": [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77],
+    "verses": {
+      67: [1, 30],
+      68: [1, 52],
+      69: [1, 52],
+      70: [1, 44],
+      71: [1, 28],
+      72: [1, 28],
+      73: [1, 20],
+      74: [1, 56],
+      75: [1, 40],
+      76: [1, 31],
+      77: [1, 50]
+    }
+  },
+  {
+    "id": 30,
+    "surahs": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114
+    ],
+    "verses": {
+      78: [1, 40],
+      79: [1, 46],
+      80: [1, 42],
+      81: [1, 29],
+      82: [1, 19],
+      83: [1, 36],
+      84: [1, 25],
+      85: [1, 22],
+      86: [1, 17],
+      87: [1, 19],
+      88: [1, 26],
+      89: [1, 30],
+      90: [1, 20],
+      91: [1, 15],
+      92: [1, 21],
+      93: [1, 11],
+      94: [1, 8],
+      95: [1, 8],
+      96: [1, 19],
+      97: [1, 5],
+      98: [1, 8],
+      99: [1, 8],
+      100: [1, 11],
+      101: [1, 11],
+      102: [1, 8],
+      103: [1, 3],
+      104: [1, 9],
+      105: [1, 5],
+      106: [1, 4],
+      107: [1, 7],
+      108: [1, 3],
+      109: [1, 6],
+      110: [1, 3],
+      111: [1, 5],
+      112: [1, 4],
+      113: [1, 5],
+      114: [1, 6]
+    }
+  }
+];
+
+///Takes [surahNumber] & [verseNumber] and returns Juz number
+int getJuzNumber(int surahNumber, int verseNumber) {
+  for (var juz in _juz) {
+    if (juz["verses"].keys.contains(surahNumber)) {
+      if (verseNumber >= juz["verses"][surahNumber][0] &&
+          verseNumber <= juz["verses"][surahNumber][1]) {
+        return int.parse(juz["id"].toString());
+      }
+    }
+  }
+  return -1;
 }
 
-String getSurahURL(int surahNumber){
-  return "https://quran.com/$surahNumber";
+///Takes [juzNumber] and returns a map which contains keys as surah number and value as a list containing starting and ending verse numbers.
+///
+///Example:
+///
+///```dart
+///getSurahAndVersesListFromJuz(1);
+///```
+///
+/// Returns Map of Juz 1:
+///
+///```dart
+/// Map<int, List<int>> surahAndVerses = {
+///        1: [1, 7],
+///        2: [1, 141] //2 is surahNumber, 1 is starting verse and 141 is ending verse number
+/// };
+///
+/// print(surahAndVerseList[1]); //[1, 7] => starting verse : 1, ending verse: 7 
+///```
+Map<int, List<int>> getSurahAndVersesFromJuz(int juzNumber) {
+  return _juz[juzNumber - 1]["verses"];
 }
 
-String getBasmala(){
-  return "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
-}
-
+///Takes [surahNumber] and returns the Surah name
 String getSurahName(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {
     throw "No Surah found with given surahNumber";
@@ -35544,6 +35754,7 @@ String getSurahName(int surahNumber) {
   return _surah[surahNumber - 1]['name'];
 }
 
+///Takes [surahNumber] returns the Surah name in English
 String getSurahNameEnglish(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {
     throw "No Surah found with given surahNumber";
@@ -35551,6 +35762,7 @@ String getSurahNameEnglish(int surahNumber) {
   return _surah[surahNumber - 1]['english'];
 }
 
+///Takes [surahNumber] and returns the place of revelation (Makkah / Madinah) of the surah
 String getPlaceOfRevelation(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {
     throw "No Surah found with given surahNumber";
@@ -35558,6 +35770,7 @@ String getPlaceOfRevelation(int surahNumber) {
   return _surah[surahNumber - 1]['place'];
 }
 
+///Takes [surahNumber] and returns the count of total Verses in the Surah
 int getVerseCount(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {
     throw "No verse found with given surahNumber";
@@ -35565,6 +35778,7 @@ int getVerseCount(int surahNumber) {
   return _surah[surahNumber - 1]['aya'];
 }
 
+///Takes [surahNumber] & [verseNumber] and returns the verse in Arabic 
 String getVerse(int surahNumber, int verseNumber) {
   String verse = "";
   for (var i in _quranText) {
@@ -35581,10 +35795,37 @@ String getVerse(int surahNumber, int verseNumber) {
   return verse;
 }
 
+///Reurns total juz count
+int getTotalJuzCount() {
+  return 30;
+}
+
+///Returns total surah count
+int getTotalSurahCount() {
+  return 114;
+}
+
+///Returns total verse count
 int getTotalVerseCount() {
   return 6236;
 }
 
-int getTotalSurahCount() {
-  return 114;
+///Returns 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ'
+String getBasmala() {
+  return "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
+}
+
+///Takes [juzNumber] and returns Juz URL (from Quran.com)
+String getJuzURL(int juzNumber){
+  return "https://quran.com/juz/$juzNumber";
+}
+
+///Takes [surahNumber] and returns Surah URL (from Quran.com)
+String getSurahURL(int surahNumber) {
+  return "https://quran.com/$surahNumber";
+}
+
+///Takes [surahNumber] & [verseNumber] and returns Verse URL (from Quran.com)
+String getVerseURL(int surahNumber, int verseNumber) {
+  return "https://quran.com/$surahNumber/$verseNumber";
 }

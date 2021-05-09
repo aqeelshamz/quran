@@ -35740,7 +35740,7 @@ int getJuzNumber(int surahNumber, int verseNumber) {
 ///        2: [1, 141] //2 is surahNumber, 1 is starting verse and 141 is ending verse number
 /// };
 ///
-/// print(surahAndVerseList[1]); //[1, 7] => starting verse : 1, ending verse: 7 
+/// print(surahAndVerseList[1]); //[1, 7] => starting verse : 1, ending verse: 7
 ///```
 Map<int, List<int>> getSurahAndVersesFromJuz(int juzNumber) {
   return _juz[juzNumber - 1]["verses"];
@@ -35778,7 +35778,7 @@ int getVerseCount(int surahNumber) {
   return _surah[surahNumber - 1]['aya'];
 }
 
-///Takes [surahNumber] & [verseNumber] and returns the verse in Arabic 
+///Takes [surahNumber] & [verseNumber] and returns the verse in Arabic
 String getVerse(int surahNumber, int verseNumber) {
   String verse = "";
   for (var i in _quranText) {
@@ -35816,7 +35816,7 @@ String getBasmala() {
 }
 
 ///Takes [juzNumber] and returns Juz URL (from Quran.com)
-String getJuzURL(int juzNumber){
+String getJuzURL(int juzNumber) {
   return "https://quran.com/juz/$juzNumber";
 }
 

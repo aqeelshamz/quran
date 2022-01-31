@@ -33,3 +33,12 @@
 ## [1.0.3] - Version 1.0.3
 
 * Bug fix
+
+## [1.0.5] - Version 1.0.5
+
+* New Functions added:
+* getSurahNameArabic - Get surah name in Arabic 
+* getPageData - Get surah and verses in a page
+* getTotalPagesCount - Get total pages count
+* getSurahCountByPage - Get total surahs count in a page
+* getVerseCountByPage - Get total verses count in a page

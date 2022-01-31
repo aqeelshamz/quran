@@ -10,6 +10,7 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 * **`getSurahAndVersesFromJuz(int juzNumber)`** - Takes [juzNumber] and returns a map containing Surah and Verse numbers
 * **`getSurahName(int surahNumber)`** - Takes [surahNumber] and returns the Surah name
 * **`getSurahNameEnglish(int surahNumber)`** - Takes [surahNumber] returns the Surah name in English
+* **`getSurahNameArabic(int surahNumber)`** - Takes [surahNumber] returns the Surah name in Arabic
 * **`getPlaceOfRevelation(int surahNumber)`** - Takes [surahNumber] and returns the Place of Revelation (Makkah / Madinah) of the Surah
 * **`getVerseCount(int surahNumber)`** - Takes [surahNumber] and returns the count of total Verses in the Surah
 * **`getVerse(int surahNumber, int verseNumber, {bool verseEndSymbol})`** - Takes [surahNumber], [verseNumber] & [verseEndSymbol] (optional) and returns the Verse in Arabic
@@ -21,6 +22,10 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 * **`getJuzURL(int juzNumber)`** - Takes [juzNumber] and returns Juz URL (from Quran.com)
 * **`getSurahURL(int surahNumber)`** - Takes [surahNumber] and returns Surah URL (from Quran.com)
 * **`getVerseURL(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns Verse URL (from Quran.com)
+* **`getPageData()`** - Takes [pageNumber] and returns a list containing Surahs and the starting and ending Verse numbers in that page
+* **`getTotalPagesCount()`** - Returns total pages count
+* **`getSurahCountByPage()`** - Takes [pageNumber] and returns total surahs count in that page
+* **`getVerseCountByPage()`** - Takes [pageNumber] and returns total verses count in that page
 
 ## Example
 ![example](https://raw.githubusercontent.com/aqeelshamz/quran/main/images/1.png)

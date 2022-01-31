@@ -42,3 +42,7 @@
 * getTotalPagesCount - Get total pages count
 * getSurahCountByPage - Get total surahs count in a page
 * getVerseCountByPage - Get total verses count in a page
+
+## [1.0.6] - Version 1.0.6
+
+* Page Data Bug fix

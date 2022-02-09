@@ -186,29 +186,28 @@ String getVerseEndSymbol(int verseNumber) {
   for (int i = verseNumber.toString().length - 1; i >= 0; i--) {
     String digit = verseNumber.toString().split("")[i];
     if (digit == "0") {
-      arabicNumeric += "٠";
+      arabicNumeric = "٠";
     } else if (digit == "1") {
-      arabicNumeric += "۱";
+      arabicNumeric = "۱";
     } else if (digit == "2") {
-      arabicNumeric += "۲";
+      arabicNumeric = "۲";
     } else if (digit == "3") {
-      arabicNumeric += "۳";
+      arabicNumeric = "۳";
     } else if (digit == "4") {
-      arabicNumeric += "۴";
+      arabicNumeric = "۴";
     } else if (digit == "5") {
-      arabicNumeric += "۵";
+      arabicNumeric = "۵";
     } else if (digit == "6") {
-      arabicNumeric += "۶";
+      arabicNumeric = "۶";
     } else if (digit == "7") {
-      arabicNumeric += "۷";
+      arabicNumeric = "۷";
     } else if (digit == "8") {
-      arabicNumeric += "۸";
+      arabicNumeric = "۸";
     } else if (digit == "9") {
-      arabicNumeric += "۹";
+      arabicNumeric = "۹";
     }
   }
-
-  arabicNumeric += "\u06dd";
-
-  return arabicNumeric;
+  
+var result = "\u06dd" + arabicNumeric.toString();
+    return result;
 }

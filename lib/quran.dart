@@ -181,34 +181,41 @@ String getVerseURL(int surahNumber, int verseNumber) {
 
 ///Takes [verseNumber] and returns '۝' symbol with verse number
 String getVerseEndSymbol(int verseNumber) {
-  String arabicNumeric = " ";
+    var arabicNumeric = '';
+    var digits = verseNumber.toString().split("").toList();
 
-  for (int i = verseNumber.toString().length - 1; i >= 0; i--) {
-    String digit = verseNumber.toString().split("")[i];
-    if (digit == "0") {
-      arabicNumeric += "٠";
-    } else if (digit == "1") {
-      arabicNumeric += "۱";
-    } else if (digit == "2") {
-      arabicNumeric += "۲";
-    } else if (digit == "3") {
-      arabicNumeric += "۳";
-    } else if (digit == "4") {
-      arabicNumeric += "۴";
-    } else if (digit == "5") {
-      arabicNumeric += "۵";
-    } else if (digit == "6") {
-      arabicNumeric += "۶";
-    } else if (digit == "7") {
-      arabicNumeric += "۷";
-    } else if (digit == "8") {
-      arabicNumeric += "۸";
-    } else if (digit == "9") {
-      arabicNumeric += "۹";
+    for (var e in digits) {
+      if (e == "0") {
+        arabicNumeric += "٠";
+      }
+      if (e == "1") {
+        arabicNumeric += "۱";
+      }
+      if (e == "2") {
+        arabicNumeric += "۲";
+      }
+      if (e == "3") {
+        arabicNumeric += "۳";
+      }
+      if (e == "4") {
+        arabicNumeric += "۴";
+      }
+      if (e == "5") {
+        arabicNumeric += "۵";
+      }
+      if (e == "6") {
+        arabicNumeric += "۶";
+      }
+      if (e == "7") {
+        arabicNumeric += "۷";
+      }
+      if (e == "8") {
+        arabicNumeric += "۸";
+      }
+      if (e == "9") {
+        arabicNumeric += "۹";
+      }
     }
+
+    return '\u06dd' + arabicNumeric.toString();
   }
-
-  arabicNumeric += "\u06dd";
-
-  return arabicNumeric;
-}

@@ -46,3 +46,7 @@
 ## [1.0.6] - Version 1.0.6
 
 * Page Data Bug fix
+
+## [1.0.7] - Version 1.0.7
+
+* Bug fix - getVerseEndSymbol verse number is not inside the symbol

@@ -2,14 +2,26 @@ import 'package:flutter/material.dart';
 import 'package:quran/quran.dart' as quran;
 
 void main() {
-  runApp(MaterialApp(
-    home: Scaffold(
+  runApp(const MaterialApp(home: QuranExample()));
+}
+
+class QuranExample extends StatefulWidget {
+  const QuranExample({Key key}) : super(key: key);
+
+  @override
+  State<QuranExample> createState() => _QuranExampleState();
+}
+
+class _QuranExampleState extends State<QuranExample> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
       appBar: AppBar(
-        title: Text("Quran Demo"),
+        title: const Text("Quran Demo"),
       ),
-      body: SafeArea(
+      body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.all(15.0),
+          padding: const EdgeInsets.all(15.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -24,12 +36,12 @@ void main() {
               Text("\nTotal Verses: \n" + quran.getVerseCount(18).toString()),
               Text(
                   "\nPlace of Revelation: \n" + quran.getPlaceOfRevelation(18)),
-              Text("\nBasmala: \n" + quran.basmala),
-              Text("\nVerse 1: \n" + quran.getVerse(18, 1))
+              const Text("\nBasmala: \n" + quran.basmala),
+              Text("\nVerse 1: \n" + quran.getVerse(18, 1)),
             ],
           ),
         ),
       ),
-    ),
-  ));
+    );
+  }
 }

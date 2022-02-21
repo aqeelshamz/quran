@@ -1,9 +1,9 @@
 library quran;
 
-import 'quranText.dart';
-import 'surahData.dart';
-import 'juzData.dart';
-import 'pageData.dart';
+import 'quran_text.dart';
+import 'surah_data.dart';
+import 'juz_data.dart';
+import 'page_data.dart';
 
 ///Takes [pageNumber] and returns a list containing Surahs and the starting and ending Verse numbers in that page
 ///

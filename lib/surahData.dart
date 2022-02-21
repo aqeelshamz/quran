@@ -911,5 +911,4 @@ var surah = [
     "place": "Makkah",
     "arabic": "الناس"
   }
-]
-;
+];

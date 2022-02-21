@@ -1,4 +1,5 @@
 library quran;
+
 import 'quranText.dart';
 import 'surahData.dart';
 import 'juzData.dart';
@@ -45,8 +46,9 @@ int getVerseCountByPage(int pageNumber) {
     throw "Invalid page number. Page number must be between 1 and 604";
   }
   int totalVerseCount = 0;
-  for(int i = 0; i < pageData[pageNumber - 1].length; i++){
-    totalVerseCount += int.parse(pageData[pageNumber - 1][i]!["end"].toString());
+  for (int i = 0; i < pageData[pageNumber - 1].length; i++) {
+    totalVerseCount +=
+        int.parse(pageData[pageNumber - 1][i]!["end"].toString());
   }
   return totalVerseCount;
 }
@@ -181,41 +183,41 @@ String getVerseURL(int surahNumber, int verseNumber) {
 
 ///Takes [verseNumber] and returns '۝' symbol with verse number
 String getVerseEndSymbol(int verseNumber) {
-    var arabicNumeric = '';
-    var digits = verseNumber.toString().split("").toList();
+  var arabicNumeric = '';
+  var digits = verseNumber.toString().split("").toList();
 
-    for (var e in digits) {
-      if (e == "0") {
-        arabicNumeric += "٠";
-      }
-      if (e == "1") {
-        arabicNumeric += "۱";
-      }
-      if (e == "2") {
-        arabicNumeric += "۲";
-      }
-      if (e == "3") {
-        arabicNumeric += "۳";
-      }
-      if (e == "4") {
-        arabicNumeric += "۴";
-      }
-      if (e == "5") {
-        arabicNumeric += "۵";
-      }
-      if (e == "6") {
-        arabicNumeric += "۶";
-      }
-      if (e == "7") {
-        arabicNumeric += "۷";
-      }
-      if (e == "8") {
-        arabicNumeric += "۸";
-      }
-      if (e == "9") {
-        arabicNumeric += "۹";
-      }
+  for (var e in digits) {
+    if (e == "0") {
+      arabicNumeric += "٠";
     }
-
-    return '\u06dd' + arabicNumeric.toString();
+    if (e == "1") {
+      arabicNumeric += "۱";
+    }
+    if (e == "2") {
+      arabicNumeric += "۲";
+    }
+    if (e == "3") {
+      arabicNumeric += "۳";
+    }
+    if (e == "4") {
+      arabicNumeric += "۴";
+    }
+    if (e == "5") {
+      arabicNumeric += "۵";
+    }
+    if (e == "6") {
+      arabicNumeric += "۶";
+    }
+    if (e == "7") {
+      arabicNumeric += "۷";
+    }
+    if (e == "8") {
+      arabicNumeric += "۸";
+    }
+    if (e == "9") {
+      arabicNumeric += "۹";
+    }
   }
+
+  return '\u06dd' + arabicNumeric.toString();
+}

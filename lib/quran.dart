@@ -27,10 +27,14 @@ List getPageData(int pageNumber) {
   return pageData[pageNumber - 1];
 }
 
-///Returns total pages count
-int getTotalPagesCount() {
-  return 604;
-}
+///The most standard and common copy of Arabic only Quran total pages count
+const int totalPagesCount = 604;
+
+///The constant total of makki surahs
+const int totalMakkiSurahs = 89;
+
+///The constant total of madani surahs
+const int totalMadaniSurahs = 25;
 
 ///Takes [pageNumber] and returns total surahs count in that page
 int getSurahCountByPage(int pageNumber) {
@@ -146,25 +150,17 @@ String getVerse(int surahNumber, int verseNumber,
   return verse + (verseEndSymbol ? getVerseEndSymbol(verseNumber) : "");
 }
 
-///Reurns total juz count
-int getTotalJuzCount() {
-  return 30;
-}
+///The constant total juz count
+const int totalJuzCount = 30;
 
-///Returns total surah count
-int getTotalSurahCount() {
-  return 114;
-}
+///The constant total surah count
+const int totalSurahCount = 114;
 
-///Returns total verse count
-int getTotalVerseCount() {
-  return 6236;
-}
+///The constant total verse count
+const int totalVerseCount = 6236;
 
-///Returns 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ'
-String getBasmala() {
-  return "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
-}
+///The constant 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ'
+const String basmala = "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
 
 ///Takes [juzNumber] and returns Juz URL (from Quran.com)
 String getJuzURL(int juzNumber) {

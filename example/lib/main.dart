@@ -24,7 +24,7 @@ void main() {
               Text("\nTotal Verses: \n" + quran.getVerseCount(18).toString()),
               Text(
                   "\nPlace of Revelation: \n" + quran.getPlaceOfRevelation(18)),
-              Text("\nBasmala: \n" + quran.getBasmala()),
+              Text("\nBasmala: \n" + quran.basmala),
               Text("\nVerse 1: \n" + quran.getVerse(18, 1))
             ],
           ),

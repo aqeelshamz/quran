@@ -1,8 +1,9 @@
 library quran;
-import 'quranText.dart';
-import 'surahData.dart';
-import 'juzData.dart';
-import 'pageData.dart';
+
+import 'quran_text.dart';
+import 'surah_data.dart';
+import 'juz_data.dart';
+import 'page_data.dart';
 
 ///Takes [pageNumber] and returns a list containing Surahs and the starting and ending Verse numbers in that page
 ///
@@ -26,10 +27,14 @@ List getPageData(int pageNumber) {
   return pageData[pageNumber - 1];
 }
 
-///Returns total pages count
-int getTotalPagesCount() {
-  return 604;
-}
+///The most standard and common copy of Arabic only Quran total pages count
+const int totalPagesCount = 604;
+
+///The constant total of makki surahs
+const int totalMakkiSurahs = 89;
+
+///The constant total of madani surahs
+const int totalMadaniSurahs = 25;
 
 ///Takes [pageNumber] and returns total surahs count in that page
 int getSurahCountByPage(int pageNumber) {
@@ -45,8 +50,9 @@ int getVerseCountByPage(int pageNumber) {
     throw "Invalid page number. Page number must be between 1 and 604";
   }
   int totalVerseCount = 0;
-  for(int i = 0; i < pageData[pageNumber - 1].length; i++){
-    totalVerseCount += int.parse(pageData[pageNumber - 1][i]!["end"].toString());
+  for (int i = 0; i < pageData[pageNumber - 1].length; i++) {
+    totalVerseCount +=
+        int.parse(pageData[pageNumber - 1][i]!["end"].toString());
   }
   return totalVerseCount;
 }
@@ -144,25 +150,17 @@ String getVerse(int surahNumber, int verseNumber,
   return verse + (verseEndSymbol ? getVerseEndSymbol(verseNumber) : "");
 }
 
-///Reurns total juz count
-int getTotalJuzCount() {
-  return 30;
-}
+///The constant total juz count
+const int totalJuzCount = 30;
 
-///Returns total surah count
-int getTotalSurahCount() {
-  return 114;
-}
+///The constant total surah count
+const int totalSurahCount = 114;
 
-///Returns total verse count
-int getTotalVerseCount() {
-  return 6236;
-}
+///The constant total verse count
+const int totalVerseCount = 6236;
 
-///Returns 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ'
-String getBasmala() {
-  return "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
-}
+///The constant 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ'
+const String basmala = "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
 
 ///Takes [juzNumber] and returns Juz URL (from Quran.com)
 String getJuzURL(int juzNumber) {
@@ -181,41 +179,41 @@ String getVerseURL(int surahNumber, int verseNumber) {
 
 ///Takes [verseNumber] and returns '۝' symbol with verse number
 String getVerseEndSymbol(int verseNumber) {
-    var arabicNumeric = '';
-    var digits = verseNumber.toString().split("").toList();
+  var arabicNumeric = '';
+  var digits = verseNumber.toString().split("").toList();
 
-    for (var e in digits) {
-      if (e == "0") {
-        arabicNumeric += "٠";
-      }
-      if (e == "1") {
-        arabicNumeric += "۱";
-      }
-      if (e == "2") {
-        arabicNumeric += "۲";
-      }
-      if (e == "3") {
-        arabicNumeric += "۳";
-      }
-      if (e == "4") {
-        arabicNumeric += "۴";
-      }
-      if (e == "5") {
-        arabicNumeric += "۵";
-      }
-      if (e == "6") {
-        arabicNumeric += "۶";
-      }
-      if (e == "7") {
-        arabicNumeric += "۷";
-      }
-      if (e == "8") {
-        arabicNumeric += "۸";
-      }
-      if (e == "9") {
-        arabicNumeric += "۹";
-      }
+  for (var e in digits) {
+    if (e == "0") {
+      arabicNumeric += "٠";
     }
-
-    return '\u06dd' + arabicNumeric.toString();
+    if (e == "1") {
+      arabicNumeric += "۱";
+    }
+    if (e == "2") {
+      arabicNumeric += "۲";
+    }
+    if (e == "3") {
+      arabicNumeric += "۳";
+    }
+    if (e == "4") {
+      arabicNumeric += "۴";
+    }
+    if (e == "5") {
+      arabicNumeric += "۵";
+    }
+    if (e == "6") {
+      arabicNumeric += "۶";
+    }
+    if (e == "7") {
+      arabicNumeric += "۷";
+    }
+    if (e == "8") {
+      arabicNumeric += "۸";
+    }
+    if (e == "9") {
+      arabicNumeric += "۹";
+    }
   }
+
+  return '\u06dd' + arabicNumeric.toString();
+}

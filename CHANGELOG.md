@@ -50,3 +50,7 @@
 ## [1.0.7] - Version 1.0.7
 
 * Bug fix - getVerseEndSymbol verse number is not inside the symbol
+
+## [1.0.8] - Version 1.0.8
+
+* Improvements

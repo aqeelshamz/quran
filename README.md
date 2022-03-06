@@ -99,10 +99,3 @@ void main() {
   );
 }
 ```
-
-[<img width="250px" alt="BuyMeACoffee" src="https://raw.githubusercontent.com/aqeelshamz/projects-src/main/buymeacoffee.png" />][buymeacoffee]
-
-
-
-
-[buymeacoffee]: https://www.buymeacoffee.com/aqeelshamz

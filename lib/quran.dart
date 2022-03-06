@@ -217,3 +217,19 @@ String getVerseEndSymbol(int verseNumber) {
 
   return '\u06dd' + arabicNumeric.toString();
 }
+
+List<int> getSurahPages(int surahNum) {
+  const pagesCount = totalPagesCount;
+  List<int> pages = [];
+  for (int currentPage = 1; currentPage <= pagesCount; currentPage++) {
+    final pageData = getPageData(currentPage);
+    for (int j = 0; j < pageData.length; j++) {
+      final currentSurahNum = pageData[j]['surah'];
+      if (currentSurahNum == surahNum) {
+        pages.add(currentPage);
+        break;
+      }
+    }
+  }
+  return pages;
+}

@@ -54,3 +54,7 @@
 ## [1.0.8] - Version 1.0.8
 
 * Improvements
+
+## [1.1.0] - Version 1.1.0
+
+* Format

@@ -218,18 +218,54 @@ String getVerseEndSymbol(int verseNumber) {
   return '\u06dd' + arabicNumeric.toString();
 }
 
-List<int> getSurahPages(int surahNum) {
+///Takes [surahNumber] and returns the list of page numbers of the surah
+List<int> getSurahPages(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "Invalid surahNumber";
+  }
+
   const pagesCount = totalPagesCount;
   List<int> pages = [];
   for (int currentPage = 1; currentPage <= pagesCount; currentPage++) {
     final pageData = getPageData(currentPage);
     for (int j = 0; j < pageData.length; j++) {
       final currentSurahNum = pageData[j]['surah'];
-      if (currentSurahNum == surahNum) {
+      if (currentSurahNum == surahNumber) {
         pages.add(currentPage);
         break;
       }
     }
   }
   return pages;
+}
+
+enum SurahSeperator { none, surahName, surahNameArabic, surahNameEnglish }
+
+///Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
+///if [customSurahSeperator] is given, [surahSeperator] will not work.
+List<String> getVersesTextByPage(int pageNumber,
+    {bool verseEndSymbol = false,
+    SurahSeperator surahSeperator = SurahSeperator.none,
+    String customSurahSeperator = ""}) {
+  if (pageNumber > 604 || pageNumber <= 0) {
+    throw "Invalid pageNumber";
+  }
+
+  List<String> verses = [];
+  final pageData = getPageData(pageNumber);
+  for (var data in pageData) {
+    if (customSurahSeperator != "") {
+      verses.add(customSurahSeperator);
+    } else if (surahSeperator == SurahSeperator.surahName) {
+      verses.add(getSurahName(data["surah"]));
+    } else if (surahSeperator == SurahSeperator.surahNameArabic) {
+      verses.add(getSurahNameArabic(data["surah"]));
+    } else if (surahSeperator == SurahSeperator.surahNameEnglish) {
+      verses.add(getSurahNameEnglish(data["surah"]));
+    }
+    for (int j = data["start"]; j <= data["end"]; j++) {
+      verses.add(getVerse(data["surah"], j, verseEndSymbol: verseEndSymbol));
+    }
+  }
+  return verses;
 }

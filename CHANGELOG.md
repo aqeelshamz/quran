@@ -64,3 +64,7 @@
 - getVersesTextByPage - Get verses text in a page
 - getSurahPages - Get surah pages list
 - Page Data errors corrected & Bugs fixed
+
+## [1.1.2] - Version 1.1.2
+
+*

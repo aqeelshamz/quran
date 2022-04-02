@@ -36,6 +36,18 @@ const int totalMakkiSurahs = 89;
 ///The constant total of madani surahs
 const int totalMadaniSurahs = 25;
 
+///The constant total juz count
+const int totalJuzCount = 30;
+
+///The constant total surah count
+const int totalSurahCount = 114;
+
+///The constant total verse count
+const int totalVerseCount = 6236;
+
+///The constant 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ'
+const String basmala = "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
+
 ///Takes [pageNumber] and returns total surahs count in that page
 int getSurahCountByPage(int pageNumber) {
   if (pageNumber < 1 || pageNumber > 604) {
@@ -149,18 +161,6 @@ String getVerse(int surahNumber, int verseNumber,
 
   return verse + (verseEndSymbol ? getVerseEndSymbol(verseNumber) : "");
 }
-
-///The constant total juz count
-const int totalJuzCount = 30;
-
-///The constant total surah count
-const int totalSurahCount = 114;
-
-///The constant total verse count
-const int totalVerseCount = 6236;
-
-///The constant 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ'
-const String basmala = "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
 
 ///Takes [juzNumber] and returns Juz URL (from Quran.com)
 String getJuzURL(int juzNumber) {

@@ -6,14 +6,14 @@ main() {
     'should return page number of surah and verse number',
     () async {
       // arrange
-      final surahNumber = 1;
-      final verseNumber = 4;
+      final surahNumber = 11;
+      final verseNumber = 1;
 
       // act
       final result = getPageNumber(surahNumber, verseNumber);
 
       // assert
-      expect(result, 1);
+      expect(result, 221);
     },
   );
 }

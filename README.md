@@ -41,6 +41,7 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 - **`getVerseCountByPage(int pageNumber)`** - Takes [pageNumber] and returns total verses count in that page
 
 - **`getSurahPages(int surahNumber)`** - Takes [surahNumber] and returns the list of page numbers of that surah
+- **`getPageNumber(int surahNumber, int verseNumber)`** - Takes [surahNumber], [verseNumber] and returns the page number of the Quran
 
 - **`getVersesTextByPage(int pageNumber, {bool verseEndSymbol, SurahSeperator surahSeperator, customSurahSeperator})`** - Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
 

@@ -128,6 +128,24 @@ String getSurahNameArabic(int surahNumber) {
   return surah[surahNumber - 1]['arabic'].toString();
 }
 
+///Takes [surahNumber], [verseNumber] and returns the page number of the Quran
+int getPageNumber(int surahNumber, int verseNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+
+  for (int pageIndex = 0; pageIndex < pageData.length; pageIndex++) {
+    final e = pageData[pageIndex][0];
+    if (e['surah'] == surahNumber &&
+        e['start'] <= verseNumber &&
+        e['end'] >= verseNumber) {
+      return pageIndex + 1;
+    }
+  }
+
+  return 1;
+}
+
 ///Takes [surahNumber] and returns the place of revelation (Makkah / Madinah) of the surah
 String getPlaceOfRevelation(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {

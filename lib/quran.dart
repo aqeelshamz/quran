@@ -135,11 +135,15 @@ int getPageNumber(int surahNumber, int verseNumber) {
   }
 
   for (int pageIndex = 0; pageIndex < pageData.length; pageIndex++) {
-    final e = pageData[pageIndex][0];
-    if (e['surah'] == surahNumber &&
-        e['start'] <= verseNumber &&
-        e['end'] >= verseNumber) {
-      return pageIndex + 1;
+    for (int surahIndexInPage = 0;
+        surahIndexInPage < pageData[pageIndex].length;
+        surahIndexInPage++) {
+      final e = pageData[pageIndex][surahIndexInPage];
+      if (e['surah'] == surahNumber &&
+          e['start'] <= verseNumber &&
+          e['end'] >= verseNumber) {
+        return pageIndex + 1;
+      }
     }
   }
 

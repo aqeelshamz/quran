@@ -143,7 +143,7 @@ int getPageNumber(int surahNumber, int verseNumber) {
     }
   }
 
-  return 1;
+  throw "Invalid verse number.";
 }
 
 ///Takes [surahNumber] and returns the place of revelation (Makkah / Madinah) of the surah

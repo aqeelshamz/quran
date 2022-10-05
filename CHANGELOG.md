@@ -65,6 +65,6 @@
 - getSurahPages - Get surah pages list
 - Page Data errors corrected & Bugs fixed
 
-## [1.1.2] - Version 1.1.2
+## [1.1.3] - Version 1.1.3
 
-*
+- getPageNumber - Get page number from surah number and verse number

@@ -6,8 +6,8 @@ main() {
     'should return page number of surah and verse number',
     () async {
       // arrange
-      final surahNumber = 11;
-      final verseNumber = 1;
+      const surahNumber = 11;
+      const verseNumber = 1;
 
       // act
       final result = getPageNumber(surahNumber, verseNumber);

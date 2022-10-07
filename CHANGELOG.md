@@ -1,70 +1,77 @@
-## [0.0.1] - Initial Release.
+## 1.1.4
 
-- Initial release.
+* Get Quran audio URLs (from Al Quran CDN): 
+* `getAudioURLBySurah` - Get surah audio URL from surah number
+* `getAudioURLByVerse` - Get verse audio URL from surah number and verse number
+* `getAudioURLByVerseNumber` - Get verse audio URL from verse number
 
-## [0.0.6] - Version 0.0.6
+## 1.1.3
 
-- Get total aya and surah count
+* `getPageNumber` - Get page number from surah number and verse number
 
-## [0.0.7] - Version 0.0.7
+## 1.1.1
 
-- Get Surah english titles and place of revelation (Makkah / Madinah)
+* `getVersesTextByPage` - Get verses text in a page
+* `getSurahPages` - Get surah pages list
+* Page Data errors corrected & Bugs fixed
 
-## [0.1.0] - Version 0.1.0
+## 1.1.0
 
-- Basmala removed from first ayas
-- Get Basmala function added
+* Format
 
-## [1.0.0] - Version 1.0.0
+## 1.0.8
 
-- Get Surah and Verse URLs (from Quran.com)
+* Improvements
 
-## [1.0.1] - Version 1.0.1
+## 1.0.7
 
-- Get Juz Number
-- Get Juz URL
-- Get Surah and Verse numbers from Juz
+* Bug fix - `getVerseEndSymbol` verse number is not inside the symbol
 
-## [1.0.2] - Version 1.0.2
+## 1.0.6
 
-- Get Verse end symbol '۝' with verse number
-- verseEndSymbol bool added in getVerse() function
+* Page Data Bug fix
 
-## [1.0.3] - Version 1.0.3
+## 1.0.5
+
+* New Functions added:
+* `getSurahNameArabic` - Get surah name in Arabic
+* `getPageData` - Get surah and verses in a page
+* `getTotalPagesCount` - Get total pages count
+* `getSurahCountByPage` - Get total surahs count in a page
+* `getVerseCountByPage` - Get total verses count in a page
+
+## 1.0.3
 
 - Bug fix
 
-## [1.0.5] - Version 1.0.5
+## 1.0.2
 
-- New Functions added:
-- getSurahNameArabic - Get surah name in Arabic
-- getPageData - Get surah and verses in a page
-- getTotalPagesCount - Get total pages count
-- getSurahCountByPage - Get total surahs count in a page
-- getVerseCountByPage - Get total verses count in a page
+* Get Verse end symbol '۝' with verse number
+* `verseEndSymbol` bool added in `getVerse` function
 
-## [1.0.6] - Version 1.0.6
+## 1.0.1
 
-- Page Data Bug fix
+* Get Juz Number
+* Get Juz URL
+* Get Surah and Verse numbers from Juz
 
-## [1.0.7] - Version 1.0.7
+## 1.0.0
 
-- Bug fix - getVerseEndSymbol verse number is not inside the symbol
+* Get Surah and Verse URLs (from Quran.com)
 
-## [1.0.8] - Version 1.0.8
+## 0.0.7
 
-- Improvements
+* Get Surah english titles and place of revelation (Makkah / Madinah)
 
-## [1.1.0] - Version 1.1.0
+## 0.0.6
 
-- Format
+* Get total aya and surah count
 
-## [1.1.1] - Version 1.1.1
+## 0.1.0
 
-- getVersesTextByPage - Get verses text in a page
-- getSurahPages - Get surah pages list
-- Page Data errors corrected & Bugs fixed
+* Basmala removed from first ayas
+* Get Basmala function added
 
-## [1.1.3] - Version 1.1.3
+## 0.0.1
 
-- getPageNumber - Get page number from surah number and verse number
+* Initial release.

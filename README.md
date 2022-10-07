@@ -1,4 +1,4 @@
-Full Quran text (Arabic) & details including pages, juz, surah, verses and place of revelation etc.
+Quran text (Arabic), audio URLs, and details of pages, juz, surah, ayah, place of revelation etc.
 
 ## Getting Started
 
@@ -44,6 +44,10 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 - **`getPageNumber(int surahNumber, int verseNumber)`** - Takes [surahNumber], [verseNumber] and returns the page number of the Quran
 
 - **`getVersesTextByPage(int pageNumber, {bool verseEndSymbol, SurahSeperator surahSeperator, customSurahSeperator})`** - Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
+
+- **`getAudioURLBySurah(int surahNumber)`** - Takes [surahNumber] and returns audio URL of that surah
+- **`getAudioURLByVerse(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns audio URL of that verse
+- **`getAudioURLByVerseNumber(int surahNumber)`** - Takes [verseNumber] and returns audio URL of that verse
 
 ## Example
 

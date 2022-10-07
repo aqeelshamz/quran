@@ -237,7 +237,7 @@ String getVerseEndSymbol(int verseNumber) {
     }
   }
 
-  return '\u06dd' + arabicNumeric.toString();
+  return '\u06dd$arabicNumeric';
 }
 
 ///Takes [surahNumber] and returns the list of page numbers of the surah
@@ -290,4 +290,26 @@ List<String> getVersesTextByPage(int pageNumber,
     }
   }
   return verses;
+}
+
+///Takes [surahNumber] and returns audio URL of that surah
+String getAudioURLBySurah(int surahNumber) {
+  return "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/$surahNumber.mp3";
+}
+
+///Takes [surahNumber] & [verseNumber] and returns audio URL of that verse
+String getAudioURLByVerse(int surahNumber, int verseNumber) {
+  int verseNum = 0;
+  for (var i in quranText) {
+    if (i['surah_number'] == surahNumber && i['verse_number'] == verseNumber) {
+      verseNum = quranText.indexOf(i) + 1;
+      break;
+    }
+  }
+  return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNum.mp3";
+}
+
+///Takes [verseNumber] and returns audio URL of that verse
+String getAudioURLByVerseNumber(int verseNumber) {
+  return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNumber.mp3";
 }

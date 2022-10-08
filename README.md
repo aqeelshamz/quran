@@ -1,3 +1,6 @@
+[![pub package](https://img.shields.io/pub/v/quran.svg)](https://pub.dev/packages/quran)
+[![npm package](https://img.shields.io/npm/v/quran-db.svg)](https://www.npmjs.com/package/quran-db)
+
 Quran text (Arabic), audio URLs, and details of pages, juz, surah, ayah, place of revelation etc.
 
 ## Getting Started

@@ -1,6 +1,7 @@
 library quran;
 
 import 'quran_text.dart';
+import 'sajdah_verses.dart';
 import 'surah_data.dart';
 import 'juz_data.dart';
 import 'page_data.dart';
@@ -308,6 +309,13 @@ String getAudioURLByVerse(int surahNumber, int verseNumber) {
   }
   return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNum.mp3";
 }
+
+///Takes [surahNumber] & [verseNumber] and returns true if verse is sajdah
+bool isSajdahVerse(int surahNumber, int verseNumber) =>
+    sajdahVerses[surahNumber] == verseNumber;
+
+///Returns sajdah text in arabic
+String getSajdahText() => 'سَجْدَةٌ';
 
 ///Takes [verseNumber] and returns audio URL of that verse
 String getAudioURLByVerseNumber(int verseNumber) {

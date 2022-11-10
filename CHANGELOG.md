@@ -1,3 +1,8 @@
+## 1.1.5
+
+* `isSajdahVerse` - Check if a verse is sajdah verse
+* `getSajdahText` - Returns sajdah in arabic text
+
 ## 1.1.4
 
 * Get Quran audio URLs (from Al Quran CDN): 

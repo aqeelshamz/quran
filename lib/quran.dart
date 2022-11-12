@@ -317,9 +317,6 @@ String getAudioURLByVerse(int surahNumber, int verseNumber) {
 bool isSajdahVerse(int surahNumber, int verseNumber) =>
     sajdahVerses[surahNumber] == verseNumber;
 
-///Returns sajdah text in arabic
-String getSajdahText() => 'سَجْدَةٌ';
-
 ///Takes [verseNumber] and returns audio URL of that verse
 String getAudioURLByVerseNumber(int verseNumber) {
   return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNumber.mp3";

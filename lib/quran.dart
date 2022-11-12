@@ -49,6 +49,9 @@ const int totalVerseCount = 6236;
 ///The constant 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ'
 const String basmala = "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
 
+///The constant 'سَجْدَةٌ'
+const String sajdah = "سَجْدَةٌ";
+
 ///Takes [pageNumber] and returns total surahs count in that page
 int getSurahCountByPage(int pageNumber) {
   if (pageNumber < 1 || pageNumber > 604) {

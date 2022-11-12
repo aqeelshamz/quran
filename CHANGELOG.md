@@ -1,3 +1,8 @@
+## 1.1.6
+
+* `sajdah` - Returns constant 'سَجْدَةٌ'
+* removed `getSajdahText`
+
 ## 1.1.5
 
 * `isSajdahVerse` - Check if a verse is sajdah verse

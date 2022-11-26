@@ -1,4 +1,3 @@
-///   Map<surahNumber, verseNumber> = {}
 const Map<int, int> sajdahVerses = {
   7: 206,
   13: 15,

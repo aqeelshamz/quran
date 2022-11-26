@@ -1,4 +1,4 @@
-var surah = [
+const List surah = [
   {
     "id": 1,
     "name": "Al Fatiha",

@@ -1,4 +1,4 @@
-List pageData = [
+const List pageData = [
   [
     {"surah": 1, "start": 1, "end": 7}
   ],

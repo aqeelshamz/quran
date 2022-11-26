@@ -1,4 +1,4 @@
-var quranText = [
+const List quranText = [
   {
     "surah_number": 1,
     "verse_number": 1,

@@ -1,3 +1,9 @@
+## 1.1.7
+
+* Added translation - Saheeh International (English)
+* `getVerseTranslation` - Get verse translation
+* Added `arabicNumeral` parameter to `getVerseEndSymbol`
+
 ## 1.1.6
 
 * `sajdah` - Returns constant 'سَجْدَةٌ'

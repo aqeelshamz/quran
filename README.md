@@ -33,8 +33,9 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 
 ***Verse:***
 - **`getVerse(int surahNumber, int verseNumber, {bool verseEndSymbol})`** - Takes [surahNumber], [verseNumber] & [verseEndSymbol] (optional) and returns the Verse in Arabic
-- **`getVerseEndSymbol(int verseNumber)`** - Takes [verseNumber] and returns '۝' symbol with verse number
+- **`getVerseEndSymbol(int verseNumber, {bool arabicNumeral})`** - Takes [verseNumber], [arabicNumeral] (optional) and returns '۝' symbol with verse number
 - **`isSajdahVerse(int surahNumber, int verseNumber)`** - Takes [surahNumber], [verseNumber] and returns true if verse is sajdah verse
+- **`getVerseTranslation(int surahNumber, int verseNumber, {bool verseEndSymbol, Translation translation})`** - Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
 
 ***Page:***
 - **`getPageData(int pageNumber)`** - Takes [pageNumber] and returns a list containing Surahs and the starting and ending Verse numbers in that page

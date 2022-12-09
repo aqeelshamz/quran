@@ -212,38 +212,23 @@ String getVerseEndSymbol(int verseNumber, {bool arabicNumeral = true}) {
 
   if (!arabicNumeral) return '\u06dd${verseNumber.toString()}';
 
+  const Map arabicNumbers = {
+    "0": "٠",
+    "1": "۱",
+    "2": "۲",
+    "3": "۳",
+    "4": "٤",
+    "5": "٥",
+    "6": "٦",
+    "7": "۷",
+    "8": "۸",
+    "9": "۹"
+  };
+
   for (var e in digits) {
-    if (e == "0") {
-      arabicNumeric += "٠";
-    }
-    if (e == "1") {
-      arabicNumeric += "۱";
-    }
-    if (e == "2") {
-      arabicNumeric += "۲";
-    }
-    if (e == "3") {
-      arabicNumeric += "۳";
-    }
-    if (e == "4") {
-      arabicNumeric += "٤";
-    }
-    if (e == "5") {
-      arabicNumeric += "٥";
-    }
-    if (e == "6") {
-      arabicNumeric += "٦";
-    }
-    if (e == "7") {
-      arabicNumeric += "۷";
-    }
-    if (e == "8") {
-      arabicNumeric += "۸";
-    }
-    if (e == "9") {
-      arabicNumeric += "۹";
-    }
+    arabicNumeric += arabicNumbers[e];
   }
+
   return '\u06dd$arabicNumeric';
 }
 

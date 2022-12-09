@@ -1,3 +1,7 @@
+## 1.1.8
+
+* getVerseEndSymbol issue fixed.
+
 ## 1.1.7
 
 * Added translation - Saheeh International (English)

@@ -1,3 +1,7 @@
+## 1.1.9
+
+* Fixed some words that did not appeared correctly
+
 ## 1.1.8
 
 * getVerseEndSymbol issue fixed.

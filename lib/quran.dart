@@ -345,7 +345,7 @@ String getVerseTranslation(int surahNumber, int verseNumber,
           : "");
 }
 
-///Takes a list of words [words] and [translation](optional) and returns a map containing no. of occurences and result of the word search in the traslation
+///Takes a list of words [words] and [translation] (optional) and returns a map containing no. of occurences and result of the word search in the traslation
 Map searchWordsInTranslation(List<String> words,
     {Translation translation = Translation.enSaheeh}) {
   var translationText = enSaheeh;

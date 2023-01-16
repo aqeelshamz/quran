@@ -344,3 +344,65 @@ String getVerseTranslation(int surahNumber, int verseNumber,
           ? getVerseEndSymbol(verseNumber, arabicNumeral: false)
           : "");
 }
+
+///Takes a list of words [words] and [translation](optional) and returns a map containing no. of occurences and result of the word search in the traslation
+Map searchWordsInTranslation(List<String> words,
+    {Translation translation = Translation.enSaheeh}) {
+  var translationText = enSaheeh;
+
+  switch (translation) {
+    case Translation.enSaheeh:
+      translationText = enSaheeh;
+      break;
+    default:
+      translationText = enSaheeh;
+  }
+
+  List<Map> result = [];
+
+  for (var i in translationText) {
+    bool exist = false;
+    for (var word in words) {
+      if (i['content']
+          .toString()
+          .toLowerCase()
+          .contains(word.toString().toLowerCase())) {
+        exist = true;
+      }
+    }
+    if (exist) {
+      result.add({"surah": i["surah_number"], "verse": i["verse_number"]});
+    }
+  }
+
+  return {"occurences": result.length, "result": result};
+}
+
+///Takes a list of words [words] and returns a map containing no. of occurences and result of the word search in the arabic quran text.
+///
+///You have to include the harakaat (diacritics) in the words
+///
+///Example:
+///```dart
+/// searchWords(["لِّلَّهِ","وَٱللَّهُ","ٱللَّهُ"])
+///```
+Map searchWords(List<String> words) {
+  List<Map> result = [];
+
+  for (var i in quranText) {
+    bool exist = false;
+    for (var word in words) {
+      if (i['content']
+          .toString()
+          .toLowerCase()
+          .contains(word.toString().toLowerCase())) {
+        exist = true;
+      }
+    }
+    if (exist) {
+      result.add({"surah": i["surah_number"], "verse": i["verse_number"]});
+    }
+  }
+
+  return {"occurences": result.length, "result": result};
+}

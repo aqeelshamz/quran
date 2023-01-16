@@ -1,3 +1,8 @@
+## 1.2.0
+
+* `searchWords` - Search words in Arabic Quran text
+* `searchWordsInTranslation` - Search words in Translation
+
 ## 1.1.9
 
 * Fixed some words that did not appeared correctly

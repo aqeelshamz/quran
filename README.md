@@ -20,24 +20,28 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 
 **Functions:**
 
-***Juz:***
+**_Juz:_**
+
 - **`getJuzNumber(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns Juz number
 - **`getSurahAndVersesFromJuz(int juzNumber)`** - Takes [juzNumber] and returns a map containing Surah and Verse numbers
 
-***Surah:***
+**_Surah:_**
+
 - **`getSurahName(int surahNumber)`** - Takes [surahNumber] and returns the Surah name
 - **`getSurahNameArabic(int surahNumber)`** - Takes [surahNumber] returns the Surah name in Arabic
 - **`getSurahNameEnglish(int surahNumber)`** - Takes [surahNumber] returns the Surah name in English
 - **`getPlaceOfRevelation(int surahNumber)`** - Takes [surahNumber] and returns the Place of Revelation (Makkah / Madinah) of that Surah
 - **`getVerseCount(int surahNumber)`** - Takes [surahNumber] and returns the count of total Verses in that Surah
 
-***Verse:***
+**_Verse:_**
+
 - **`getVerse(int surahNumber, int verseNumber, {bool verseEndSymbol})`** - Takes [surahNumber], [verseNumber] & [verseEndSymbol] (optional) and returns the Verse in Arabic
 - **`getVerseEndSymbol(int verseNumber, {bool arabicNumeral})`** - Takes [verseNumber], [arabicNumeral] (optional) and returns '۝' symbol with verse number
 - **`isSajdahVerse(int surahNumber, int verseNumber)`** - Takes [surahNumber], [verseNumber] and returns true if verse is sajdah verse
 - **`getVerseTranslation(int surahNumber, int verseNumber, {bool verseEndSymbol, Translation translation})`** - Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
 
-***Page:***
+**_Page:_**
+
 - **`getPageData(int pageNumber)`** - Takes [pageNumber] and returns a list containing Surahs and the starting and ending Verse numbers in that page
 - **`getPageNumber(int surahNumber, int verseNumber)`** - Takes [surahNumber], [verseNumber] and returns the page number of the Quran
 - **`getSurahCountByPage(int pageNumber)`** - Takes [pageNumber] and returns total surahs count in that page
@@ -45,13 +49,19 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 - **`getVerseCountByPage(int pageNumber)`** - Takes [pageNumber] and returns total verses count in that page
 - **`getVersesTextByPage(int pageNumber, {bool verseEndSymbol, SurahSeperator surahSeperator, customSurahSeperator})`** - Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
 
-***URLs:***
+**_URLs:_**
+
 - **`getAudioURLBySurah(int surahNumber)`** - Takes [surahNumber] and returns audio URL of that surah
 - **`getAudioURLByVerse(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns audio URL of that verse
 - **`getAudioURLByVerseNumber(int surahNumber)`** - Takes [verseNumber] and returns audio URL of that verse
 - **`getJuzURL(int juzNumber)`** - Takes [juzNumber] and returns Juz URL (from Quran.com)
 - **`getSurahURL(int surahNumber)`** - Takes [surahNumber] and returns Surah URL (from Quran.com)
 - **`getVerseURL(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns Verse URL (from Quran.com)
+
+**_Search:_**
+
+- **`searchWords(List<String> words)`** - Takes a list of words [words] and returns a map containing no. of occurences and result of the word search in the arabic quran text
+- **`searchWordsInTranslation(List<String> words, {Translation translation})`** - Takes a list of words [words] and [translation] (optional) and returns a map containing no. of occurences and result of the word search in the traslation
 
 ## Example
 

@@ -4,7 +4,7 @@ const List surah = [
     "name": "Al Fatiha",
     "aya": 7,
     "english": "The Opening",
-    "turkish" : "Fâtiha",
+    "turkish": "Fâtiha",
     "place": "Makkah",
     "arabic": "الفاتحة"
   },
@@ -13,7 +13,7 @@ const List surah = [
     "name": "Al Baqarah",
     "aya": 286,
     "english": "The Cow",
-    "turkish" : "Bakara",
+    "turkish": "Bakara",
     "place": "Madinah",
     "arabic": "البقرة"
   },
@@ -22,7 +22,7 @@ const List surah = [
     "name": "Al Imran",
     "aya": 200,
     "english": "The Family of Imran",
-    "turkish" : "Âl-i İmrân",
+    "turkish": "Âl-i İmrân",
     "place": "Madinah",
     "arabic": "آل عمران"
   },
@@ -31,7 +31,7 @@ const List surah = [
     "name": "An Nisa",
     "aya": 176,
     "english": "The Women",
-    "turkish" : "Nisâ",
+    "turkish": "Nisâ",
     "place": "Madinah",
     "arabic": "النساء"
   },
@@ -40,7 +40,7 @@ const List surah = [
     "name": "Al Ma'idah",
     "aya": 120,
     "english": "The Table",
-    "turkish" : "Mâide",
+    "turkish": "Mâide",
     "place": "Madinah",
     "arabic": "المائدة"
   },
@@ -49,7 +49,7 @@ const List surah = [
     "name": "Al An'am",
     "aya": 165,
     "english": "The Cattle",
-    "turkish" : "En'âm",
+    "turkish": "En'âm",
     "place": "Makkah",
     "arabic": "الأنعام"
   },
@@ -58,7 +58,7 @@ const List surah = [
     "name": "Al A'raf",
     "aya": 206,
     "english": "The Heights",
-    "turkish" : "A'râf",
+    "turkish": "A'râf",
     "place": "Makkah",
     "arabic": "الأعراف"
   },
@@ -67,7 +67,7 @@ const List surah = [
     "name": "Al Anfal",
     "aya": 75,
     "english": "The Spoils of War",
-    "turkish" : "Enfâl",
+    "turkish": "Enfâl",
     "place": "Madinah",
     "arabic": "الأنفال"
   },
@@ -76,7 +76,7 @@ const List surah = [
     "name": "At Tawbah",
     "aya": 129,
     "english": "The Repentance",
-    "turkish" : "Tevbe",
+    "turkish": "Tevbe",
     "place": "Madinah",
     "arabic": "التوبة"
   },
@@ -85,7 +85,7 @@ const List surah = [
     "name": "Al Yunus",
     "aya": 109,
     "english": "Jonah",
-    "turkish" : "Yûnus",
+    "turkish": "Yûnus",
     "place": "Makkah",
     "arabic": "يونس"
   },
@@ -94,7 +94,7 @@ const List surah = [
     "name": "Hud",
     "aya": 123,
     "english": "Hud",
-    "turkish" : "Hûd",
+    "turkish": "Hûd",
     "place": "Makkah",
     "arabic": "هود"
   },
@@ -103,7 +103,7 @@ const List surah = [
     "name": "Yusuf",
     "aya": 111,
     "english": "Joseph",
-    "turkish" : "Yûsuf",
+    "turkish": "Yûsuf",
     "place": "Makkah",
     "arabic": "يوسف"
   },
@@ -112,7 +112,7 @@ const List surah = [
     "name": "Ar Ra'd",
     "aya": 43,
     "english": "The Thunder",
-    "turkish" : "Ra'd",
+    "turkish": "Ra'd",
     "place": "Madinah",
     "arabic": "الرعد"
   },
@@ -121,7 +121,7 @@ const List surah = [
     "name": "Ibrahim",
     "aya": 52,
     "english": "Abraham",
-    "turkish" : "İbrâhîm",
+    "turkish": "İbrâhîm",
     "place": "Makkah",
     "arabic": "ابراهيم"
   },
@@ -130,7 +130,7 @@ const List surah = [
     "name": "Al Hijr",
     "aya": 99,
     "english": "The Stoneland",
-    "turkish" : "Hicr",
+    "turkish": "Hicr",
     "place": "Makkah",
     "arabic": "الحجر"
   },
@@ -139,7 +139,7 @@ const List surah = [
     "name": "An Nahl",
     "aya": 128,
     "english": "The Honey Bee",
-    "turkish" : "Nahl",
+    "turkish": "Nahl",
     "place": "Makkah",
     "arabic": "النحل"
   },
@@ -148,7 +148,7 @@ const List surah = [
     "name": "Al Isra'",
     "aya": 111,
     "english": "The Night Journey",
-    "turkish" : "İsrâ",
+    "turkish": "İsrâ",
     "place": "Makkah",
     "arabic": "الإسراء"
   },
@@ -157,7 +157,7 @@ const List surah = [
     "name": "Al Kahf",
     "aya": 110,
     "english": "The Cave",
-    "turkish" : "Kehf",
+    "turkish": "Kehf",
     "place": "Makkah",
     "arabic": "الكهف"
   },
@@ -166,7 +166,7 @@ const List surah = [
     "name": "Maryam",
     "aya": 98,
     "english": "Mary",
-    "turkish" : "Meryem",
+    "turkish": "Meryem",
     "place": "Makkah",
     "arabic": "مريم"
   },
@@ -175,7 +175,7 @@ const List surah = [
     "name": "Ta Ha",
     "aya": 135,
     "english": "Ta Ha",
-    "turkish" : "Tâhâ",
+    "turkish": "Tâhâ",
     "place": "Makkah",
     "arabic": "طه"
   },
@@ -184,7 +184,7 @@ const List surah = [
     "name": "Al Anbiya",
     "aya": 112,
     "english": "The Prophets",
-    "turkish" : "Enbiyâ",
+    "turkish": "Enbiyâ",
     "place": "Makkah",
     "arabic": "الأنبياء"
   },
@@ -193,7 +193,7 @@ const List surah = [
     "name": "Al Hajj",
     "aya": 78,
     "english": "The Pilgrimage",
-    "turkish" : "Hac",
+    "turkish": "Hac",
     "place": "Madinah",
     "arabic": "الحج"
   },
@@ -202,7 +202,7 @@ const List surah = [
     "name": "Al Mu minun",
     "aya": 118,
     "english": "The Believers",
-    "turkish" : "Mü'minûn",
+    "turkish": "Mü'minûn",
     "place": "Makkah",
     "arabic": "المؤمنون"
   },
@@ -211,7 +211,7 @@ const List surah = [
     "name": "An Nur",
     "aya": 64,
     "english": "The Light",
-    "turkish" : "Nûr",
+    "turkish": "Nûr",
     "place": "Madinah",
     "arabic": "النور"
   },
@@ -220,7 +220,7 @@ const List surah = [
     "name": "Al Furqan",
     "aya": 77,
     "english": "The Criterion",
-    "turkish" : "Furkân",
+    "turkish": "Furkân",
     "place": "Makkah",
     "arabic": "الفرقان"
   },
@@ -229,7 +229,7 @@ const List surah = [
     "name": "As Su'ara",
     "aya": 227,
     "english": "The Poets",
-    "turkish" : "Şuarâ",
+    "turkish": "Şuarâ",
     "place": "Makkah",
     "arabic": "الشعراء"
   },
@@ -238,7 +238,7 @@ const List surah = [
     "name": "An Naml",
     "aya": 93,
     "english": "The Ant",
-    "turkish" : "Neml",
+    "turkish": "Neml",
     "place": "Makkah",
     "arabic": "النمل"
   },
@@ -247,7 +247,7 @@ const List surah = [
     "name": "Al Qasas",
     "aya": 88,
     "english": "The Narrations",
-    "turkish" : "Kasas",
+    "turkish": "Kasas",
     "place": "Makkah",
     "arabic": "القصص"
   },
@@ -256,7 +256,7 @@ const List surah = [
     "name": "Al Ankabut",
     "aya": 69,
     "english": "The Spider",
-    "turkish" : "Ankebût",
+    "turkish": "Ankebût",
     "place": "Makkah",
     "arabic": "العنكبوت"
   },
@@ -265,7 +265,7 @@ const List surah = [
     "name": "Ar Rum",
     "aya": 60,
     "english": "Rome",
-    "turkish" : "Rûm",
+    "turkish": "Rûm",
     "place": "Makkah",
     "arabic": "الروم"
   },
@@ -274,7 +274,7 @@ const List surah = [
     "name": "Luqman",
     "aya": 34,
     "english": "Luqman",
-    "turkish" : "Lokmân",
+    "turkish": "Lokmân",
     "place": "Makkah",
     "arabic": "لقمان"
   },
@@ -283,7 +283,7 @@ const List surah = [
     "name": "As Sajdah",
     "aya": 30,
     "english": "The Prostration",
-    "turkish" : "Secde",
+    "turkish": "Secde",
     "place": "Makkah",
     "arabic": "السجدة"
   },
@@ -292,7 +292,7 @@ const List surah = [
     "name": "Al Ahzab",
     "aya": 73,
     "english": "The Clans",
-    "turkish" : "Ahzâb",
+    "turkish": "Ahzâb",
     "place": "Madinah",
     "arabic": "الأحزاب"
   },
@@ -301,7 +301,7 @@ const List surah = [
     "name": "Saba'",
     "aya": 54,
     "english": "Sheba",
-    "turkish" : "Sebe'",
+    "turkish": "Sebe'",
     "place": "Makkah",
     "arabic": "سبإ"
   },
@@ -310,7 +310,7 @@ const List surah = [
     "name": "Fatir",
     "aya": 45,
     "english": "The Originator",
-    "turkish" : "Fâtır",
+    "turkish": "Fâtır",
     "place": "Makkah",
     "arabic": "فاطر"
   },
@@ -319,7 +319,7 @@ const List surah = [
     "name": "Ya'sin",
     "aya": 83,
     "english": "Ya Sin",
-    "turkish" : "Yâsîn",
+    "turkish": "Yâsîn",
     "place": "Makkah",
     "arabic": "يس"
   },
@@ -328,7 +328,7 @@ const List surah = [
     "name": "As Saffat",
     "aya": 182,
     "english": "Those Who Set The Ranks",
-    "turkish" : "Sâffât",
+    "turkish": "Sâffât",
     "place": "Makkah",
     "arabic": "الصافات"
   },
@@ -337,7 +337,7 @@ const List surah = [
     "name": "Saad",
     "aya": 88,
     "english": "Ṣād",
-    "turkish" : "Sâd",
+    "turkish": "Sâd",
     "place": "Makkah",
     "arabic": "ص"
   },
@@ -346,7 +346,7 @@ const List surah = [
     "name": "Az Zumar",
     "aya": 75,
     "english": "The Crowds",
-    "turkish" : "Zümer",
+    "turkish": "Zümer",
     "place": "Makkah",
     "arabic": "الزمر"
   },
@@ -355,7 +355,7 @@ const List surah = [
     "name": "Ghafir",
     "aya": 85,
     "english": "The Forgiver",
-    "turkish" : "Mü'min",
+    "turkish": "Mü'min",
     "place": "Makkah",
     "arabic": "غافر"
   },
@@ -364,7 +364,7 @@ const List surah = [
     "name": "Fussilat",
     "aya": 54,
     "english": "Expounded",
-    "turkish" : "Fussilet",
+    "turkish": "Fussilet",
     "place": "Makkah",
     "arabic": "فصلت"
   },
@@ -373,7 +373,7 @@ const List surah = [
     "name": "As Sura",
     "aya": 53,
     "english": "The Consultation",
-    "turkish" : "Şûrâ",
+    "turkish": "Şûrâ",
     "place": "Makkah",
     "arabic": "الشورى"
   },
@@ -382,7 +382,7 @@ const List surah = [
     "name": "Az Zukhruf",
     "aya": 89,
     "english": "The Gold Adornments",
-    "turkish" : "Zuhruf",
+    "turkish": "Zuhruf",
     "place": "Makkah",
     "arabic": "الزخرف"
   },
@@ -391,7 +391,7 @@ const List surah = [
     "name": "Ad Dukhan",
     "aya": 59,
     "english": "The Smoke",
-    "turkish" : "Duhân",
+    "turkish": "Duhân",
     "place": "Makkah",
     "arabic": "الدخان"
   },
@@ -400,7 +400,7 @@ const List surah = [
     "name": "Al Jaathiyah",
     "aya": 37,
     "english": "The Kneeling Down",
-    "turkish" : "Câsiye",
+    "turkish": "Câsiye",
     "place": "Makkah",
     "arabic": "الجاثية"
   },
@@ -409,7 +409,7 @@ const List surah = [
     "name": "Al Ahqaf",
     "aya": 35,
     "english": "Winding Sand tracts",
-    "turkish" : "Ahkâf",
+    "turkish": "Ahkâf",
     "place": "Makkah",
     "arabic": "الأحقاف"
   },
@@ -418,7 +418,7 @@ const List surah = [
     "name": "Muhammad",
     "aya": 38,
     "english": "Muhammad",
-    "turkish" : "Muhammed",
+    "turkish": "Muhammed",
     "place": "Madinah",
     "arabic": "محمد"
   },
@@ -427,7 +427,7 @@ const List surah = [
     "name": "Al Fath",
     "aya": 29,
     "english": "The Victory",
-    "turkish" : "Fetih",
+    "turkish": "Fetih",
     "place": "Madinah",
     "arabic": "الفتح"
   },
@@ -436,7 +436,7 @@ const List surah = [
     "name": "Al Hujurut",
     "aya": 18,
     "english": "The Private Apartments",
-    "turkish" : "Hucurât",
+    "turkish": "Hucurât",
     "place": "Madinah",
     "arabic": "الحجرات"
   },
@@ -445,7 +445,7 @@ const List surah = [
     "name": "Qaaf",
     "aya": 45,
     "english": "Q̈āf",
-    "turkish" : "Kâf",
+    "turkish": "Kâf",
     "place": "Makkah",
     "arabic": "ق"
   },
@@ -454,7 +454,7 @@ const List surah = [
     "name": "Ad Dariyat",
     "aya": 60,
     "english": "The Wind That Scatter",
-    "turkish" : "Zâriyât",
+    "turkish": "Zâriyât",
     "place": "Makkah",
     "arabic": "الذاريات"
   },
@@ -463,7 +463,7 @@ const List surah = [
     "name": "At Toor",
     "aya": 49,
     "english": "The Mount",
-    "turkish" : "Tûr",
+    "turkish": "Tûr",
     "place": "Makkah",
     "arabic": "الطور"
   },
@@ -472,7 +472,7 @@ const List surah = [
     "name": "An Najm",
     "aya": 62,
     "english": "The Star",
-    "turkish" : "Necm",
+    "turkish": "Necm",
     "place": "Makkah",
     "arabic": "النجم"
   },
@@ -481,7 +481,7 @@ const List surah = [
     "name": "Al Qamar",
     "aya": 55,
     "english": "The Moon",
-    "turkish" : "Kamer",
+    "turkish": "Kamer",
     "place": "Makkah",
     "arabic": "القمر"
   },
@@ -490,7 +490,7 @@ const List surah = [
     "name": "Ar Rahman",
     "aya": 78,
     "english": "The Most Merciful",
-    "turkish" : "Rahmân",
+    "turkish": "Rahmân",
     "place": "Madinah",
     "arabic": "الرحمن"
   },
@@ -499,7 +499,7 @@ const List surah = [
     "name": "Al Waqiah",
     "aya": 96,
     "english": "The Inevitable",
-    "turkish" : "Vâkıa",
+    "turkish": "Vâkıa",
     "place": "Makkah",
     "arabic": "الواقعة"
   },
@@ -508,7 +508,7 @@ const List surah = [
     "name": "Al Hadeed",
     "aya": 29,
     "english": "The Iron",
-    "turkish" : "Hadîd",
+    "turkish": "Hadîd",
     "place": "Madinah",
     "arabic": "الحديد"
   },
@@ -517,7 +517,7 @@ const List surah = [
     "name": "Al Mujadila",
     "aya": 22,
     "english": "The Pleading",
-    "turkish" : "Mücâdele",
+    "turkish": "Mücâdele",
     "place": "Madinah",
     "arabic": "المجادلة"
   },
@@ -526,7 +526,7 @@ const List surah = [
     "name": "Al Hashr",
     "aya": 24,
     "english": "The Mustering",
-    "turkish" : "Haşr",
+    "turkish": "Haşr",
     "place": "Manidah",
     "arabic": "الحشر"
   },
@@ -535,7 +535,7 @@ const List surah = [
     "name": "Al Mumtahanah",
     "aya": 13,
     "english": "The Examined One",
-    "turkish" : "Mümtehine",
+    "turkish": "Mümtehine",
     "place": "Madinah",
     "arabic": "الممتحنة"
   },
@@ -544,7 +544,7 @@ const List surah = [
     "name": "As Saff",
     "aya": 14,
     "english": "The Ranks",
-    "turkish" : "Saff",
+    "turkish": "Saff",
     "place": "Madinah",
     "arabic": "الصف"
   },
@@ -553,7 +553,7 @@ const List surah = [
     "name": "Al Jumu'ah",
     "aya": 11,
     "english": "Congregation (Friday)",
-    "turkish" : "Cuma",
+    "turkish": "Cuma",
     "place": "Madinah",
     "arabic": "الجمعة"
   },
@@ -562,7 +562,7 @@ const List surah = [
     "name": "Al Munafiqoon",
     "aya": 11,
     "english": "The Hypocrites",
-    "turkish" : "Münâfikûn",
+    "turkish": "Münâfikûn",
     "place": "Madinah",
     "arabic": "المنافقون"
   },
@@ -571,7 +571,7 @@ const List surah = [
     "name": "At Taghabun",
     "aya": 18,
     "english": "The Cheating",
-    "turkish" : "Tegâbün",
+    "turkish": "Tegâbün",
     "place": "Madinah",
     "arabic": "التغابن"
   },
@@ -580,7 +580,7 @@ const List surah = [
     "name": "At Talaq",
     "aya": 12,
     "english": "Divorce",
-    "turkish" : "Talâk",
+    "turkish": "Talâk",
     "place": "Madinah",
     "arabic": "الطلاق"
   },
@@ -589,7 +589,7 @@ const List surah = [
     "name": "At Tahreem",
     "aya": 12,
     "english": "The Prohibition",
-    "turkish" : "Tahrîm",
+    "turkish": "Tahrîm",
     "place": "Madinah",
     "arabic": "التحريم"
   },
@@ -598,7 +598,7 @@ const List surah = [
     "name": "Al Mulk",
     "aya": 30,
     "english": "The Dominion",
-    "turkish" : "Mülk",
+    "turkish": "Mülk",
     "place": "Makkah",
     "arabic": "الملك"
   },
@@ -607,7 +607,7 @@ const List surah = [
     "name": "Al Qalam",
     "aya": 52,
     "english": "The Pen",
-    "turkish" : "Kalem",
+    "turkish": "Kalem",
     "place": "Makkah",
     "arabic": "القلم"
   },
@@ -616,7 +616,7 @@ const List surah = [
     "name": "Al Haaqqah",
     "aya": 52,
     "english": "The Sure Reality",
-    "turkish" : "Hâkka",
+    "turkish": "Hâkka",
     "place": "Makkah",
     "arabic": "الحاقة"
   },
@@ -625,7 +625,7 @@ const List surah = [
     "name": "Al Ma'arij",
     "aya": 44,
     "english": "The Ways of Ascent",
-    "turkish" : "Meâric",
+    "turkish": "Meâric",
     "place": "Makkah",
     "arabic": "المعارج"
   },
@@ -634,7 +634,7 @@ const List surah = [
     "name": "Nooh",
     "aya": 28,
     "english": "Noah",
-    "turkish" : "Nûh",
+    "turkish": "Nûh",
     "place": "Makkah",
     "arabic": "نوح"
   },
@@ -643,7 +643,7 @@ const List surah = [
     "name": "Al Jinn",
     "aya": 28,
     "english": "The Jinn",
-    "turkish" : "Cin",
+    "turkish": "Cin",
     "place": "makkah",
     "arabic": "الجن"
   },
@@ -652,7 +652,7 @@ const List surah = [
     "name": "Al Muzammil",
     "aya": 20,
     "english": "The Enfolded One",
-    "turkish" : "Müzzemmil",
+    "turkish": "Müzzemmil",
     "place": "Makkah",
     "arabic": "المزمل"
   },
@@ -661,7 +661,7 @@ const List surah = [
     "name": "Al Muddathir",
     "aya": 56,
     "english": "The One Wrapped Up",
-    "turkish" : "Müddessir",
+    "turkish": "Müddessir",
     "place": "Makkah",
     "arabic": "المدثر"
   },
@@ -670,7 +670,7 @@ const List surah = [
     "name": "Al Qiyamah",
     "aya": 40,
     "english": "Resurrection",
-    "turkish" : "Kıyâmet",
+    "turkish": "Kıyâmet",
     "place": "Makkah",
     "arabic": "القيامة"
   },
@@ -679,7 +679,7 @@ const List surah = [
     "name": "Al Insaan",
     "aya": 31,
     "english": "The Human",
-    "turkish" : "İnsân",
+    "turkish": "İnsân",
     "place": "Madinah",
     "arabic": "الانسان"
   },
@@ -688,7 +688,7 @@ const List surah = [
     "name": "Al Mursalat",
     "aya": 50,
     "english": "Those Sent Forth",
-    "turkish" : "Mürselât",
+    "turkish": "Mürselât",
     "place": "Makkah",
     "arabic": "المرسلات"
   },
@@ -697,16 +697,16 @@ const List surah = [
     "name": "An Naba",
     "aya": 40,
     "english": "The Great News",
-    "turkish" : "Nebe",
+    "turkish": "Nebe",
     "place": "Makkah",
-    "arabic": "النبإ"
+    "arabic": "النبأ"
   },
   {
     "id": 79,
     "name": "An Naaziat",
     "aya": 46,
     "english": "Those Who Tear Out",
-    "turkish" : "Naziât",
+    "turkish": "Naziât",
     "place": "Makkah",
     "arabic": "النازعات"
   },
@@ -715,7 +715,7 @@ const List surah = [
     "name": "Abasa",
     "aya": 42,
     "english": "He Frowned",
-    "turkish" : "Abese",
+    "turkish": "Abese",
     "place": "Makkah",
     "arabic": "عبس"
   },
@@ -724,7 +724,7 @@ const List surah = [
     "name": "At Takweer",
     "aya": 29,
     "english": "The Folding Up",
-    "turkish" : "Tekvîr",
+    "turkish": "Tekvîr",
     "place": "Makkah",
     "arabic": "التكوير"
   },
@@ -733,7 +733,7 @@ const List surah = [
     "name": "Al Infitar",
     "aya": 19,
     "english": "The Overthrowing",
-    "turkish" : "İnfitâr",
+    "turkish": "İnfitâr",
     "place": "Makkah",
     "arabic": "الإنفطار"
   },
@@ -742,7 +742,7 @@ const List surah = [
     "name": "Al Mutaffifin",
     "aya": 36,
     "english": "The Cleaving Asunder",
-    "turkish" : "Mutaffifîn",
+    "turkish": "Mutaffifîn",
     "place": "Makkah",
     "arabic": "المطففين"
   },
@@ -751,7 +751,7 @@ const List surah = [
     "name": "Al Inshiqaaq",
     "aya": 25,
     "english": "The Dealers in Fraud",
-    "turkish" : "İnşikâk",
+    "turkish": "İnşikâk",
     "place": "Makkah",
     "arabic": "الإنشقاق"
   },
@@ -760,7 +760,7 @@ const List surah = [
     "name": "Al Burooj",
     "aya": 22,
     "english": "The Constellations",
-    "turkish" : "Burûc",
+    "turkish": "Burûc",
     "place": "Makkah",
     "arabic": "البروج"
   },
@@ -769,7 +769,7 @@ const List surah = [
     "name": "At Taariq",
     "aya": 17,
     "english": "The Morning Star",
-    "turkish" : "Târık",
+    "turkish": "Târık",
     "place": "Makkah",
     "arabic": "الطارق"
   },
@@ -778,7 +778,7 @@ const List surah = [
     "name": "Al A'laa",
     "aya": 19,
     "english": "The Most High",
-    "turkish" : "A'lâ",
+    "turkish": "A'lâ",
     "place": "Makkah",
     "arabic": "الأعلى"
   },
@@ -787,7 +787,7 @@ const List surah = [
     "name": "Al Ghaashiyah",
     "aya": 26,
     "english": "The Overwhelming Event",
-    "turkish" : "Gâşiye",
+    "turkish": "Gâşiye",
     "place": "Makkah",
     "arabic": "الغاشية"
   },
@@ -796,7 +796,7 @@ const List surah = [
     "name": "Al Fajr",
     "aya": 30,
     "english": "The Daybreak",
-    "turkish" : "Fecr",
+    "turkish": "Fecr",
     "place": "Makkah",
     "arabic": "الفجر"
   },
@@ -805,7 +805,7 @@ const List surah = [
     "name": "Al Balad",
     "aya": 20,
     "english": "The City",
-    "turkish" : "Beled",
+    "turkish": "Beled",
     "place": "Makkah",
     "arabic": "البلد"
   },
@@ -814,7 +814,7 @@ const List surah = [
     "name": "Ash Shams",
     "aya": 15,
     "english": "The Sun",
-    "turkish" : "Şems",
+    "turkish": "Şems",
     "place": "Makkah",
     "arabic": "الشمس"
   },
@@ -823,7 +823,7 @@ const List surah = [
     "name": "Al Layl",
     "aya": 21,
     "english": "The Night",
-    "turkish" : "Leyl",
+    "turkish": "Leyl",
     "place": "Makkah",
     "arabic": "الليل"
   },
@@ -832,7 +832,7 @@ const List surah = [
     "name": "Ad Dhuha",
     "aya": 11,
     "english": "The Glorious Morning Light",
-    "turkish" : "Duhâ",
+    "turkish": "Duhâ",
     "place": "Makkah",
     "arabic": "الضحى"
   },
@@ -841,7 +841,7 @@ const List surah = [
     "name": "Ash Sharh",
     "aya": 8,
     "english": "The Opening Up of the Heart",
-    "turkish" : "İnşirâh",
+    "turkish": "İnşirâh",
     "place": "Makkah",
     "arabic": "الشرح"
   },
@@ -850,7 +850,7 @@ const List surah = [
     "name": "At Teen",
     "aya": 8,
     "english": "The Fig Tree",
-    "turkish" : "Tîn",
+    "turkish": "Tîn",
     "place": "Makkah",
     "arabic": "التين"
   },
@@ -859,7 +859,7 @@ const List surah = [
     "name": "Al Alaq",
     "aya": 19,
     "english": "The Clinging Clot",
-    "turkish" : "Alak",
+    "turkish": "Alak",
     "place": "Makkah",
     "arabic": "العلق"
   },
@@ -868,7 +868,7 @@ const List surah = [
     "name": "Al Qadr",
     "aya": 5,
     "english": "The Night of Honor",
-    "turkish" : "Kadir",
+    "turkish": "Kadir",
     "place": "Makkah",
     "arabic": "القدر"
   },
@@ -877,7 +877,7 @@ const List surah = [
     "name": "Al Bayyinah",
     "aya": 8,
     "english": "The Clear Evidence",
-    "turkish" : "Beyyine",
+    "turkish": "Beyyine",
     "place": "Madinah",
     "arabic": "البينة"
   },
@@ -886,7 +886,7 @@ const List surah = [
     "name": "Az Zalzalah",
     "aya": 8,
     "english": "The Earthquake",
-    "turkish" : "Zilzâl",
+    "turkish": "Zilzâl",
     "place": "Madinah",
     "arabic": "الزلزلة"
   },
@@ -895,7 +895,7 @@ const List surah = [
     "name": "Al Aadiyaat",
     "aya": 11,
     "english": "The Courser",
-    "turkish" : "Âdiyât",
+    "turkish": "Âdiyât",
     "place": "Makkah",
     "arabic": "العاديات"
   },
@@ -904,7 +904,7 @@ const List surah = [
     "name": "Al Qaari'ah",
     "aya": 11,
     "english": "The Striking Hour",
-    "turkish" : "Kâria",
+    "turkish": "Kâria",
     "place": "Makkah",
     "arabic": "القارعة"
   },
@@ -913,7 +913,7 @@ const List surah = [
     "name": "At Takaathur",
     "aya": 8,
     "english": "The Piling Up",
-    "turkish" : "Tekâsür",
+    "turkish": "Tekâsür",
     "place": "Makkah",
     "arabic": "التكاثر"
   },
@@ -922,7 +922,7 @@ const List surah = [
     "name": "Al Asr",
     "aya": 3,
     "english": "The Time",
-    "turkish" : "Asr",
+    "turkish": "Asr",
     "place": "Makkah",
     "arabic": "العصر"
   },
@@ -931,7 +931,7 @@ const List surah = [
     "name": "Al Humazah",
     "aya": 9,
     "english": "The Scandalmonger",
-    "turkish" : "Hümeze",
+    "turkish": "Hümeze",
     "place": "Makkah",
     "arabic": "الهمزة"
   },
@@ -940,7 +940,7 @@ const List surah = [
     "name": "Al Feel",
     "aya": 5,
     "english": "The Elephant",
-    "turkish" : "Fîl",
+    "turkish": "Fîl",
     "place": "Makkah",
     "arabic": "الفيل"
   },
@@ -949,7 +949,7 @@ const List surah = [
     "name": "Quraysh",
     "aya": 4,
     "english": "The Quraysh",
-    "turkish" : "Kureyş",
+    "turkish": "Kureyş",
     "place": "Makkah",
     "arabic": "قريش"
   },
@@ -958,7 +958,7 @@ const List surah = [
     "name": "Al Maa'oon",
     "aya": 7,
     "english": "The Neighbourly Assistance",
-    "turkish" : "Maûn",
+    "turkish": "Maûn",
     "place": "Makkah",
     "arabic": "الماعون"
   },
@@ -967,7 +967,7 @@ const List surah = [
     "name": "Al Kawthar",
     "aya": 3,
     "english": "Abundance",
-    "turkish" : "Kevser",
+    "turkish": "Kevser",
     "place": "Makkah",
     "arabic": "الكوثر"
   },
@@ -976,7 +976,7 @@ const List surah = [
     "name": "Al Kaafiroon",
     "aya": 6,
     "english": "The Disbelievers",
-    "turkish" : "Kâfirûn",
+    "turkish": "Kâfirûn",
     "place": "Makkah",
     "arabic": "الكافرون"
   },
@@ -985,7 +985,7 @@ const List surah = [
     "name": "An Nasr",
     "aya": 3,
     "english": "The Help",
-    "turkish" : "Nasr",
+    "turkish": "Nasr",
     "place": "Madinah",
     "arabic": "النصر"
   },
@@ -994,7 +994,7 @@ const List surah = [
     "name": "Al Masad",
     "aya": 5,
     "english": "The Plaited Rope",
-    "turkish" : "Tebbet",
+    "turkish": "Tebbet",
     "place": "Makkah",
     "arabic": "اللهب"
   },
@@ -1003,7 +1003,7 @@ const List surah = [
     "name": "Al Ikhlaas",
     "aya": 4,
     "english": "Purity of Faith",
-    "turkish" : "İhlâs",
+    "turkish": "İhlâs",
     "place": "Makkah",
     "arabic": "الإخلاص"
   },
@@ -1012,7 +1012,7 @@ const List surah = [
     "name": "Al Falaq",
     "aya": 5,
     "english": "The Rising Dawn",
-    "turkish" : "Felak",
+    "turkish": "Felak",
     "place": "Makkah",
     "arabic": "الفلق"
   },
@@ -1021,7 +1021,7 @@ const List surah = [
     "name": "An Naas",
     "aya": 6,
     "english": "Mankind",
-    "turkish" : "Nâs",
+    "turkish": "Nâs",
     "place": "Makkah",
     "arabic": "الناس"
   }

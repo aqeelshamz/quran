@@ -699,7 +699,7 @@ const List surah = [
     "english": "The Great News",
     "turkish" : "Nebe",
     "place": "Makkah",
-    "arabic": "النبأ
+    "arabic": "النبإ"
   },
   {
     "id": 79,

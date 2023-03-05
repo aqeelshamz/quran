@@ -1,3 +1,10 @@
+## 1.2.1
+
+* New translation added - Turkish
+* Fixed Typo - Surah An Naba Arabic name
+New Function added:
+* `getSurahNameTurkish` - Get surah name in Turkish
+
 ## 1.2.0
 
 * `searchWords` - Search words in Arabic Quran text
@@ -13,7 +20,7 @@
 
 ## 1.1.7
 
-* Added translation - Saheeh International (English)
+* New translation added - Saheeh International (English)
 * `getVerseTranslation` - Get verse translation
 * Added `arabicNumeral` parameter to `getVerseEndSymbol`
 

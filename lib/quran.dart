@@ -127,7 +127,7 @@ String getSurahNameEnglish(int surahNumber) {
   return surah[surahNumber - 1]['english'].toString();
 }
 
-///Takes [surahNumber] returns the Surah name in English
+///Takes [surahNumber] returns the Surah name in Turkish
 String getSurahNameTurkish(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {
     throw "No Surah found with given surahNumber";
@@ -262,7 +262,13 @@ List<int> getSurahPages(int surahNumber) {
   return pages;
 }
 
-enum SurahSeperator { none, surahName, surahNameArabic, surahNameEnglish, surahNameTurkish }
+enum SurahSeperator {
+  none,
+  surahName,
+  surahNameArabic,
+  surahNameEnglish,
+  surahNameTurkish
+}
 
 ///Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
 ///if [customSurahSeperator] is given, [surahSeperator] will not work.
@@ -285,7 +291,7 @@ List<String> getVersesTextByPage(int pageNumber,
       verses.add(getSurahNameArabic(data["surah"]));
     } else if (surahSeperator == SurahSeperator.surahNameEnglish) {
       verses.add(getSurahNameEnglish(data["surah"]));
-    }else if (surahSeperator == SurahSeperator.surahNameTurkish) {
+    } else if (surahSeperator == SurahSeperator.surahNameTurkish) {
       verses.add(getSurahNameTurkish(data["surah"]));
     }
     for (int j = data["start"]; j <= data["end"]; j++) {

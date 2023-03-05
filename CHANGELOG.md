@@ -2,8 +2,7 @@
 
 * New translation added - Turkish
 * Fixed Typo - Surah An Naba Arabic name
-New Function added:
-* `getSurahNameTurkish` - Get surah name in Turkish
+* New Function added: `getSurahNameTurkish` - Get surah name in Turkish
 
 ## 1.2.0
 

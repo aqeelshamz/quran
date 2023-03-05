@@ -1,5 +1,5 @@
 name: quran
-description: Quran text (Arabic), audio URLs, and details of pages, juz, surah, ayah, place of revelation etc.
+description: Quran text, translation, audio URLs, and details of pages, juz, surah, ayah, place of revelation etc.
 version: 1.2.1
 homepage: https://github.com/aqeelshamz/quran
 

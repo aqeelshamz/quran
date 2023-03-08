@@ -1,3 +1,8 @@
+## 1.2.2
+
+* New translation added - Malayalam (Translation edition: Cheriyamundam Abdul Hameed and Kunhi Mohammed Parappoor)
+* Fixed Typo - Surah Al Masad Arabic name
+
 ## 1.2.1
 
 * New translation added - Turkish

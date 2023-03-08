@@ -64,6 +64,12 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 - **`searchWords(List<String> words)`** - Takes a list of words [words] and returns a map containing no. of occurences and result of the word search in the arabic quran text
 - **`searchWordsInTranslation(List<String> words, {Translation translation})`** - Takes a list of words [words] and [translation] (optional) and returns a map containing no. of occurences and result of the word search in the traslation
 
+**Translations:**
+
+- English (Saheeh International) - **`Translation.enSaheeh`**
+- Turkish - **`Translation.trSaheeh`**
+- Malayalam (Cheriyamundam Abdul Hameed and Kunhi Mohammed Parappoor) - **`Translation.mlAbdulHameed`**
+
 ## Example
 
 ![example](https://raw.githubusercontent.com/aqeelshamz/quran/main/images/1.png)

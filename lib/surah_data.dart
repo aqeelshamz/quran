@@ -996,7 +996,7 @@ const List surah = [
     "english": "The Plaited Rope",
     "turkish": "Tebbet",
     "place": "Makkah",
-    "arabic": "اللهب"
+    "arabic": "المسد"
   },
   {
     "id": 112,

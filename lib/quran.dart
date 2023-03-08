@@ -2,6 +2,7 @@ library quran;
 
 import 'package:quran/translations/en_saheeh.dart';
 import 'package:quran/translations/tr_saheeh.dart';
+import 'package:quran/translations/ml_abdulhameed.dart';
 
 import 'juz_data.dart';
 import 'page_data.dart';
@@ -267,7 +268,7 @@ enum SurahSeperator {
   surahName,
   surahNameArabic,
   surahNameEnglish,
-  surahNameTurkish
+  surahNameTurkish,
 }
 
 ///Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
@@ -327,7 +328,7 @@ String getAudioURLByVerseNumber(int verseNumber) {
   return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNumber.mp3";
 }
 
-enum Translation { enSaheeh, trSaheeh }
+enum Translation { enSaheeh, trSaheeh, mlAbdulHameed }
 
 ///Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
 String getVerseTranslation(int surahNumber, int verseNumber,
@@ -343,6 +344,9 @@ String getVerseTranslation(int surahNumber, int verseNumber,
       break;
     case Translation.trSaheeh:
       translationText = trSaheeh;
+      break;
+    case Translation.mlAbdulHameed:
+      translationText = mlAbdulHameed;
       break;
     default:
       translationText = enSaheeh;
@@ -376,6 +380,9 @@ Map searchWordsInTranslation(List<String> words,
       break;
     case Translation.trSaheeh:
       translationText = trSaheeh;
+      break;
+    case Translation.mlAbdulHameed:
+      translationText = mlAbdulHameed;
       break;
     default:
       translationText = enSaheeh;

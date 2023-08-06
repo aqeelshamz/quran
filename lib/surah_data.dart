@@ -5,6 +5,7 @@ const List surah = [
     "aya": 7,
     "english": "The Opening",
     "turkish": "Fâtiha",
+    "french": "L'ouverture",
     "place": "Makkah",
     "arabic": "الفاتحة"
   },
@@ -14,6 +15,7 @@ const List surah = [
     "aya": 286,
     "english": "The Cow",
     "turkish": "Bakara",
+    "french": "La Vache",
     "place": "Madinah",
     "arabic": "البقرة"
   },
@@ -23,6 +25,7 @@ const List surah = [
     "aya": 200,
     "english": "The Family of Imran",
     "turkish": "Âl-i İmrân",
+    "french": "La famille D'Imran",
     "place": "Madinah",
     "arabic": "آل عمران"
   },
@@ -32,6 +35,7 @@ const List surah = [
     "aya": 176,
     "english": "The Women",
     "turkish": "Nisâ",
+    "french": "Les femmes",
     "place": "Madinah",
     "arabic": "النساء"
   },
@@ -41,6 +45,7 @@ const List surah = [
     "aya": 120,
     "english": "The Table",
     "turkish": "Mâide",
+    "french": "La table servie",
     "place": "Madinah",
     "arabic": "المائدة"
   },
@@ -50,6 +55,7 @@ const List surah = [
     "aya": 165,
     "english": "The Cattle",
     "turkish": "En'âm",
+    "french": "Les bestiaux",
     "place": "Makkah",
     "arabic": "الأنعام"
   },
@@ -59,6 +65,7 @@ const List surah = [
     "aya": 206,
     "english": "The Heights",
     "turkish": "A'râf",
+    "french": "Les murailles",
     "place": "Makkah",
     "arabic": "الأعراف"
   },
@@ -68,6 +75,7 @@ const List surah = [
     "aya": 75,
     "english": "The Spoils of War",
     "turkish": "Enfâl",
+    "french": "Le butin",
     "place": "Madinah",
     "arabic": "الأنفال"
   },
@@ -77,6 +85,7 @@ const List surah = [
     "aya": 129,
     "english": "The Repentance",
     "turkish": "Tevbe",
+    "french": "Le repentir",
     "place": "Madinah",
     "arabic": "التوبة"
   },
@@ -86,6 +95,7 @@ const List surah = [
     "aya": 109,
     "english": "Jonah",
     "turkish": "Yûnus",
+    "french": "Jonas",
     "place": "Makkah",
     "arabic": "يونس"
   },
@@ -95,6 +105,7 @@ const List surah = [
     "aya": 123,
     "english": "Hud",
     "turkish": "Hûd",
+    "french": "Hud",
     "place": "Makkah",
     "arabic": "هود"
   },
@@ -104,6 +115,7 @@ const List surah = [
     "aya": 111,
     "english": "Joseph",
     "turkish": "Yûsuf",
+    "french": "Joseph",
     "place": "Makkah",
     "arabic": "يوسف"
   },
@@ -113,6 +125,7 @@ const List surah = [
     "aya": 43,
     "english": "The Thunder",
     "turkish": "Ra'd",
+    "french": "Le tonnerre",
     "place": "Madinah",
     "arabic": "الرعد"
   },
@@ -122,6 +135,7 @@ const List surah = [
     "aya": 52,
     "english": "Abraham",
     "turkish": "İbrâhîm",
+    "french": "Abraham",
     "place": "Makkah",
     "arabic": "ابراهيم"
   },
@@ -131,6 +145,7 @@ const List surah = [
     "aya": 99,
     "english": "The Stoneland",
     "turkish": "Hicr",
+    "french": "Le chemin rocailleux",
     "place": "Makkah",
     "arabic": "الحجر"
   },
@@ -140,6 +155,7 @@ const List surah = [
     "aya": 128,
     "english": "The Honey Bee",
     "turkish": "Nahl",
+    "french": "Les abeilles",
     "place": "Makkah",
     "arabic": "النحل"
   },
@@ -149,6 +165,7 @@ const List surah = [
     "aya": 111,
     "english": "The Night Journey",
     "turkish": "İsrâ",
+    "french": "Le voyage nocturne",
     "place": "Makkah",
     "arabic": "الإسراء"
   },
@@ -158,6 +175,7 @@ const List surah = [
     "aya": 110,
     "english": "The Cave",
     "turkish": "Kehf",
+    "french": "La caverne",
     "place": "Makkah",
     "arabic": "الكهف"
   },
@@ -167,6 +185,7 @@ const List surah = [
     "aya": 98,
     "english": "Mary",
     "turkish": "Meryem",
+    "french": "Marie",
     "place": "Makkah",
     "arabic": "مريم"
   },
@@ -176,6 +195,7 @@ const List surah = [
     "aya": 135,
     "english": "Ta Ha",
     "turkish": "Tâhâ",
+    "french": "Ta-Ha",
     "place": "Makkah",
     "arabic": "طه"
   },
@@ -185,6 +205,7 @@ const List surah = [
     "aya": 112,
     "english": "The Prophets",
     "turkish": "Enbiyâ",
+    "french": "Les prophètes",
     "place": "Makkah",
     "arabic": "الأنبياء"
   },
@@ -194,6 +215,7 @@ const List surah = [
     "aya": 78,
     "english": "The Pilgrimage",
     "turkish": "Hac",
+    "french": "Le pèlerinage",
     "place": "Madinah",
     "arabic": "الحج"
   },
@@ -203,6 +225,7 @@ const List surah = [
     "aya": 118,
     "english": "The Believers",
     "turkish": "Mü'minûn",
+    "french": "Les croyants",
     "place": "Makkah",
     "arabic": "المؤمنون"
   },
@@ -212,6 +235,7 @@ const List surah = [
     "aya": 64,
     "english": "The Light",
     "turkish": "Nûr",
+    "french": "La lumière",
     "place": "Madinah",
     "arabic": "النور"
   },
@@ -221,6 +245,7 @@ const List surah = [
     "aya": 77,
     "english": "The Criterion",
     "turkish": "Furkân",
+    "french": "Le discernement",
     "place": "Makkah",
     "arabic": "الفرقان"
   },
@@ -230,6 +255,7 @@ const List surah = [
     "aya": 227,
     "english": "The Poets",
     "turkish": "Şuarâ",
+    "french": "Les poètes",
     "place": "Makkah",
     "arabic": "الشعراء"
   },
@@ -238,6 +264,7 @@ const List surah = [
     "name": "An Naml",
     "aya": 93,
     "english": "The Ant",
+    "french": "Les fourmis",
     "turkish": "Neml",
     "place": "Makkah",
     "arabic": "النمل"
@@ -248,6 +275,7 @@ const List surah = [
     "aya": 88,
     "english": "The Narrations",
     "turkish": "Kasas",
+    "french": "Le récit",
     "place": "Makkah",
     "arabic": "القصص"
   },
@@ -257,6 +285,7 @@ const List surah = [
     "aya": 69,
     "english": "The Spider",
     "turkish": "Ankebût",
+    "french": "L'araignée",
     "place": "Makkah",
     "arabic": "العنكبوت"
   },
@@ -266,6 +295,7 @@ const List surah = [
     "aya": 60,
     "english": "Rome",
     "turkish": "Rûm",
+    "french": "Les romains",
     "place": "Makkah",
     "arabic": "الروم"
   },
@@ -275,6 +305,7 @@ const List surah = [
     "aya": 34,
     "english": "Luqman",
     "turkish": "Lokmân",
+    "french": "Luqman",
     "place": "Makkah",
     "arabic": "لقمان"
   },
@@ -284,6 +315,7 @@ const List surah = [
     "aya": 30,
     "english": "The Prostration",
     "turkish": "Secde",
+    "french": "La prosternation",
     "place": "Makkah",
     "arabic": "السجدة"
   },
@@ -293,6 +325,7 @@ const List surah = [
     "aya": 73,
     "english": "The Clans",
     "turkish": "Ahzâb",
+    "french": "Les coalisés",
     "place": "Madinah",
     "arabic": "الأحزاب"
   },
@@ -302,6 +335,7 @@ const List surah = [
     "aya": 54,
     "english": "Sheba",
     "turkish": "Sebe'",
+    "french": "Saba",
     "place": "Makkah",
     "arabic": "سبإ"
   },
@@ -311,6 +345,7 @@ const List surah = [
     "aya": 45,
     "english": "The Originator",
     "turkish": "Fâtır",
+    "french": "Le créateur",
     "place": "Makkah",
     "arabic": "فاطر"
   },
@@ -320,6 +355,7 @@ const List surah = [
     "aya": 83,
     "english": "Ya Sin",
     "turkish": "Yâsîn",
+    "french": "Ya Sin",
     "place": "Makkah",
     "arabic": "يس"
   },
@@ -329,6 +365,7 @@ const List surah = [
     "aya": 182,
     "english": "Those Who Set The Ranks",
     "turkish": "Sâffât",
+    "french": "Les rangées",
     "place": "Makkah",
     "arabic": "الصافات"
   },
@@ -338,6 +375,7 @@ const List surah = [
     "aya": 88,
     "english": "Ṣād",
     "turkish": "Sâd",
+    "french": "Ṣād",
     "place": "Makkah",
     "arabic": "ص"
   },
@@ -347,6 +385,7 @@ const List surah = [
     "aya": 75,
     "english": "The Crowds",
     "turkish": "Zümer",
+    "french": "Les groupes",
     "place": "Makkah",
     "arabic": "الزمر"
   },
@@ -356,6 +395,7 @@ const List surah = [
     "aya": 85,
     "english": "The Forgiver",
     "turkish": "Mü'min",
+    "french": "Le pardonneur",
     "place": "Makkah",
     "arabic": "غافر"
   },
@@ -365,6 +405,7 @@ const List surah = [
     "aya": 54,
     "english": "Expounded",
     "turkish": "Fussilet",
+    "french": "Les versets détaillés",
     "place": "Makkah",
     "arabic": "فصلت"
   },
@@ -374,6 +415,7 @@ const List surah = [
     "aya": 53,
     "english": "The Consultation",
     "turkish": "Şûrâ",
+    "french": "La consultation",
     "place": "Makkah",
     "arabic": "الشورى"
   },
@@ -383,6 +425,7 @@ const List surah = [
     "aya": 89,
     "english": "The Gold Adornments",
     "turkish": "Zuhruf",
+    "french": "L'ornement",
     "place": "Makkah",
     "arabic": "الزخرف"
   },
@@ -392,6 +435,7 @@ const List surah = [
     "aya": 59,
     "english": "The Smoke",
     "turkish": "Duhân",
+    "french": "La fumée",
     "place": "Makkah",
     "arabic": "الدخان"
   },
@@ -401,6 +445,7 @@ const List surah = [
     "aya": 37,
     "english": "The Kneeling Down",
     "turkish": "Câsiye",
+    "french": "L'agenouillée",
     "place": "Makkah",
     "arabic": "الجاثية"
   },
@@ -410,6 +455,7 @@ const List surah = [
     "aya": 35,
     "english": "Winding Sand tracts",
     "turkish": "Ahkâf",
+    "french": "Les dunes",
     "place": "Makkah",
     "arabic": "الأحقاف"
   },
@@ -419,6 +465,7 @@ const List surah = [
     "aya": 38,
     "english": "Muhammad",
     "turkish": "Muhammed",
+    "french": "Muhammed",
     "place": "Madinah",
     "arabic": "محمد"
   },
@@ -428,6 +475,7 @@ const List surah = [
     "aya": 29,
     "english": "The Victory",
     "turkish": "Fetih",
+    "french": "La victoire éclatante",
     "place": "Madinah",
     "arabic": "الفتح"
   },
@@ -437,6 +485,7 @@ const List surah = [
     "aya": 18,
     "english": "The Private Apartments",
     "turkish": "Hucurât",
+    "french": "Les appartements",
     "place": "Madinah",
     "arabic": "الحجرات"
   },
@@ -446,6 +495,7 @@ const List surah = [
     "aya": 45,
     "english": "Q̈āf",
     "turkish": "Kâf",
+    "french": "Q̈āf",
     "place": "Makkah",
     "arabic": "ق"
   },
@@ -455,6 +505,7 @@ const List surah = [
     "aya": 60,
     "english": "The Wind That Scatter",
     "turkish": "Zâriyât",
+    "french": "Qui éparpillent",
     "place": "Makkah",
     "arabic": "الذاريات"
   },
@@ -464,6 +515,7 @@ const List surah = [
     "aya": 49,
     "english": "The Mount",
     "turkish": "Tûr",
+    "french": "At-Tur",
     "place": "Makkah",
     "arabic": "الطور"
   },
@@ -473,6 +525,7 @@ const List surah = [
     "aya": 62,
     "english": "The Star",
     "turkish": "Necm",
+    "french": "L'étoile",
     "place": "Makkah",
     "arabic": "النجم"
   },
@@ -482,6 +535,7 @@ const List surah = [
     "aya": 55,
     "english": "The Moon",
     "turkish": "Kamer",
+    "french": "La Lune",
     "place": "Makkah",
     "arabic": "القمر"
   },
@@ -491,6 +545,7 @@ const List surah = [
     "aya": 78,
     "english": "The Most Merciful",
     "turkish": "Rahmân",
+    "french": "Le Tout Miséricordieux",
     "place": "Madinah",
     "arabic": "الرحمن"
   },
@@ -500,6 +555,7 @@ const List surah = [
     "aya": 96,
     "english": "The Inevitable",
     "turkish": "Vâkıa",
+    "french": "L'évenement",
     "place": "Makkah",
     "arabic": "الواقعة"
   },
@@ -509,6 +565,7 @@ const List surah = [
     "aya": 29,
     "english": "The Iron",
     "turkish": "Hadîd",
+    "french": "Le fer",
     "place": "Madinah",
     "arabic": "الحديد"
   },
@@ -518,6 +575,7 @@ const List surah = [
     "aya": 22,
     "english": "The Pleading",
     "turkish": "Mücâdele",
+    "french": "La discution",
     "place": "Madinah",
     "arabic": "المجادلة"
   },
@@ -527,6 +585,7 @@ const List surah = [
     "aya": 24,
     "english": "The Mustering",
     "turkish": "Haşr",
+    "french": "L'exode",
     "place": "Manidah",
     "arabic": "الحشر"
   },
@@ -536,6 +595,7 @@ const List surah = [
     "aya": 13,
     "english": "The Examined One",
     "turkish": "Mümtehine",
+    "french": "L'éprouvée",
     "place": "Madinah",
     "arabic": "الممتحنة"
   },
@@ -545,6 +605,7 @@ const List surah = [
     "aya": 14,
     "english": "The Ranks",
     "turkish": "Saff",
+    "french": "Le rang",
     "place": "Madinah",
     "arabic": "الصف"
   },
@@ -554,6 +615,7 @@ const List surah = [
     "aya": 11,
     "english": "Congregation (Friday)",
     "turkish": "Cuma",
+    "french": "Le vendredi",
     "place": "Madinah",
     "arabic": "الجمعة"
   },
@@ -563,6 +625,7 @@ const List surah = [
     "aya": 11,
     "english": "The Hypocrites",
     "turkish": "Münâfikûn",
+    "french": "Les hypocrites",
     "place": "Madinah",
     "arabic": "المنافقون"
   },
@@ -572,6 +635,7 @@ const List surah = [
     "aya": 18,
     "english": "The Cheating",
     "turkish": "Tegâbün",
+    "french": "La grande perte",
     "place": "Madinah",
     "arabic": "التغابن"
   },
@@ -581,6 +645,7 @@ const List surah = [
     "aya": 12,
     "english": "Divorce",
     "turkish": "Talâk",
+    "french": "Le divorce",
     "place": "Madinah",
     "arabic": "الطلاق"
   },
@@ -590,6 +655,7 @@ const List surah = [
     "aya": 12,
     "english": "The Prohibition",
     "turkish": "Tahrîm",
+    "french": "L'interdiction",
     "place": "Madinah",
     "arabic": "التحريم"
   },
@@ -599,6 +665,7 @@ const List surah = [
     "aya": 30,
     "english": "The Dominion",
     "turkish": "Mülk",
+    "french": "La royauté",
     "place": "Makkah",
     "arabic": "الملك"
   },
@@ -608,6 +675,7 @@ const List surah = [
     "aya": 52,
     "english": "The Pen",
     "turkish": "Kalem",
+    "french": "La plume",
     "place": "Makkah",
     "arabic": "القلم"
   },
@@ -617,6 +685,7 @@ const List surah = [
     "aya": 52,
     "english": "The Sure Reality",
     "turkish": "Hâkka",
+    "french": "Celle qui montre la vérité",
     "place": "Makkah",
     "arabic": "الحاقة"
   },
@@ -626,6 +695,7 @@ const List surah = [
     "aya": 44,
     "english": "The Ways of Ascent",
     "turkish": "Meâric",
+    "french": "Les voies d'ascension",
     "place": "Makkah",
     "arabic": "المعارج"
   },
@@ -635,6 +705,7 @@ const List surah = [
     "aya": 28,
     "english": "Noah",
     "turkish": "Nûh",
+    "french": "Noé",
     "place": "Makkah",
     "arabic": "نوح"
   },
@@ -644,6 +715,7 @@ const List surah = [
     "aya": 28,
     "english": "The Jinn",
     "turkish": "Cin",
+    "french": "Les Djinns",
     "place": "makkah",
     "arabic": "الجن"
   },
@@ -653,6 +725,7 @@ const List surah = [
     "aya": 20,
     "english": "The Enfolded One",
     "turkish": "Müzzemmil",
+    "french": "L'enveloppé",
     "place": "Makkah",
     "arabic": "المزمل"
   },
@@ -662,6 +735,7 @@ const List surah = [
     "aya": 56,
     "english": "The One Wrapped Up",
     "turkish": "Müddessir",
+    "french": "Le revêtu d'un manteau",
     "place": "Makkah",
     "arabic": "المدثر"
   },
@@ -671,6 +745,7 @@ const List surah = [
     "aya": 40,
     "english": "Resurrection",
     "turkish": "Kıyâmet",
+    "french": "La résurrection",
     "place": "Makkah",
     "arabic": "القيامة"
   },
@@ -680,6 +755,7 @@ const List surah = [
     "aya": 31,
     "english": "The Human",
     "turkish": "İnsân",
+    "french": "L'homme",
     "place": "Madinah",
     "arabic": "الانسان"
   },
@@ -689,6 +765,7 @@ const List surah = [
     "aya": 50,
     "english": "Those Sent Forth",
     "turkish": "Mürselât",
+    "french": "Les envoyés",
     "place": "Makkah",
     "arabic": "المرسلات"
   },
@@ -698,6 +775,7 @@ const List surah = [
     "aya": 40,
     "english": "The Great News",
     "turkish": "Nebe",
+    "french": "La nouvelle",
     "place": "Makkah",
     "arabic": "النبأ"
   },
@@ -707,6 +785,7 @@ const List surah = [
     "aya": 46,
     "english": "Those Who Tear Out",
     "turkish": "Naziât",
+    "french": "Les anges qui arrachent les âmes",
     "place": "Makkah",
     "arabic": "النازعات"
   },
@@ -716,6 +795,7 @@ const List surah = [
     "aya": 42,
     "english": "He Frowned",
     "turkish": "Abese",
+    "french": "Il s'est renfrogné",
     "place": "Makkah",
     "arabic": "عبس"
   },
@@ -725,6 +805,7 @@ const List surah = [
     "aya": 29,
     "english": "The Folding Up",
     "turkish": "Tekvîr",
+    "french": "L'obscurcissement",
     "place": "Makkah",
     "arabic": "التكوير"
   },
@@ -734,6 +815,7 @@ const List surah = [
     "aya": 19,
     "english": "The Overthrowing",
     "turkish": "İnfitâr",
+    "french": "La rupture",
     "place": "Makkah",
     "arabic": "الإنفطار"
   },
@@ -743,6 +825,7 @@ const List surah = [
     "aya": 36,
     "english": "The Cleaving Asunder",
     "turkish": "Mutaffifîn",
+    "french": "Les fraudeurs",
     "place": "Makkah",
     "arabic": "المطففين"
   },
@@ -752,6 +835,7 @@ const List surah = [
     "aya": 25,
     "english": "The Dealers in Fraud",
     "turkish": "İnşikâk",
+    "french": "La déchirure",
     "place": "Makkah",
     "arabic": "الإنشقاق"
   },
@@ -761,6 +845,7 @@ const List surah = [
     "aya": 22,
     "english": "The Constellations",
     "turkish": "Burûc",
+    "french": "Les constellations",
     "place": "Makkah",
     "arabic": "البروج"
   },
@@ -770,6 +855,7 @@ const List surah = [
     "aya": 17,
     "english": "The Morning Star",
     "turkish": "Târık",
+    "french": "L'astre nocturne",
     "place": "Makkah",
     "arabic": "الطارق"
   },
@@ -779,6 +865,7 @@ const List surah = [
     "aya": 19,
     "english": "The Most High",
     "turkish": "A'lâ",
+    "french": "Le Très-Haut",
     "place": "Makkah",
     "arabic": "الأعلى"
   },
@@ -788,6 +875,7 @@ const List surah = [
     "aya": 26,
     "english": "The Overwhelming Event",
     "turkish": "Gâşiye",
+    "french": "L'enveloppante",
     "place": "Makkah",
     "arabic": "الغاشية"
   },
@@ -797,6 +885,7 @@ const List surah = [
     "aya": 30,
     "english": "The Daybreak",
     "turkish": "Fecr",
+    "french": "L'aube",
     "place": "Makkah",
     "arabic": "الفجر"
   },
@@ -806,6 +895,7 @@ const List surah = [
     "aya": 20,
     "english": "The City",
     "turkish": "Beled",
+    "french": "La cité",
     "place": "Makkah",
     "arabic": "البلد"
   },
@@ -815,6 +905,7 @@ const List surah = [
     "aya": 15,
     "english": "The Sun",
     "turkish": "Şems",
+    "french": "Le Soleil",
     "place": "Makkah",
     "arabic": "الشمس"
   },
@@ -824,6 +915,7 @@ const List surah = [
     "aya": 21,
     "english": "The Night",
     "turkish": "Leyl",
+    "french": "La nuit",
     "place": "Makkah",
     "arabic": "الليل"
   },
@@ -833,6 +925,7 @@ const List surah = [
     "aya": 11,
     "english": "The Glorious Morning Light",
     "turkish": "Duhâ",
+    "french": "Le jour montant",
     "place": "Makkah",
     "arabic": "الضحى"
   },
@@ -842,6 +935,7 @@ const List surah = [
     "aya": 8,
     "english": "The Opening Up of the Heart",
     "turkish": "İnşirâh",
+    "french": "L'ouverture",
     "place": "Makkah",
     "arabic": "الشرح"
   },
@@ -851,6 +945,7 @@ const List surah = [
     "aya": 8,
     "english": "The Fig Tree",
     "turkish": "Tîn",
+    "french": "Le figuier",
     "place": "Makkah",
     "arabic": "التين"
   },
@@ -860,6 +955,7 @@ const List surah = [
     "aya": 19,
     "english": "The Clinging Clot",
     "turkish": "Alak",
+    "french": "L'adhérence",
     "place": "Makkah",
     "arabic": "العلق"
   },
@@ -869,6 +965,7 @@ const List surah = [
     "aya": 5,
     "english": "The Night of Honor",
     "turkish": "Kadir",
+    "french": "La destinée",
     "place": "Makkah",
     "arabic": "القدر"
   },
@@ -878,6 +975,7 @@ const List surah = [
     "aya": 8,
     "english": "The Clear Evidence",
     "turkish": "Beyyine",
+    "french": "La preuve",
     "place": "Madinah",
     "arabic": "البينة"
   },
@@ -887,6 +985,7 @@ const List surah = [
     "aya": 8,
     "english": "The Earthquake",
     "turkish": "Zilzâl",
+    "french": "La secousse",
     "place": "Madinah",
     "arabic": "الزلزلة"
   },
@@ -896,6 +995,7 @@ const List surah = [
     "aya": 11,
     "english": "The Courser",
     "turkish": "Âdiyât",
+    "french": "Les coursiers",
     "place": "Makkah",
     "arabic": "العاديات"
   },
@@ -905,6 +1005,7 @@ const List surah = [
     "aya": 11,
     "english": "The Striking Hour",
     "turkish": "Kâria",
+    "french": "Le fracas",
     "place": "Makkah",
     "arabic": "القارعة"
   },
@@ -914,6 +1015,7 @@ const List surah = [
     "aya": 8,
     "english": "The Piling Up",
     "turkish": "Tekâsür",
+    "french": "La course aux richesses",
     "place": "Makkah",
     "arabic": "التكاثر"
   },
@@ -923,6 +1025,7 @@ const List surah = [
     "aya": 3,
     "english": "The Time",
     "turkish": "Asr",
+    "french": "Le temps",
     "place": "Makkah",
     "arabic": "العصر"
   },
@@ -932,6 +1035,7 @@ const List surah = [
     "aya": 9,
     "english": "The Scandalmonger",
     "turkish": "Hümeze",
+    "french": "Les calomniateurs",
     "place": "Makkah",
     "arabic": "الهمزة"
   },
@@ -941,6 +1045,7 @@ const List surah = [
     "aya": 5,
     "english": "The Elephant",
     "turkish": "Fîl",
+    "french": "L'éléphant",
     "place": "Makkah",
     "arabic": "الفيل"
   },
@@ -950,6 +1055,7 @@ const List surah = [
     "aya": 4,
     "english": "The Quraysh",
     "turkish": "Kureyş",
+    "french": "Coraïsh",
     "place": "Makkah",
     "arabic": "قريش"
   },
@@ -959,6 +1065,7 @@ const List surah = [
     "aya": 7,
     "english": "The Neighbourly Assistance",
     "turkish": "Maûn",
+    "french": "L'ustensile",
     "place": "Makkah",
     "arabic": "الماعون"
   },
@@ -968,6 +1075,7 @@ const List surah = [
     "aya": 3,
     "english": "Abundance",
     "turkish": "Kevser",
+    "french": "l'abondance",
     "place": "Makkah",
     "arabic": "الكوثر"
   },
@@ -977,6 +1085,7 @@ const List surah = [
     "aya": 6,
     "english": "The Disbelievers",
     "turkish": "Kâfirûn",
+    "french": "Les infidèles",
     "place": "Makkah",
     "arabic": "الكافرون"
   },
@@ -986,6 +1095,7 @@ const List surah = [
     "aya": 3,
     "english": "The Help",
     "turkish": "Nasr",
+    "french": "Les secours",
     "place": "Madinah",
     "arabic": "النصر"
   },
@@ -995,6 +1105,7 @@ const List surah = [
     "aya": 5,
     "english": "The Plaited Rope",
     "turkish": "Tebbet",
+    "french": "Les fibres",
     "place": "Makkah",
     "arabic": "المسد"
   },
@@ -1004,6 +1115,7 @@ const List surah = [
     "aya": 4,
     "english": "Purity of Faith",
     "turkish": "İhlâs",
+    "french": "Le monothéisme pur",
     "place": "Makkah",
     "arabic": "الإخلاص"
   },
@@ -1013,6 +1125,7 @@ const List surah = [
     "aya": 5,
     "english": "The Rising Dawn",
     "turkish": "Felak",
+    "french": "L'aube naissante",
     "place": "Makkah",
     "arabic": "الفلق"
   },
@@ -1022,6 +1135,7 @@ const List surah = [
     "aya": 6,
     "english": "Mankind",
     "turkish": "Nâs",
+    "french": "Les hommes",
     "place": "Makkah",
     "arabic": "الناس"
   }

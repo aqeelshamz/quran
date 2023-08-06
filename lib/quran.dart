@@ -3,6 +3,7 @@ library quran;
 import 'package:quran/translations/en_saheeh.dart';
 import 'package:quran/translations/tr_saheeh.dart';
 import 'package:quran/translations/ml_abdulhameed.dart';
+import 'package:quran/translations/fr_Hamidullah.dart';
 
 import 'juz_data.dart';
 import 'page_data.dart';
@@ -134,6 +135,14 @@ String getSurahNameTurkish(int surahNumber) {
     throw "No Surah found with given surahNumber";
   }
   return surah[surahNumber - 1]['turkish'].toString();
+}
+
+///Takes [surahNumber] returns the Surah name in French
+String getSurahNameFrench(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+  return surah[surahNumber - 1]['french'].toString();
 }
 
 ///Takes [surahNumber] returns the Surah name in Arabic
@@ -269,6 +278,7 @@ enum SurahSeperator {
   surahNameArabic,
   surahNameEnglish,
   surahNameTurkish,
+  surahNameFrench,
 }
 
 ///Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
@@ -294,6 +304,8 @@ List<String> getVersesTextByPage(int pageNumber,
       verses.add(getSurahNameEnglish(data["surah"]));
     } else if (surahSeperator == SurahSeperator.surahNameTurkish) {
       verses.add(getSurahNameTurkish(data["surah"]));
+    } else if (surahSeperator == SurahSeperator.surahNameFrench) {
+      verses.add(getSurahNameFrench(data["surah"]));
     }
     for (int j = data["start"]; j <= data["end"]; j++) {
       verses.add(getVerse(data["surah"], j, verseEndSymbol: verseEndSymbol));
@@ -328,7 +340,7 @@ String getAudioURLByVerseNumber(int verseNumber) {
   return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNumber.mp3";
 }
 
-enum Translation { enSaheeh, trSaheeh, mlAbdulHameed }
+enum Translation { enSaheeh, trSaheeh, mlAbdulHameed, frHamidullah }
 
 ///Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
 String getVerseTranslation(int surahNumber, int verseNumber,
@@ -347,6 +359,9 @@ String getVerseTranslation(int surahNumber, int verseNumber,
       break;
     case Translation.mlAbdulHameed:
       translationText = mlAbdulHameed;
+      break;
+    case Translation.frHamidullah:
+      translationText = frHamidullah;
       break;
     default:
       translationText = enSaheeh;
@@ -383,6 +398,9 @@ Map searchWordsInTranslation(List<String> words,
       break;
     case Translation.mlAbdulHameed:
       translationText = mlAbdulHameed;
+      break;
+    case Translation.frHamidullah:
+      translationText = frHamidullah;
       break;
     default:
       translationText = enSaheeh;

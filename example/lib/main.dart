@@ -22,7 +22,8 @@ class _QuranExampleState extends State<QuranExample> {
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(15.0),
-          child: Column(
+          child: Material(
+            child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text("Juz Number: \n${quran.getJuzNumber(18, 1)}"),
@@ -39,6 +40,7 @@ class _QuranExampleState extends State<QuranExample> {
               const Text("\nBasmala: \n${quran.basmala}"),
               Text("\nVerse 1: \n${quran.getVerse(18, 1)}"),
             ],
+          ),
           ),
         ),
       ),

@@ -35,32 +35,33 @@ const List enSaheeh = [
     "verse_number": 7,
     "content":
         "Hanyar waɗanda Ka yi wa ni'ima, ba waɗanda aka yi wa fushi ba, kuma ba ɓatattu ba."
-  },
-  {"surah_number": 2, "verse_number": 1, "content": "Alif, Lam, Meem."},
+  }, /*END PAGE 1*/
+
+  {"surah_number": 2, "verse_number": 1, "content": "A. L̃. M̃."},
   {
     "surah_number": 2,
     "verse_number": 2,
     "content":
-        "This is the Book about which there is no doubt, a guidance for those conscious of Allah -"
+        "Wãncan ne Littãfi, bãbu shakka a cikinsa, shiriya ne ga mãsu taƙawa."
   },
   {
     "surah_number": 2,
     "verse_number": 3,
     "content":
-        "Who believe in the unseen, establish prayer, and spend out of what We have provided for them,"
+        "Waɗanda suke yin ĩmãni game da gaibi, kuma suna tsayar da salla, kuma daga abin da Muka azurta su suna ciyarwa."
   },
   {
     "surah_number": 2,
     "verse_number": 4,
     "content":
-        "And who believe in what has been revealed to you, [O Muhammad], and what was revealed before you, and of the Hereafter they are certain [in faith]."
+        "Kuma waɗanda suke yin ĩmãni da abin da aka saukar zuwa gare ka, da abin da aka saukar daga gabãninka, kuma game da Lãhira suna yin yaƙĩni."
   },
   {
     "surah_number": 2,
     "verse_number": 5,
     "content":
-        "Those are upon [right] guidance from their Lord, and it is those who are the successful."
-  },
+        "Waɗannan suna kan shiriya, daga Ubangjinsu, kuma waɗannan su ne mãsu cin nasara."
+  }, /*END PAGE 2*/
   {
     "surah_number": 2,
     "verse_number": 6,

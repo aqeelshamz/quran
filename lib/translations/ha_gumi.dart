@@ -72,62 +72,62 @@ const List enSaheeh = [
     "surah_number": 2,
     "verse_number": 7,
     "content":
-        "Allah has set a seal upon their hearts and upon their hearing, and over their vision is a veil. And for them is a great punishment."
+        "Allah Ya sa hãtimi a kan zukãtansu, da a kan jinsu, kuma a Kan ganin su akwai wata yãna; kuma suna da wata azãba mai girma."
   },
   {
     "surah_number": 2,
     "verse_number": 8,
     "content":
-        "And of the people are some who say, \"We believe in Allah and the Last Day,\" but they are not believers."
+        "Kuma akwai daga mutãne wanda yake cewa: \"Mun yi imani da Allah kuma da Yinin Lãhira.\" Alhãli kuwa su ba muminai ba ne."
   },
   {
     "surah_number": 2,
     "verse_number": 9,
     "content":
-        "They [think to] deceive Allah and those who believe, but they deceive not except themselves and perceive [it] not."
+        "Suna yaudarayya da Allah da waɗanda suka yi ĩmãni, alhãli bã su yaudarar kõwa fãce kansu, kuma bã su sakankancẽwa!"
   },
   {
     "surah_number": 2,
     "verse_number": 10,
     "content":
-        "In their hearts is disease, so Allah has increased their disease; and for them is a painful punishment because they [habitually] used to lie."
+        " cikin zukãtansu akwai wata cũta. Sai Allah Ya ƙãramusu wata cũta, kuma suna da azãba mai raɗaɗi sabõda ãbin da suka kasance suna yi na ƙarya."
   },
   {
     "surah_number": 2,
     "verse_number": 11,
     "content":
-        "And when it is said to them, \"Do not cause corruption on the earth,\" they say, \"We are but reformers.\""
+        "Kuma idan aka ce musu: \"Kada ku yi ɓarna a cikin ƙasa,\" sukan ce: \"Mũ mãsu kyautatawa kawai ne!\""
   },
   {
     "surah_number": 2,
     "verse_number": 12,
     "content":
-        "Unquestionably, it is they who are the corrupters, but they perceive [it] not."
+        "To, lalle ne su, sũne mãsu ɓarna, kuma amma bã su sansancewa."
   },
   {
     "surah_number": 2,
     "verse_number": 13,
     "content":
-        "And when it is said to them, \"Believe as the people have believed,\" they say, \"Should we believe as the foolish have believed?\" Unquestionably, it is they who are the foolish, but they know [it] not."
+        "Kuma idan aka ce musu: \"ku yi ĩmãni kamar yadda mutãne suka yi ĩmãni,\" sukan ce: \"Zã mu yi ĩmãni ne kamar yadda wãwãye suka yi ĩmãni?\" To, lalle ne su, sũ ne wãwãye, kuma amma bã su sani."
   },
   {
     "surah_number": 2,
     "verse_number": 14,
     "content":
-        "And when they meet those who believe, they say, \"We believe\"; but when they are alone with their evil ones, they say, \"Indeed, we are with you; we were only mockers.\""
+        "Kuma idan sun haɗu da waɗanda suka yi ĩmãni, sukan ce: \"Mun yi ĩmãni. \"Kuma idan sun wõfinta zuwa ga shaiɗãnunsu, sukan ce: \"Lalle ne muna tãre da ku: Mu mãsu izgili, kawai ne.\""
   },
   {
     "surah_number": 2,
     "verse_number": 15,
-    "content":
-        "[But] Allah mocks them and prolongs them in their transgression [while] they wander blindly."
+    "content": "Allah Yana yin izgili gare su kuma Yana taimakon su a cikin ɓatarsu, suna ɗimuwa."
   },
   {
     "surah_number": 2,
     "verse_number": 16,
     "content":
-        "Those are the ones who have purchased error [in exchange] for guidance, so their transaction has brought no profit, nor were they guided."
-  },
+        "Waɗannan su ne waɗanda suka sayi ɓata da shiriya, sai fataucinsu bai yi rĩba ba, kuma ba su kasance masu shiryuwa ba."
+  }, /* END OF PAGE 3 */
+
   {
     "surah_number": 2,
     "verse_number": 17,

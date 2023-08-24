@@ -1,4 +1,4 @@
-const List enSaheeh = [
+const List haGumi = [
   {
     "surah_number": 1,
     "verse_number": 1,

@@ -35,7 +35,7 @@ const List enSaheeh = [
     "verse_number": 7,
     "content":
         "Hanyar waɗanda Ka yi wa ni'ima, ba waɗanda aka yi wa fushi ba, kuma ba ɓatattu ba."
-  }, /*END PAGE 1*/
+  }, /*END OF PAGE 1*/
 
   {"surah_number": 2, "verse_number": 1, "content": "A. L̃. M̃."},
   {
@@ -61,7 +61,7 @@ const List enSaheeh = [
     "verse_number": 5,
     "content":
         "Waɗannan suna kan shiriya, daga Ubangjinsu, kuma waɗannan su ne mãsu cin nasara."
-  }, /*END PAGE 2*/
+  }, /*END OF PAGE 2*/
   {
     "surah_number": 2,
     "verse_number": 6,
@@ -132,194 +132,198 @@ const List enSaheeh = [
     "surah_number": 2,
     "verse_number": 17,
     "content":
-        "Their example is that of one who kindled a fire, but when it illuminated what was around him, Allah took away their light and left them in darkness [so] they could not see."
+        "Misãlinsu shĩ ne kamar misãlin wanda ya hũra wuta, to, a lõkacin da ta haskake abin da yake gẽfensa (na abin tsõro), Allah Ya tafi da haskensu, kuma Ya bar su a cikin duffai, bã su gani."
   },
   {
     "surah_number": 2,
     "verse_number": 18,
     "content":
-        "Deaf, dumb and blind - so they will not return [to the right path]."
+        "Kurãme, bẽbãye, makãfi, sabõda haka bã su kõmõwa."
   },
   {
     "surah_number": 2,
     "verse_number": 19,
     "content":
-        "Or [it is] like a rainstorm from the sky within which is darkness, thunder and lightning. They put their fingers in their ears against the thunderclaps in dread of death. But Allah is encompassing of the disbelievers."
+        "Ko kuwa kamar girgije mai zuba daga sama, a cikinsa akwai duffai da tsãwa da walƙiya: suna sanyãwar yãtsunsu a cikin kunnuwansu dãga tsãwarwakin, dõmin tsõron mutuwa. Kuma Allah Mai kẽwayewane gã kãfirai!"
   },
   {
     "surah_number": 2,
     "verse_number": 20,
     "content":
-        "The lightning almost snatches away their sight. Every time it lights [the way] for them, they walk therein; but when darkness comes over them, they stand [still]. And if Allah had willed, He could have taken away their hearing and their sight. Indeed, Allah is over all things competent."
+        "Walƙiyar tana yin kusa ta fizge gannansu, ko da yaushe ta haskakã musu, sai su yi tafiya a cikinta, kuma idan ta yi duhu a kansu, sai su yi tsaye. Kuma dã Allah Yã so, sai Ya tafi da jinsu da gannansu. Lalle ne Allah a kan dukan kõme Mai ĩkon yi ne."
   },
   {
     "surah_number": 2,
     "verse_number": 21,
     "content":
-        "O mankind, worship your Lord, who created you and those before you, that you may become righteous -"
+        "Yã ku mutãne! Ku bauta wa Ubangjinku, Wanda Ya halicce ku, kũ da waɗanda suke daga gabãninku, tsammãninku ku kãre kanku!"
   },
   {
     "surah_number": 2,
     "verse_number": 22,
     "content":
-        "[He] who made for you the earth a bed [spread out] and the sky a ceiling and sent down from the sky, rain and brought forth thereby fruits as provision for you. So do not attribute to Allah equals while you know [that there is nothing similar to Him]."
+        "Wanda Ya sanya muku ƙasa shimfiɗa, kuma sama gini, kuma Ya saukar da ruwa daga sama, sa'an nan Ya fitar da abinci daga 'ya'yan itãce game da shi,"
   },
   {
     "surah_number": 2,
     "verse_number": 23,
     "content":
-        "And if you are in doubt about what We have sent down upon Our Servant [Muhammad], then produce a surah the like thereof and call upon your witnesses other than Allah, if you should be truthful."
+        "Kuma idan kun kasance a cikin shakka daga abin da Muka sassaukar ga Bãwanmu, to, ku zõ da sũra guda daga misalinsa (Alƙur'ãni). Kuma ku kirãwo shaidunku baicin Allah, idan kun kasance mãsu gaskiya."
   },
   {
     "surah_number": 2,
     "verse_number": 24,
     "content":
-        "But if you do not - and you will never be able to - then fear the Fire, whose fuel is men and stones, prepared for the disbelievers."
-  },
+        "To, idan ba ku aikata (kãwo sura) ba, to, bã zã ku aikataba, sabõda haka, ku ji tsoron wuta, wadda makãmashinta mutãne da duwãtsu ne, an yi tattalinta dõmin kãfurai."
+  }, /*END OF PAGE 4*/
+
   {
     "surah_number": 2,
     "verse_number": 25,
     "content":
-        "And give good tidings to those who believe and do righteous deeds that they will have gardens [in Paradise] beneath which rivers flow. Whenever they are provided with a provision of fruit therefrom, they will say, \"This is what we were provided with before.\" And it is given to them in likeness. And they will have therein purified spouses, and they will abide therein eternally."
+        "Kuma ka bãyar da bishãra ga waɗanda suka yi ĩmãni. kuma suka aikata ayyuka na ƙwarai, cẽwa lallene, suna da gidãjen Aljanna, ƙõramu na gudãna daga ƙarƙashinsu. Ko da yaushe aka azurta su da abinci daga wasu 'ya'yan itãce daga gare su, sai su ce: \"Wannan shi ne aka azurta mu da shi daga gabãnin haka,\" Kuma a je musu da shi yana mai kama da juna, Kuma sunã da, a cikin su, mãtan aure mãsu tsarki, kuma su, cikin su madawwama ne."
   },
   {
     "surah_number": 2,
     "verse_number": 26,
     "content":
-        "Indeed, Allah is not timid to present an example - that of a mosquito or what is smaller than it. And those who have believed know that it is the truth from their Lord. But as for those who disbelieve, they say, \"What did Allah intend by this as an example?\" He misleads many thereby and guides many thereby. And He misleads not except the defiantly disobedient,"
+        "Lalle ne, Allah bã Ya jin kunyar Ya bayyana wani misãli, kõwane iri ne, sauro da abin da yake bisa gare shi. To, amma waɗanda suka yi ĩmãni, sai su san cewa lalle shi ne gaskiya daga Ubangijin su, kuma amma waɗanda suka kãfirta, sai su ce: \"Mẽne ne Allah Ya yi nufi da wannan ya zama misãli?\" na ɓatar da wasu mãsu yawa da shi, kuma Yana shiryar da wasu mãsu yawada shi, kuma bã Ya ɓatarwa da shi fãce fasiƙai."
   },
   {
     "surah_number": 2,
     "verse_number": 27,
     "content":
-        "Who break the covenant of Allah after contracting it and sever that which Allah has ordered to be joined and cause corruption on earth. It is those who are the losers."
+        "Waɗanda suke warware alƙawarin Allah daga bãyan ƙulla shi, kuma su yanke abin da Allah Ya yi umurni da shi a sãdar, kuma suna ɓarna a cikin ƙasa, waɗannan sũ ne mãsu hasãra."
   },
   {
     "surah_number": 2,
     "verse_number": 28,
     "content":
-        "How can you disbelieve in Allah when you were lifeless and He brought you to life; then He will cause you to die, then He will bring you [back] to life, and then to Him you will be returned."
+        "Yaya kuke kãfirta da Allah, alhãli kuwa kun kasance matattu sa'an nan Ya rãyar da ku, sa'nnan kuma Ya matar da ku, sa'an nan kuma Ya rãya ku, sa'an nan zuwa gare Shi ake mayar da ku?"
   },
   {
     "surah_number": 2,
     "verse_number": 29,
     "content":
-        "It is He who created for you all of that which is on the earth. Then He directed Himself to the heaven, [His being above all creation], and made them seven heavens, and He is Knowing of all things."
-  },
+        "Shi ne Wanda Ya halitta muku abin da ke a cikin ƙasa gaba ɗaya, sa'an nan kuma Ya daidaita zuwa sama, sa'an nan Y a aikata su sammai bakwai. Kuma Shi ga dukan kõmai Masani ne."
+  }, /*END OF PAGE 5*/
+
   {
     "surah_number": 2,
     "verse_number": 30,
     "content":
-        "And [mention, O Muhammad], when your Lord said to the angels, \"Indeed, I will make upon the earth a successive authority.\" They said, \"Will You place upon it one who causes corruption therein and sheds blood, while we declare Your praise and sanctify You?\" Allah said, \"Indeed, I know that which you do not know.\""
+        "Kuma a lõkacin da Ubangijinka Ya ce ga malã'iku: \"Lalle ne, Ni Mai sanya wani halĩfa ne a cikin ƙasa,\" suka ce: \"Ashe, zã Ka sanya a cikinta, wanda zai yi ɓarna a cikinta, kuma mu, muna yi maka tasbihi tare da gõde maka, kuma muna tsarkakewa gareka\" Ya ce: \"Lalle ne, Ni Na san abin da ba ku sani ba."
   },
   {
     "surah_number": 2,
     "verse_number": 31,
     "content":
-        "And He taught Adam the names - all of them. Then He showed them to the angels and said, \"Inform Me of the names of these, if you are truthful.\""
+        "Kuma Ya sanar da Ãdam sũnãye dukansu, sa'an nan kuma ya gitta su a kan malã'iku, sa'n nan Ya ce: \"Ku gaya mini sũnayen waɗannan, idan kun nasance mãsu gaskiya.\""
   },
   {
     "surah_number": 2,
     "verse_number": 32,
     "content":
-        "They said, \"Exalted are You; we have no knowledge except what You have taught us. Indeed, it is You who is the Knowing, the Wise.\""
+        "Suka ce: \"Tsarki ya tabbata a gare Ka! Bãbu sani a gare mu, lalle ne Kai, Kai ne Masani, Mai hikima.\""
   },
   {
     "surah_number": 2,
     "verse_number": 33,
     "content":
-        "He said, \"O Adam, inform them of their names.\" And when he had informed them of their names, He said, \"Did I not tell you that I know the unseen [aspects] of the heavens and the earth? And I know what you reveal and what you have concealed.\""
+        "Ya ce: \"Yã Ãdam! Ka gaya musu sũnãyensu.\" To, a lokacin da ya gaya musu sũnãyensu, (Allah) Ya ce: \"Ashe, ban ce muku ba, lalle Ni, Inã sane da gaibin sammai da ƙasa, kuma (Inã sane da) abin da kuke bayyanawa da abin da kuka kasance kuna ɓõyewa?\""
   },
   {
     "surah_number": 2,
     "verse_number": 34,
     "content":
-        "And [mention] when We said to the angels, \"Prostrate before Adam\"; so they prostrated, except for Iblees. He refused and was arrogant and became of the disbelievers."
+        "Kuma a lõkacin da Muka ce ga malã'iku: \"Ku yi sujada ga Ãdam,\" Sai suka yi sujada, fãce Ibilĩsa ya ƙi, kuma ya yi girman kai, kuma ya kasance daga kãfirai."
   },
   {
     "surah_number": 2,
     "verse_number": 35,
     "content":
-        "And We said, \"O Adam, dwell, you and your wife, in Paradise and eat therefrom in [ease and] abundance from wherever you will. But do not approach this tree, lest you be among the wrongdoers.\""
+        "Kuma muka ce: \"Ya Ãdam! Ka zauna kai da matarka a gidan Aljanna, kuma ku ci daga gare ta, bisa wadãta, inda kuke so, kuma kada ku kusanci wannan itãciyar, har ku kasance daga azzãlumai.\""
   },
   {
     "surah_number": 2,
     "verse_number": 36,
     "content":
-        "But Satan caused them to slip out of it and removed them from that [condition] in which they had been. And We said, \"Go down, [all of you], as enemies to one another, and you will have upon the earth a place of settlement and provision for a time.\""
+        "Sai Shaiɗan ya talãlãɓantar da su ga barinta, sai ya fitar da su daga abin da suka kasance a cikinsa. Kuma muka ce: \"Sãshenku nã maƙiyi ga sãshe, kuma kuna da a cikin ƙasa matabbata da jin dãɗi zuwa ga wani lõkaci.\""
   },
   {
     "surah_number": 2,
     "verse_number": 37,
     "content":
-        "Then Adam received from his Lord [some] words, and He accepted his repentance. Indeed, it is He who is the Accepting of repentance, the Merciful."
-  },
+        "Sai Ãdam ya karɓi wasu kalmõmi daga Ubangjjinsa, sabõda haka ya karɓi tũba a kansa. Lalle ne Shi, Shĩ ne Mai karɓar tũba, Mai jin ƙai."
+  }, /*END OF PAGE 6 */
+
   {
     "surah_number": 2,
     "verse_number": 38,
     "content":
-        "We said, \"Go down from it, all of you. And when guidance comes to you from Me, whoever follows My guidance - there will be no fear concerning them, nor will they grieve."
+        "Muka ce: \"Ku ku sauka daga gare ta gabã ɗaya. To, imma lalle shiriya ta je muku daga gare Ni, to, wanda ya bi shiriya ta to, bãbu tsõro a kansu, kuma bã su yin baƙin ciki.\""
   },
   {
     "surah_number": 2,
     "verse_number": 39,
     "content":
-        "And those who disbelieve and deny Our signs - those will be companions of the Fire; they will abide therein eternally.\""
+        "\"Kuma waɗanda suka kãfirta, kuma suka ƙaryata game da ãyõyinMu, waɗannan sũ ne abõkan Wuta; sũ a cikinta madawwama ne.\""
   },
   {
     "surah_number": 2,
     "verse_number": 40,
     "content":
-        "O Children of Israel, remember My favor which I have bestowed upon you and fulfill My covenant [upon you] that I will fulfill your covenant [from Me], and be afraid of [only] Me."
+        "Yã Banĩ Isrã'Ĩla! Ku tuna ni'imãTa a kanku, kuma ku cika alƙawariNa, In cika muku da alƙawarinku. kuma Ni, ku ji tsõro Na."
   },
   {
     "surah_number": 2,
     "verse_number": 41,
     "content":
-        "And believe in what I have sent down confirming that which is [already] with you, and be not the first to disbelieve in it. And do not exchange My signs for a small price, and fear [only] Me."
+        "Kuma, ku yi ĩmãni da abin da na saukar, mai gaskatãwa ga abin da yake tãre da ku, kuma kada ku kasance farkon kãfiri game da shi, Kuma kada ku sayi 'yan kuɗi kaɗan da ãyõyiNa. Kuma ku ji tsõrõNa, Nĩ kaɗai."
   },
   {
     "surah_number": 2,
     "verse_number": 42,
     "content":
-        "And do not mix the truth with falsehood or conceal the truth while you know [it]."
+        "Kuma kada ku lulluɓe gaskiya da ƙarya, kuma ku ɓõye gaskiya, alhãli kuwa kuna sane."
   },
   {
     "surah_number": 2,
     "verse_number": 43,
     "content":
-        "And establish prayer and give zakah and bow with those who bow [in worship and obedience]."
+        "Kuma ku tsayar da salla; kuma ku bãyar da zakka; kuma ku yi rukũ'i tãre da mãsu yin rukũ'i."
   },
   {
     "surah_number": 2,
     "verse_number": 44,
     "content":
-        "Do you order righteousness of the people and forget yourselves while you recite the Scripture? Then will you not reason?"
+        "Shin, kuna umurnin mutãne da alhẽri, kuma ku manta da kanku alhãli kuwa kuna karatun littãfi? Shin, bãzã ku hankalta ba?"
   },
   {
     "surah_number": 2,
     "verse_number": 45,
     "content":
-        "And seek help through patience and prayer, and indeed, it is difficult except for the humbly submissive [to Allah]"
+        "Kuma ku nẽmi taimako da yin haƙuri, da salla. Kuma lalle ne ita, haƙĩƙa, mai girma ce fãce fa a kan mãsu tsõron Allah."
   },
   {
     "surah_number": 2,
     "verse_number": 46,
     "content":
-        "Who are certain that they will meet their Lord and that they will return to Him."
+        "Waɗanda suka tabbata cẽwa lalle ne su mãsu haɗuwa da Ubangijinsu, kuma lalle ne sũ a gareshi mãsu kõmãwa ne."
   },
   {
     "surah_number": 2,
     "verse_number": 47,
     "content":
-        "O Children of Israel, remember My favor that I have bestowed upon you and that I preferred you over the worlds."
+        "Yã banĩ Isrã'ĩla! Ku tuna ni'imaTa, wadda Na ni'imta a kanku, kuma lalle ne Ni, na fĩfĩta ku a kan tãlikai."
   },
   {
     "surah_number": 2,
     "verse_number": 48,
     "content":
-        "And fear a Day when no soul will suffice for another soul at all, nor will intercession be accepted from it, nor will compensation be taken from it, nor will they be aided."
-  },
+        "Kuma ku ji tsron wani yini, (a cikinsa) rai bã ya Wadãtar da wani rai da kõme, kuma bã a karɓar cetõ daga gareshi, kuma ba a karɓar fansa daga gare shi, kuma bã su zama ana taimakon su ba."
+  }, /* END OF PAGE 7*/
+
   {
     "surah_number": 2,
     "verse_number": 49,

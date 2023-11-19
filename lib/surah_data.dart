@@ -716,7 +716,7 @@ const List surah = [
     "english": "The Jinn",
     "turkish": "Cin",
     "french": "Les Djinns",
-    "place": "makkah",
+    "place": "Makkah",
     "arabic": "الجن"
   },
   {

@@ -586,7 +586,7 @@ const List surah = [
     "english": "The Mustering",
     "turkish": "Haşr",
     "french": "L'exode",
-    "place": "Manidah",
+    "place": "Madinah",
     "arabic": "الحشر"
   },
   {

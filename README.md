@@ -31,6 +31,7 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 - **`getSurahNameArabic(int surahNumber)`** - Takes [surahNumber] returns the Surah name in Arabic
 - **`getSurahNameEnglish(int surahNumber)`** - Takes [surahNumber] returns the Surah name in English
 - **`getSurahNameTurkish(int surahNumber)`** - Takes [surahNumber] returns the Surah name in Turkish
+- **`getSurahNameFrench(int surahNumber)`** - Takes [surahNumber] returns the Surah name in French
 - **`getPlaceOfRevelation(int surahNumber)`** - Takes [surahNumber] and returns the Place of Revelation (Makkah / Madinah) of that Surah
 - **`getVerseCount(int surahNumber)`** - Takes [surahNumber] and returns the count of total Verses in that Surah
 
@@ -67,6 +68,7 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 **Translations:**
 
 - English (Saheeh International) - **`Translation.enSaheeh`**
+- French (Muhammad Hamidullah) - **`Translation.frHamidullah`**
 - Turkish - **`Translation.trSaheeh`**
 - Malayalam (Cheriyamundam Abdul Hameed and Kunhi Mohammed Parappoor) - **`Translation.mlAbdulHameed`**
 

@@ -1,3 +1,8 @@
+## 1.2.3
+
+* New translation added - French (Muhammad Hamidullah)
+* Minor fixes
+
 ## 1.2.2
 
 * New translation added - Malayalam (Translation edition: Cheriyamundam Abdul Hameed and Kunhi Mohammed Parappoor)

@@ -3,7 +3,7 @@ library quran;
 import 'package:quran/translations/en_saheeh.dart';
 import 'package:quran/translations/tr_saheeh.dart';
 import 'package:quran/translations/ml_abdulhameed.dart';
-import 'package:quran/translations/fr_Hamidullah.dart';
+import 'package:quran/translations/fr_hamidullah.dart';
 
 import 'juz_data.dart';
 import 'page_data.dart';

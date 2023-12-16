@@ -6,7 +6,7 @@ void main() {
 }
 
 class QuranExample extends StatefulWidget {
-  const QuranExample({Key key}) : super(key: key);
+  const QuranExample({Key? key}) : super(key: key);
 
   @override
   State<QuranExample> createState() => _QuranExampleState();

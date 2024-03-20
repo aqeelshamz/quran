@@ -233,15 +233,15 @@ String getVerseEndSymbol(int verseNumber, {bool arabicNumeral = true}) {
 
   const Map arabicNumbers = {
     "0": "٠",
-    "1": "۱",
-    "2": "۲",
-    "3": "۳",
+    "1": "١",
+    "2": "٢",
+    "3": "٣",
     "4": "٤",
     "5": "٥",
     "6": "٦",
-    "7": "۷",
-    "8": "۸",
-    "9": "۹"
+    "7": "٧",
+    "8": "٨",
+    "9": "٩",
   };
 
   for (var e in digits) {

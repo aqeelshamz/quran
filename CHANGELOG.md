@@ -1,3 +1,7 @@
+## 1.2.5
+* Updated dependencies
+* arabicNumbers const changed (to new code units)
+
 ## 1.2.4
 * SDK Version updated: >=2.12.0 <4.0.0
 * Minor fixes (Tashkil)

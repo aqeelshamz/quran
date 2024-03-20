@@ -1,3 +1,7 @@
+## 1.2.4
+* SDK Version updated: >=2.12.0 <4.0.0
+* Minor fixes (Tashkil)
+
 ## 1.2.3
 
 * New translation added - French (Muhammad Hamidullah)

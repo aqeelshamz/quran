@@ -4,6 +4,11 @@ import 'package:quran/translations/en_saheeh.dart';
 import 'package:quran/translations/tr_saheeh.dart';
 import 'package:quran/translations/ml_abdulhameed.dart';
 import 'package:quran/translations/fr_hamidullah.dart';
+import 'package:quran/translations/en_clearQuran.dart';
+import 'package:quran/translations/fa_husseinDari.dart';
+import 'package:quran/translations/it_piccardo.dart';
+import 'package:quran/translations/nl_siregar.dart';
+import 'package:quran/translations/pt.dart';
 
 import 'juz_data.dart';
 import 'page_data.dart';
@@ -340,7 +345,7 @@ String getAudioURLByVerseNumber(int verseNumber) {
   return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNumber.mp3";
 }
 
-enum Translation { enSaheeh, trSaheeh, mlAbdulHameed, frHamidullah }
+enum Translation { enSaheeh, enClearQuran ,trSaheeh, mlAbdulHameed, faHusseinDari, frHamidullah, itPiccardo, nlSiregar, pt }
 
 ///Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
 String getVerseTranslation(int surahNumber, int verseNumber,
@@ -353,6 +358,21 @@ String getVerseTranslation(int surahNumber, int verseNumber,
   switch (translation) {
     case Translation.enSaheeh:
       translationText = enSaheeh;
+      break;
+    case Translation.enClearQuran:
+      translationText = enClearQuran;
+      break;
+    case Translation.faHusseinDari:
+      translationText = faHusseinDari;
+      break;
+    case Translation.itPiccardo:
+      translationText = itPiccardo;
+      break;
+    case Translation.nlSiregar:
+      translationText = nlSiregar;
+      break;
+    case Translation.pt:
+      translationText = pt;
       break;
     case Translation.trSaheeh:
       translationText = trSaheeh;
@@ -392,6 +412,21 @@ Map searchWordsInTranslation(List<String> words,
   switch (translation) {
     case Translation.enSaheeh:
       translationText = enSaheeh;
+      break;
+    case Translation.enClearQuran:
+      translationText = enClearQuran;
+      break;
+    case Translation.faHusseinDari:
+      translationText = faHusseinDari;
+      break;
+    case Translation.itPiccardo:
+      translationText = itPiccardo;
+      break;
+    case Translation.nlSiregar:
+      translationText = nlSiregar;
+      break;
+    case Translation.pt:
+      translationText = pt;
       break;
     case Translation.trSaheeh:
       translationText = trSaheeh;

@@ -345,7 +345,17 @@ String getAudioURLByVerseNumber(int verseNumber) {
   return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNumber.mp3";
 }
 
-enum Translation { enSaheeh, enClearQuran ,trSaheeh, mlAbdulHameed, faHusseinDari, frHamidullah, itPiccardo, nlSiregar, pt }
+enum Translation {
+  enSaheeh,
+  enClearQuran,
+  trSaheeh,
+  mlAbdulHameed,
+  faHusseinDari,
+  frHamidullah,
+  itPiccardo,
+  nlSiregar,
+  pt
+}
 
 ///Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
 String getVerseTranslation(int surahNumber, int verseNumber,

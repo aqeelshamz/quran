@@ -1,3 +1,6 @@
+## 1.2.6
+* New translations added - English (Clear Quran), Farsi, Portuguese, Italian, Dutch
+
 ## 1.2.5
 * Updated dependencies
 * arabicNumbers const changed (to new code units)

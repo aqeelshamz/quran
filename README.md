@@ -68,9 +68,14 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 **Translations:**
 
 - English (Saheeh International) - **`Translation.enSaheeh`**
+- English (Clear Quran) - **`Translation.enClearQuran`**
 - French (Muhammad Hamidullah) - **`Translation.frHamidullah`**
 - Turkish - **`Translation.trSaheeh`**
 - Malayalam (Cheriyamundam Abdul Hameed and Kunhi Mohammed Parappoor) - **`Translation.mlAbdulHameed`**
+- Farsi - **`Translation.faHusseinDari`**
+- Portuguese - **`Translation.pt`**
+- Italian - **`Translation.itPiccardo`**
+- Dutch - **`Translation.nlSiregar`**
 
 ## Example
 

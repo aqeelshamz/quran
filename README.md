@@ -42,6 +42,15 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 - **`isSajdahVerse(int surahNumber, int verseNumber)`** - Takes [surahNumber], [verseNumber] and returns true if verse is sajdah verse
 - **`getVerseTranslation(int surahNumber, int verseNumber, {bool verseEndSymbol, Translation translation})`** - Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
 
+- Random Verse - Use `RandomVerse` class to create a random verse. Example:
+  ```dart
+  RandomVerse randomVerse = RandomVerse();
+  print(randomVerse.surahNumber);
+  print(randomVerse.verseNumber);
+  print(randomVerse.verse);
+  print(randomVerse.translation);
+  ```
+
 **_Page:_**
 
 - **`getPageData(int pageNumber)`** - Takes [pageNumber] and returns a list containing Surahs and the starting and ending Verse numbers in that page

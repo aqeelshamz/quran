@@ -1,3 +1,6 @@
+## 1.2.7
+* RandomVerse class added
+
 ## 1.2.6
 * New translations added - English (Clear Quran), Farsi, Portuguese, Italian, Dutch
 

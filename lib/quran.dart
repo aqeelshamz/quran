@@ -1,11 +1,13 @@
 library quran;
 
+import 'dart:math';
+
 import 'package:quran/translations/en_saheeh.dart';
 import 'package:quran/translations/tr_saheeh.dart';
 import 'package:quran/translations/ml_abdulhameed.dart';
 import 'package:quran/translations/fr_hamidullah.dart';
-import 'package:quran/translations/en_clearQuran.dart';
-import 'package:quran/translations/fa_husseinDari.dart';
+import 'package:quran/translations/en_clearquran.dart';
+import 'package:quran/translations/fa_husseindari.dart';
 import 'package:quran/translations/it_piccardo.dart';
 import 'package:quran/translations/nl_siregar.dart';
 import 'package:quran/translations/pt.dart';
@@ -498,4 +500,19 @@ Map searchWords(List<String> words) {
   }
 
   return {"occurences": result.length, "result": result};
+}
+
+class RandomVerse {
+  late int surahNumber;
+  late int verseNumber;
+  late String verse;
+  late String translation;
+
+  RandomVerse() {
+    final random = Random();
+    surahNumber = random.nextInt(114) + 1;
+    verseNumber = random.nextInt(getVerseCount(surahNumber)) + 1;
+    verse = getVerse(surahNumber, verseNumber);
+    translation = getVerseTranslation(surahNumber, verseNumber);
+  }
 }

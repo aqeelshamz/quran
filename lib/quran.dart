@@ -3,6 +3,7 @@ library quran;
 import 'dart:math';
 
 import 'package:quran/translations/en_saheeh.dart';
+import 'package:quran/translations/ru_kuliev.dart';
 import 'package:quran/translations/tr_saheeh.dart';
 import 'package:quran/translations/ml_abdulhameed.dart';
 import 'package:quran/translations/fr_hamidullah.dart';
@@ -160,6 +161,14 @@ String getSurahNameArabic(int surahNumber) {
   return surah[surahNumber - 1]['arabic'].toString();
 }
 
+///Takes [surahNumber] returns the Surah name in Russian
+String getSurahNameRussian(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+  return surah[surahNumber - 1]['russian'].toString();
+}
+
 ///Takes [surahNumber], [verseNumber] and returns the page number of the Quran
 int getPageNumber(int surahNumber, int verseNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {
@@ -286,6 +295,7 @@ enum SurahSeperator {
   surahNameEnglish,
   surahNameTurkish,
   surahNameFrench,
+  surahNameRussian,
 }
 
 ///Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
@@ -313,6 +323,8 @@ List<String> getVersesTextByPage(int pageNumber,
       verses.add(getSurahNameTurkish(data["surah"]));
     } else if (surahSeperator == SurahSeperator.surahNameFrench) {
       verses.add(getSurahNameFrench(data["surah"]));
+    } else if (surahSeperator == SurahSeperator.surahNameRussian) {
+      verses.add(getSurahNameRussian(data["surah"]));
     }
     for (int j = data["start"]; j <= data["end"]; j++) {
       verses.add(getVerse(data["surah"], j, verseEndSymbol: verseEndSymbol));
@@ -356,7 +368,8 @@ enum Translation {
   frHamidullah,
   itPiccardo,
   nlSiregar,
-  pt
+  pt,
+  ruKuliev,
 }
 
 ///Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
@@ -394,6 +407,9 @@ String getVerseTranslation(int surahNumber, int verseNumber,
       break;
     case Translation.frHamidullah:
       translationText = frHamidullah;
+      break;
+    case Translation.ruKuliev:
+      translationText = ruKuliev;
       break;
     default:
       translationText = enSaheeh;
@@ -448,6 +464,9 @@ Map searchWordsInTranslation(List<String> words,
       break;
     case Translation.frHamidullah:
       translationText = frHamidullah;
+      break;
+    case Translation.ruKuliev:
+      translationText = ruKuliev;
       break;
     default:
       translationText = enSaheeh;

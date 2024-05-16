@@ -7,7 +7,8 @@ const List surah = [
     "turkish": "Fâtiha",
     "french": "L'ouverture",
     "place": "Makkah",
-    "arabic": "الفاتحة"
+    "arabic": "الفاتحة",
+    "russian": "Открывающая Коран",
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@ const List surah = [
     "turkish": "Bakara",
     "french": "La Vache",
     "place": "Madinah",
-    "arabic": "البقرة"
+    "arabic": "البقرة",
+    "russian": "Корова",
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@ const List surah = [
     "turkish": "Âl-i İmrân",
     "french": "La famille D'Imran",
     "place": "Madinah",
-    "arabic": "آل عمران"
+    "arabic": "آل عمران",
+    "russian": "Семейство Имрана",
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@ const List surah = [
     "turkish": "Nisâ",
     "french": "Les femmes",
     "place": "Madinah",
-    "arabic": "النساء"
+    "arabic": "النساء",
+    "russian": "Женщины",
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@ const List surah = [
     "turkish": "Mâide",
     "french": "La table servie",
     "place": "Madinah",
-    "arabic": "المائدة"
+    "arabic": "المائدة",
+    "russian": "Трапеза",
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@ const List surah = [
     "turkish": "En'âm",
     "french": "Les bestiaux",
     "place": "Makkah",
-    "arabic": "الأنعام"
+    "arabic": "الأنعام",
+    "russian": "Скот",
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@ const List surah = [
     "turkish": "A'râf",
     "french": "Les murailles",
     "place": "Makkah",
-    "arabic": "الأعراف"
+    "arabic": "الأعراف",
+    "russian": "Ограды",
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@ const List surah = [
     "turkish": "Enfâl",
     "french": "Le butin",
     "place": "Madinah",
-    "arabic": "الأنفال"
+    "arabic": "الأنفال",
+    "russian": "Трофеи",
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@ const List surah = [
     "turkish": "Tevbe",
     "french": "Le repentir",
     "place": "Madinah",
-    "arabic": "التوبة"
+    "arabic": "التوبة",
+    "russian": "Покаяние",
   },
   {
     "id": 10,
@@ -97,7 +106,8 @@ const List surah = [
     "turkish": "Yûnus",
     "french": "Jonas",
     "place": "Makkah",
-    "arabic": "يونس"
+    "arabic": "يونس",
+    "russian": "Иона",
   },
   {
     "id": 11,
@@ -107,7 +117,8 @@ const List surah = [
     "turkish": "Hûd",
     "french": "Hud",
     "place": "Makkah",
-    "arabic": "هود"
+    "arabic": "هود",
+    "russian": "Худ",
   },
   {
     "id": 12,
@@ -117,7 +128,8 @@ const List surah = [
     "turkish": "Yûsuf",
     "french": "Joseph",
     "place": "Makkah",
-    "arabic": "يوسف"
+    "arabic": "يوسف",
+    "russian": "Иосиф",
   },
   {
     "id": 13,
@@ -127,7 +139,8 @@ const List surah = [
     "turkish": "Ra'd",
     "french": "Le tonnerre",
     "place": "Madinah",
-    "arabic": "الرعد"
+    "arabic": "الرعد",
+    "russian": "Гром",
   },
   {
     "id": 14,
@@ -137,7 +150,8 @@ const List surah = [
     "turkish": "İbrâhîm",
     "french": "Abraham",
     "place": "Makkah",
-    "arabic": "ابراهيم"
+    "arabic": "ابراهيم",
+    "russian": "Авраам",
   },
   {
     "id": 15,
@@ -147,7 +161,8 @@ const List surah = [
     "turkish": "Hicr",
     "french": "Le chemin rocailleux",
     "place": "Makkah",
-    "arabic": "الحجر"
+    "arabic": "الحجر",
+    "russian": "Хиджр",
   },
   {
     "id": 16,
@@ -157,7 +172,8 @@ const List surah = [
     "turkish": "Nahl",
     "french": "Les abeilles",
     "place": "Makkah",
-    "arabic": "النحل"
+    "arabic": "النحل",
+    "russian": "Пчёлы",
   },
   {
     "id": 17,
@@ -167,7 +183,8 @@ const List surah = [
     "turkish": "İsrâ",
     "french": "Le voyage nocturne",
     "place": "Makkah",
-    "arabic": "الإسراء"
+    "arabic": "الإسراء",
+    "russian": "Ночной перенос",
   },
   {
     "id": 18,
@@ -177,7 +194,8 @@ const List surah = [
     "turkish": "Kehf",
     "french": "La caverne",
     "place": "Makkah",
-    "arabic": "الكهف"
+    "arabic": "الكهف",
+    "russian": "Пещера",
   },
   {
     "id": 19,
@@ -187,7 +205,8 @@ const List surah = [
     "turkish": "Meryem",
     "french": "Marie",
     "place": "Makkah",
-    "arabic": "مريم"
+    "arabic": "مريم",
+    "russian": "Мария",
   },
   {
     "id": 20,
@@ -197,7 +216,8 @@ const List surah = [
     "turkish": "Tâhâ",
     "french": "Ta-Ha",
     "place": "Makkah",
-    "arabic": "طه"
+    "arabic": "طه",
+    "russian": "Та Ха",
   },
   {
     "id": 21,
@@ -207,7 +227,8 @@ const List surah = [
     "turkish": "Enbiyâ",
     "french": "Les prophètes",
     "place": "Makkah",
-    "arabic": "الأنبياء"
+    "arabic": "الأنبياء",
+    "russian": "Пророки",
   },
   {
     "id": 22,
@@ -217,7 +238,8 @@ const List surah = [
     "turkish": "Hac",
     "french": "Le pèlerinage",
     "place": "Madinah",
-    "arabic": "الحج"
+    "arabic": "الحج",
+    "russian": "Паломничество",
   },
   {
     "id": 23,
@@ -227,7 +249,8 @@ const List surah = [
     "turkish": "Mü'minûn",
     "french": "Les croyants",
     "place": "Makkah",
-    "arabic": "المؤمنون"
+    "arabic": "المؤمنون",
+    "russian": "Верующие",
   },
   {
     "id": 24,
@@ -237,7 +260,8 @@ const List surah = [
     "turkish": "Nûr",
     "french": "La lumière",
     "place": "Madinah",
-    "arabic": "النور"
+    "arabic": "النور",
+    "russian": "Свет",
   },
   {
     "id": 25,
@@ -247,7 +271,8 @@ const List surah = [
     "turkish": "Furkân",
     "french": "Le discernement",
     "place": "Makkah",
-    "arabic": "الفرقان"
+    "arabic": "الفرقان",
+    "russian": "Различение",
   },
   {
     "id": 26,
@@ -257,7 +282,8 @@ const List surah = [
     "turkish": "Şuarâ",
     "french": "Les poètes",
     "place": "Makkah",
-    "arabic": "الشعراء"
+    "arabic": "الشعراء",
+    "russian": "Поэты",
   },
   {
     "id": 27,
@@ -267,7 +293,8 @@ const List surah = [
     "french": "Les fourmis",
     "turkish": "Neml",
     "place": "Makkah",
-    "arabic": "النمل"
+    "arabic": "النمل",
+    "russian": "Муравьи",
   },
   {
     "id": 28,
@@ -277,7 +304,8 @@ const List surah = [
     "turkish": "Kasas",
     "french": "Le récit",
     "place": "Makkah",
-    "arabic": "القصص"
+    "arabic": "القصص",
+    "russian": "Рассказ",
   },
   {
     "id": 29,
@@ -287,7 +315,8 @@ const List surah = [
     "turkish": "Ankebût",
     "french": "L'araignée",
     "place": "Makkah",
-    "arabic": "العنكبوت"
+    "arabic": "العنكبوت",
+    "russian": "Паук",
   },
   {
     "id": 30,
@@ -297,7 +326,8 @@ const List surah = [
     "turkish": "Rûm",
     "french": "Les romains",
     "place": "Makkah",
-    "arabic": "الروم"
+    "arabic": "الروم",
+    "russian": "Римляне",
   },
   {
     "id": 31,
@@ -307,7 +337,8 @@ const List surah = [
     "turkish": "Lokmân",
     "french": "Luqman",
     "place": "Makkah",
-    "arabic": "لقمان"
+    "arabic": "لقمان",
+    "russian": "Лукман",
   },
   {
     "id": 32,
@@ -317,7 +348,8 @@ const List surah = [
     "turkish": "Secde",
     "french": "La prosternation",
     "place": "Makkah",
-    "arabic": "السجدة"
+    "arabic": "السجدة",
+    "russian": "Земной поклон",
   },
   {
     "id": 33,
@@ -327,7 +359,8 @@ const List surah = [
     "turkish": "Ahzâb",
     "french": "Les coalisés",
     "place": "Madinah",
-    "arabic": "الأحزاب"
+    "arabic": "الأحزاب",
+    "russian": "Союзники",
   },
   {
     "id": 34,
@@ -337,7 +370,8 @@ const List surah = [
     "turkish": "Sebe'",
     "french": "Saba",
     "place": "Makkah",
-    "arabic": "سبإ"
+    "arabic": "سبإ",
+    "russian": "Сава",
   },
   {
     "id": 35,
@@ -347,7 +381,8 @@ const List surah = [
     "turkish": "Fâtır",
     "french": "Le créateur",
     "place": "Makkah",
-    "arabic": "فاطر"
+    "arabic": "فاطر",
+    "russian": "Творец",
   },
   {
     "id": 36,
@@ -357,7 +392,8 @@ const List surah = [
     "turkish": "Yâsîn",
     "french": "Ya Sin",
     "place": "Makkah",
-    "arabic": "يس"
+    "arabic": "يس",
+    "russian": "Йа Син",
   },
   {
     "id": 37,
@@ -367,7 +403,8 @@ const List surah = [
     "turkish": "Sâffât",
     "french": "Les rangées",
     "place": "Makkah",
-    "arabic": "الصافات"
+    "arabic": "الصافات",
+    "russian": "Выстроившиеся в ряды",
   },
   {
     "id": 38,
@@ -377,7 +414,8 @@ const List surah = [
     "turkish": "Sâd",
     "french": "Ṣād",
     "place": "Makkah",
-    "arabic": "ص"
+    "arabic": "ص",
+    "russian": "Сад",
   },
   {
     "id": 39,
@@ -387,7 +425,8 @@ const List surah = [
     "turkish": "Zümer",
     "french": "Les groupes",
     "place": "Makkah",
-    "arabic": "الزمر"
+    "arabic": "الزمر",
+    "russian": "Толпы",
   },
   {
     "id": 40,
@@ -397,7 +436,8 @@ const List surah = [
     "turkish": "Mü'min",
     "french": "Le pardonneur",
     "place": "Makkah",
-    "arabic": "غافر"
+    "arabic": "غافر",
+    "russian": "Прощающий",
   },
   {
     "id": 41,
@@ -407,7 +447,8 @@ const List surah = [
     "turkish": "Fussilet",
     "french": "Les versets détaillés",
     "place": "Makkah",
-    "arabic": "فصلت"
+    "arabic": "فصلت",
+    "russian": "Разъяснены",
   },
   {
     "id": 42,
@@ -417,7 +458,8 @@ const List surah = [
     "turkish": "Şûrâ",
     "french": "La consultation",
     "place": "Makkah",
-    "arabic": "الشورى"
+    "arabic": "الشورى",
+    "russian": "Совет",
   },
   {
     "id": 43,
@@ -427,7 +469,8 @@ const List surah = [
     "turkish": "Zuhruf",
     "french": "L'ornement",
     "place": "Makkah",
-    "arabic": "الزخرف"
+    "arabic": "الزخرف",
+    "russian": "Украшения",
   },
   {
     "id": 44,
@@ -437,7 +480,8 @@ const List surah = [
     "turkish": "Duhân",
     "french": "La fumée",
     "place": "Makkah",
-    "arabic": "الدخان"
+    "arabic": "الدخان",
+    "russian": "Дым",
   },
   {
     "id": 45,
@@ -447,7 +491,8 @@ const List surah = [
     "turkish": "Câsiye",
     "french": "L'agenouillée",
     "place": "Makkah",
-    "arabic": "الجاثية"
+    "arabic": "الجاثية",
+    "russian": "Коленопреклонённые",
   },
   {
     "id": 46,
@@ -457,7 +502,8 @@ const List surah = [
     "turkish": "Ahkâf",
     "french": "Les dunes",
     "place": "Makkah",
-    "arabic": "الأحقاف"
+    "arabic": "الأحقاف",
+    "russian": "Барханы",
   },
   {
     "id": 47,
@@ -467,7 +513,8 @@ const List surah = [
     "turkish": "Muhammed",
     "french": "Muhammed",
     "place": "Madinah",
-    "arabic": "محمد"
+    "arabic": "محمد",
+    "russian": "Мухаммад",
   },
   {
     "id": 48,
@@ -477,7 +524,8 @@ const List surah = [
     "turkish": "Fetih",
     "french": "La victoire éclatante",
     "place": "Madinah",
-    "arabic": "الفتح"
+    "arabic": "الفتح",
+    "russian": "Победа",
   },
   {
     "id": 49,
@@ -487,7 +535,8 @@ const List surah = [
     "turkish": "Hucurât",
     "french": "Les appartements",
     "place": "Madinah",
-    "arabic": "الحجرات"
+    "arabic": "الحجرات",
+    "russian": "Комнаты",
   },
   {
     "id": 50,
@@ -497,7 +546,8 @@ const List surah = [
     "turkish": "Kâf",
     "french": "Q̈āf",
     "place": "Makkah",
-    "arabic": "ق"
+    "arabic": "ق",
+    "russian": "Каф",
   },
   {
     "id": 51,
@@ -507,7 +557,8 @@ const List surah = [
     "turkish": "Zâriyât",
     "french": "Qui éparpillent",
     "place": "Makkah",
-    "arabic": "الذاريات"
+    "arabic": "الذاريات",
+    "russian": "Рассеивающие прах",
   },
   {
     "id": 52,
@@ -517,7 +568,8 @@ const List surah = [
     "turkish": "Tûr",
     "french": "At-Tur",
     "place": "Makkah",
-    "arabic": "الطور"
+    "arabic": "الطور",
+    "russian": "Гора",
   },
   {
     "id": 53,
@@ -527,7 +579,8 @@ const List surah = [
     "turkish": "Necm",
     "french": "L'étoile",
     "place": "Makkah",
-    "arabic": "النجم"
+    "arabic": "النجم",
+    "russian": "Звезда",
   },
   {
     "id": 54,
@@ -537,7 +590,8 @@ const List surah = [
     "turkish": "Kamer",
     "french": "La Lune",
     "place": "Makkah",
-    "arabic": "القمر"
+    "arabic": "القمر",
+    "russian": "Месяц",
   },
   {
     "id": 55,
@@ -547,7 +601,8 @@ const List surah = [
     "turkish": "Rahmân",
     "french": "Le Tout Miséricordieux",
     "place": "Madinah",
-    "arabic": "الرحمن"
+    "arabic": "الرحمن",
+    "russian": "Милостивый",
   },
   {
     "id": 56,
@@ -557,7 +612,8 @@ const List surah = [
     "turkish": "Vâkıa",
     "french": "L'évenement",
     "place": "Makkah",
-    "arabic": "الواقعة"
+    "arabic": "الواقعة",
+    "russian": "Событие",
   },
   {
     "id": 57,
@@ -567,7 +623,8 @@ const List surah = [
     "turkish": "Hadîd",
     "french": "Le fer",
     "place": "Madinah",
-    "arabic": "الحديد"
+    "arabic": "الحديد",
+    "russian": "Железо",
   },
   {
     "id": 58,
@@ -577,7 +634,8 @@ const List surah = [
     "turkish": "Mücâdele",
     "french": "La discution",
     "place": "Madinah",
-    "arabic": "المجادلة"
+    "arabic": "المجادلة",
+    "russian": "Препирающаяся",
   },
   {
     "id": 59,
@@ -587,7 +645,8 @@ const List surah = [
     "turkish": "Haşr",
     "french": "L'exode",
     "place": "Madinah",
-    "arabic": "الحشر"
+    "arabic": "الحشر",
+    "russian": "Сбор",
   },
   {
     "id": 60,
@@ -597,7 +656,8 @@ const List surah = [
     "turkish": "Mümtehine",
     "french": "L'éprouvée",
     "place": "Madinah",
-    "arabic": "الممتحنة"
+    "arabic": "الممتحنة",
+    "russian": "Испытуемая",
   },
   {
     "id": 61,
@@ -607,7 +667,8 @@ const List surah = [
     "turkish": "Saff",
     "french": "Le rang",
     "place": "Madinah",
-    "arabic": "الصف"
+    "arabic": "الصف",
+    "russian": "Ряды",
   },
   {
     "id": 62,
@@ -617,7 +678,8 @@ const List surah = [
     "turkish": "Cuma",
     "french": "Le vendredi",
     "place": "Madinah",
-    "arabic": "الجمعة"
+    "arabic": "الجمعة",
+    "russian": "Собрание",
   },
   {
     "id": 63,
@@ -627,7 +689,8 @@ const List surah = [
     "turkish": "Münâfikûn",
     "french": "Les hypocrites",
     "place": "Madinah",
-    "arabic": "المنافقون"
+    "arabic": "المنافقون",
+    "russian": "Лицемеры",
   },
   {
     "id": 64,
@@ -637,7 +700,8 @@ const List surah = [
     "turkish": "Tegâbün",
     "french": "La grande perte",
     "place": "Madinah",
-    "arabic": "التغابن"
+    "arabic": "التغابن",
+    "russian": "Взаимное обделение",
   },
   {
     "id": 65,
@@ -647,7 +711,8 @@ const List surah = [
     "turkish": "Talâk",
     "french": "Le divorce",
     "place": "Madinah",
-    "arabic": "الطلاق"
+    "arabic": "الطلاق",
+    "russian": "Развод",
   },
   {
     "id": 66,
@@ -657,7 +722,8 @@ const List surah = [
     "turkish": "Tahrîm",
     "french": "L'interdiction",
     "place": "Madinah",
-    "arabic": "التحريم"
+    "arabic": "التحريم",
+    "russian": "Запрещение",
   },
   {
     "id": 67,
@@ -667,7 +733,8 @@ const List surah = [
     "turkish": "Mülk",
     "french": "La royauté",
     "place": "Makkah",
-    "arabic": "الملك"
+    "arabic": "الملك",
+    "russian": "Власть",
   },
   {
     "id": 68,
@@ -677,7 +744,8 @@ const List surah = [
     "turkish": "Kalem",
     "french": "La plume",
     "place": "Makkah",
-    "arabic": "القلم"
+    "arabic": "القلم",
+    "russian": "Письменная трость",
   },
   {
     "id": 69,
@@ -687,7 +755,8 @@ const List surah = [
     "turkish": "Hâkka",
     "french": "Celle qui montre la vérité",
     "place": "Makkah",
-    "arabic": "الحاقة"
+    "arabic": "الحاقة",
+    "russian": "Неминуемое",
   },
   {
     "id": 70,
@@ -697,7 +766,8 @@ const List surah = [
     "turkish": "Meâric",
     "french": "Les voies d'ascension",
     "place": "Makkah",
-    "arabic": "المعارج"
+    "arabic": "المعارج",
+    "russian": "Ступени",
   },
   {
     "id": 71,
@@ -707,7 +777,8 @@ const List surah = [
     "turkish": "Nûh",
     "french": "Noé",
     "place": "Makkah",
-    "arabic": "نوح"
+    "arabic": "نوح",
+    "russian": "Ной",
   },
   {
     "id": 72,
@@ -717,7 +788,8 @@ const List surah = [
     "turkish": "Cin",
     "french": "Les Djinns",
     "place": "Makkah",
-    "arabic": "الجن"
+    "arabic": "الجن",
+    "russian": "Джинны",
   },
   {
     "id": 73,
@@ -727,7 +799,8 @@ const List surah = [
     "turkish": "Müzzemmil",
     "french": "L'enveloppé",
     "place": "Makkah",
-    "arabic": "المزمل"
+    "arabic": "المزمل",
+    "russian": "Закутавшийся",
   },
   {
     "id": 74,
@@ -737,7 +810,8 @@ const List surah = [
     "turkish": "Müddessir",
     "french": "Le revêtu d'un manteau",
     "place": "Makkah",
-    "arabic": "المدثر"
+    "arabic": "المدثر",
+    "russian": "Завернувшийся",
   },
   {
     "id": 75,
@@ -747,7 +821,8 @@ const List surah = [
     "turkish": "Kıyâmet",
     "french": "La résurrection",
     "place": "Makkah",
-    "arabic": "القيامة"
+    "arabic": "القيامة",
+    "russian": "Воскресение",
   },
   {
     "id": 76,
@@ -757,7 +832,8 @@ const List surah = [
     "turkish": "İnsân",
     "french": "L'homme",
     "place": "Madinah",
-    "arabic": "الانسان"
+    "arabic": "الانسان",
+    "russian": "Человек",
   },
   {
     "id": 77,
@@ -767,7 +843,8 @@ const List surah = [
     "turkish": "Mürselât",
     "french": "Les envoyés",
     "place": "Makkah",
-    "arabic": "المرسلات"
+    "arabic": "المرسلات",
+    "russian": "Посылаемые",
   },
   {
     "id": 78,
@@ -777,7 +854,8 @@ const List surah = [
     "turkish": "Nebe",
     "french": "La nouvelle",
     "place": "Makkah",
-    "arabic": "النبأ"
+    "arabic": "النبأ",
+    "russian": "Весть",
   },
   {
     "id": 79,
@@ -787,7 +865,8 @@ const List surah = [
     "turkish": "Naziât",
     "french": "Les anges qui arrachent les âmes",
     "place": "Makkah",
-    "arabic": "النازعات"
+    "arabic": "النازعات",
+    "russian": "Исторгающие",
   },
   {
     "id": 80,
@@ -797,7 +876,8 @@ const List surah = [
     "turkish": "Abese",
     "french": "Il s'est renfrogné",
     "place": "Makkah",
-    "arabic": "عبس"
+    "arabic": "عبس",
+    "russian": "Нахмурился",
   },
   {
     "id": 81,
@@ -807,7 +887,8 @@ const List surah = [
     "turkish": "Tekvîr",
     "french": "L'obscurcissement",
     "place": "Makkah",
-    "arabic": "التكوير"
+    "arabic": "التكوير",
+    "russian": "Скручивание",
   },
   {
     "id": 82,
@@ -817,7 +898,8 @@ const List surah = [
     "turkish": "İnfitâr",
     "french": "La rupture",
     "place": "Makkah",
-    "arabic": "الإنفطار"
+    "arabic": "الإنفطار",
+    "russian": "Раскалывание",
   },
   {
     "id": 83,
@@ -827,7 +909,8 @@ const List surah = [
     "turkish": "Mutaffifîn",
     "french": "Les fraudeurs",
     "place": "Makkah",
-    "arabic": "المطففين"
+    "arabic": "المطففين",
+    "russian": "Обвешивающие"
   },
   {
     "id": 84,
@@ -837,7 +920,8 @@ const List surah = [
     "turkish": "İnşikâk",
     "french": "La déchirure",
     "place": "Makkah",
-    "arabic": "الإنشقاق"
+    "arabic": "الإنشقاق",
+    "russian": "Разверзнется"
   },
   {
     "id": 85,
@@ -847,7 +931,8 @@ const List surah = [
     "turkish": "Burûc",
     "french": "Les constellations",
     "place": "Makkah",
-    "arabic": "البروج"
+    "arabic": "البروج",
+    "russian": "Созвездия зодиака",
   },
   {
     "id": 86,
@@ -857,7 +942,8 @@ const List surah = [
     "turkish": "Târık",
     "french": "L'astre nocturne",
     "place": "Makkah",
-    "arabic": "الطارق"
+    "arabic": "الطارق",
+    "russian": "Ночной путник",
   },
   {
     "id": 87,
@@ -867,7 +953,8 @@ const List surah = [
     "turkish": "A'lâ",
     "french": "Le Très-Haut",
     "place": "Makkah",
-    "arabic": "الأعلى"
+    "arabic": "الأعلى",
+    "russian": "Всевышний",
   },
   {
     "id": 88,
@@ -877,7 +964,8 @@ const List surah = [
     "turkish": "Gâşiye",
     "french": "L'enveloppante",
     "place": "Makkah",
-    "arabic": "الغاشية"
+    "arabic": "الغاشية",
+    "russian": "Покрывающее",
   },
   {
     "id": 89,
@@ -887,7 +975,8 @@ const List surah = [
     "turkish": "Fecr",
     "french": "L'aube",
     "place": "Makkah",
-    "arabic": "الفجر"
+    "arabic": "الفجر",
+    "russian": "Заря",
   },
   {
     "id": 90,
@@ -897,7 +986,8 @@ const List surah = [
     "turkish": "Beled",
     "french": "La cité",
     "place": "Makkah",
-    "arabic": "البلد"
+    "arabic": "البلد",
+    "russian": "Город",
   },
   {
     "id": 91,
@@ -907,7 +997,8 @@ const List surah = [
     "turkish": "Şems",
     "french": "Le Soleil",
     "place": "Makkah",
-    "arabic": "الشمس"
+    "arabic": "الشمس",
+    "russian": "Солнце",
   },
   {
     "id": 92,
@@ -917,7 +1008,8 @@ const List surah = [
     "turkish": "Leyl",
     "french": "La nuit",
     "place": "Makkah",
-    "arabic": "الليل"
+    "arabic": "الليل",
+    "russian": "Ночь",
   },
   {
     "id": 93,
@@ -927,7 +1019,8 @@ const List surah = [
     "turkish": "Duhâ",
     "french": "Le jour montant",
     "place": "Makkah",
-    "arabic": "الضحى"
+    "arabic": "الضحى",
+    "russian": "Утро",
   },
   {
     "id": 94,
@@ -937,7 +1030,8 @@ const List surah = [
     "turkish": "İnşirâh",
     "french": "L'ouverture",
     "place": "Makkah",
-    "arabic": "الشرح"
+    "arabic": "الشرح",
+    "russian": "Раскрытие",
   },
   {
     "id": 95,
@@ -947,7 +1041,8 @@ const List surah = [
     "turkish": "Tîn",
     "french": "Le figuier",
     "place": "Makkah",
-    "arabic": "التين"
+    "arabic": "التين",
+    "russian": "Смоковница",
   },
   {
     "id": 96,
@@ -957,7 +1052,8 @@ const List surah = [
     "turkish": "Alak",
     "french": "L'adhérence",
     "place": "Makkah",
-    "arabic": "العلق"
+    "arabic": "العلق",
+    "russian": "Сгусток крови",
   },
   {
     "id": 97,
@@ -967,7 +1063,8 @@ const List surah = [
     "turkish": "Kadir",
     "french": "La destinée",
     "place": "Makkah",
-    "arabic": "القدر"
+    "arabic": "القدر",
+    "russian": "Предопределение",
   },
   {
     "id": 98,
@@ -977,7 +1074,8 @@ const List surah = [
     "turkish": "Beyyine",
     "french": "La preuve",
     "place": "Madinah",
-    "arabic": "البينة"
+    "arabic": "البينة",
+    "russian": "Ясное знамение",
   },
   {
     "id": 99,
@@ -987,7 +1085,8 @@ const List surah = [
     "turkish": "Zilzâl",
     "french": "La secousse",
     "place": "Madinah",
-    "arabic": "الزلزلة"
+    "arabic": "الزلزلة",
+    "russian": "Сотрясение",
   },
   {
     "id": 100,
@@ -997,7 +1096,8 @@ const List surah = [
     "turkish": "Âdiyât",
     "french": "Les coursiers",
     "place": "Makkah",
-    "arabic": "العاديات"
+    "arabic": "العاديات",
+    "russian": "Скачущие",
   },
   {
     "id": 101,
@@ -1007,7 +1107,8 @@ const List surah = [
     "turkish": "Kâria",
     "french": "Le fracas",
     "place": "Makkah",
-    "arabic": "القارعة"
+    "arabic": "القارعة",
+    "russian": "Великое бедствие",
   },
   {
     "id": 102,
@@ -1017,7 +1118,8 @@ const List surah = [
     "turkish": "Tekâsür",
     "french": "La course aux richesses",
     "place": "Makkah",
-    "arabic": "التكاثر"
+    "arabic": "التكاثر",
+    "russian": "Страсть к приумножению",
   },
   {
     "id": 103,
@@ -1027,7 +1129,8 @@ const List surah = [
     "turkish": "Asr",
     "french": "Le temps",
     "place": "Makkah",
-    "arabic": "العصر"
+    "arabic": "العصر",
+    "russian": "Время",
   },
   {
     "id": 104,
@@ -1037,7 +1140,8 @@ const List surah = [
     "turkish": "Hümeze",
     "french": "Les calomniateurs",
     "place": "Makkah",
-    "arabic": "الهمزة"
+    "arabic": "الهمزة",
+    "russian": "Хулитель",
   },
   {
     "id": 105,
@@ -1047,7 +1151,8 @@ const List surah = [
     "turkish": "Fîl",
     "french": "L'éléphant",
     "place": "Makkah",
-    "arabic": "الفيل"
+    "arabic": "الفيل",
+    "russian": "Слон",
   },
   {
     "id": 106,
@@ -1057,7 +1162,8 @@ const List surah = [
     "turkish": "Kureyş",
     "french": "Coraïsh",
     "place": "Makkah",
-    "arabic": "قريش"
+    "arabic": "قريش",
+    "russian": "Курейшиты",
   },
   {
     "id": 107,
@@ -1067,7 +1173,8 @@ const List surah = [
     "turkish": "Maûn",
     "french": "L'ustensile",
     "place": "Makkah",
-    "arabic": "الماعون"
+    "arabic": "الماعون",
+    "russian": "Мелочь",
   },
   {
     "id": 108,
@@ -1077,7 +1184,8 @@ const List surah = [
     "turkish": "Kevser",
     "french": "l'abondance",
     "place": "Makkah",
-    "arabic": "الكوثر"
+    "arabic": "الكوثر",
+    "russian": "Изобилие",
   },
   {
     "id": 109,
@@ -1087,7 +1195,8 @@ const List surah = [
     "turkish": "Kâfirûn",
     "french": "Les infidèles",
     "place": "Makkah",
-    "arabic": "الكافرون"
+    "arabic": "الكافرون",
+    "russian": "Неверующие",
   },
   {
     "id": 110,
@@ -1097,7 +1206,8 @@ const List surah = [
     "turkish": "Nasr",
     "french": "Les secours",
     "place": "Madinah",
-    "arabic": "النصر"
+    "arabic": "النصر",
+    "russian": "Помощь",
   },
   {
     "id": 111,
@@ -1107,7 +1217,8 @@ const List surah = [
     "turkish": "Tebbet",
     "french": "Les fibres",
     "place": "Makkah",
-    "arabic": "المسد"
+    "arabic": "المسد",
+    "russian": "Пальмовые волокна",
   },
   {
     "id": 112,
@@ -1117,7 +1228,8 @@ const List surah = [
     "turkish": "İhlâs",
     "french": "Le monothéisme pur",
     "place": "Makkah",
-    "arabic": "الإخلاص"
+    "arabic": "الإخلاص",
+    "russian": "Очищение веры",
   },
   {
     "id": 113,
@@ -1127,7 +1239,8 @@ const List surah = [
     "turkish": "Felak",
     "french": "L'aube naissante",
     "place": "Makkah",
-    "arabic": "الفلق"
+    "arabic": "الفلق",
+    "russian": "Рассвет",
   },
   {
     "id": 114,
@@ -1137,6 +1250,7 @@ const List surah = [
     "turkish": "Nâs",
     "french": "Les hommes",
     "place": "Makkah",
-    "arabic": "الناس"
+    "arabic": "الناس",
+    "russian": "Люди",
   }
 ];

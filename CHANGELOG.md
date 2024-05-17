@@ -1,3 +1,6 @@
+## 1.2.8
+* New translation added - Russian (Elmir Kuliev)
+
 ## 1.2.7
 * RandomVerse class added
 

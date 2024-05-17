@@ -85,6 +85,7 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 - Portuguese - **`Translation.pt`**
 - Italian - **`Translation.itPiccardo`**
 - Dutch - **`Translation.nlSiregar`**
+- Russian - **`Translation.ruKuliev`**
 
 ## Example
 

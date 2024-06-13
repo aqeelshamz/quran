@@ -2,12 +2,12 @@ library quran;
 
 import 'dart:math';
 
+import 'package:quran/translations/en_clearquran.dart';
 import 'package:quran/translations/en_saheeh.dart';
 import 'package:quran/translations/ru_kuliev.dart';
 import 'package:quran/translations/tr_saheeh.dart';
 import 'package:quran/translations/ml_abdulhameed.dart';
 import 'package:quran/translations/fr_hamidullah.dart';
-import 'package:quran/translations/en_clearquran.dart';
 import 'package:quran/translations/fa_husseindari.dart';
 import 'package:quran/translations/it_piccardo.dart';
 import 'package:quran/translations/nl_siregar.dart';

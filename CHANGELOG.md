@@ -1,3 +1,6 @@
+## 1.3.0
+* Updated dependencies
+
 ## 1.2.9
 * Better Rendering - Replaced some punctuations for better rendering of Translation text (Clear Quran)
 * Font Setup - Documentation & examples added for font setup for better rendering of Quranic text

@@ -87,7 +87,7 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 - Dutch - **`Translation.nlSiregar`**
 - Russian - **`Translation.ruKuliev`**
 
-### Font Setup
+## Font Setup
 It is recommended to use [google_fonts](https://pub.dev/packages/google_fonts) package and use the following fonts for better Quranic text display:
 
 - **Amiri** - **`GoogleFonts.amiri()`**

@@ -1,17 +1,17 @@
 library quran;
 
 import 'dart:math';
-
-import 'package:quran/translations/en_clearquran.dart';
-import 'package:quran/translations/en_saheeh.dart';
-import 'package:quran/translations/ru_kuliev.dart';
-import 'package:quran/translations/tr_saheeh.dart';
-import 'package:quran/translations/ml_abdulhameed.dart';
-import 'package:quran/translations/fr_hamidullah.dart';
-import 'package:quran/translations/fa_husseindari.dart';
-import 'package:quran/translations/it_piccardo.dart';
-import 'package:quran/translations/nl_siregar.dart';
-import 'package:quran/translations/pt.dart';
+import './translations/en_saheeh.dart';
+import './translations/en_clearQuran.dart';
+import './translations/ru_kuliev.dart';
+import './translations/tr_saheeh.dart';
+import './translations/ml_abdulhameed.dart';
+import './translations/fr_Hamidullah.dart';
+import './translations/fa_husseinDari.dart';
+import './translations/it_piccardo.dart';
+import './translations/nl_siregar.dart';
+import './translations/pt.dart';
+import './translations/ur_translation.dart';
 
 import 'juz_data.dart';
 import 'page_data.dart';
@@ -370,6 +370,7 @@ enum Translation {
   nlSiregar,
   pt,
   ruKuliev,
+  urdu,
 }
 
 ///Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
@@ -410,6 +411,9 @@ String getVerseTranslation(int surahNumber, int verseNumber,
       break;
     case Translation.ruKuliev:
       translationText = ruKuliev;
+      break;
+    case Translation.urdu:
+      translationText = urduTranslation;
       break;
     default:
       translationText = enSaheeh;
@@ -467,6 +471,9 @@ Map searchWordsInTranslation(List<String> words,
       break;
     case Translation.ruKuliev:
       translationText = ruKuliev;
+      break;
+    case Translation.urdu:
+      translationText = urduTranslation;
       break;
     default:
       translationText = enSaheeh;

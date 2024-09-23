@@ -9,6 +9,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الفاتحة",
     "russian": "Открывающая Коран",
+    "countOfWords": 29,
+    "countOfLetters": 142,
   },
   {
     "id": 2,
@@ -20,6 +22,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "البقرة",
     "russian": "Корова",
+    "countOfWords": 6221,
+    "countOfLetters": 25500,
   },
   {
     "id": 3,
@@ -31,6 +35,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "آل عمران",
     "russian": "Семейство Имрана",
+    "countOfWords": 3480,
+    "countOfLetters": 14525,
   },
   {
     "id": 4,
@@ -42,6 +48,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "النساء",
     "russian": "Женщины",
+    "countOfWords": 3745,
+    "countOfLetters": 16030,
   },
   {
     "id": 5,
@@ -53,6 +61,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "المائدة",
     "russian": "Трапеза",
+    "countOfWords": 2804,
+    "countOfLetters": 11933,
   },
   {
     "id": 6,
@@ -64,6 +74,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الأنعام",
     "russian": "Скот",
+    "countOfWords": 3860,
+    "countOfLetters": 12254,
   },
   {
     "id": 7,
@@ -75,6 +87,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الأعراف",
     "russian": "Ограды",
+    "countOfWords": 3825,
+    "countOfLetters": 13877,
   },
   {
     "id": 8,
@@ -86,6 +100,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الأنفال",
     "russian": "Трофеи",
+    "countOfWords": 1095,
+    "countOfLetters": 5080,
   },
   {
     "id": 9,
@@ -97,6 +113,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "التوبة",
     "russian": "Покаяние",
+    "countOfWords": 4098,
+    "countOfLetters": 10488,
   },
   {
     "id": 10,
@@ -108,6 +126,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "يونس",
     "russian": "Иона",
+    "countOfWords": 1833,
+    "countOfLetters": 7567,
   },
   {
     "id": 11,
@@ -119,6 +139,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "هود",
     "russian": "Худ",
+    "countOfWords": 1715,
+    "countOfLetters": 7513,
   },
   {
     "id": 12,
@@ -130,6 +152,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "يوسف",
     "russian": "Иосиф",
+    "countOfWords": 1766,
+    "countOfLetters": 7166,
   },
   {
     "id": 13,
@@ -141,6 +165,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الرعد",
     "russian": "Гром",
+    "countOfWords": 855,
+    "countOfLetters": 3506,
   },
   {
     "id": 14,
@@ -152,6 +178,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "ابراهيم",
     "russian": "Авраам",
+    "countOfWords": 831,
+    "countOfLetters": 3434,
   },
   {
     "id": 15,
@@ -163,6 +191,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الحجر",
     "russian": "Хиджр",
+    "countOfWords": 654,
+    "countOfLetters": 2760,
   },
   {
     "id": 16,
@@ -174,6 +204,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "النحل",
     "russian": "Пчёлы",
+    "countOfWords": 2840,
+    "countOfLetters": 7707,
   },
   {
     "id": 17,
@@ -185,6 +217,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الإسراء",
     "russian": "Ночной перенос",
+    "countOfWords": 1533,
+    "countOfLetters": 6460,
   },
   {
     "id": 18,
@@ -196,6 +230,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الكهف",
     "russian": "Пещера",
+    "countOfWords": 1579,
+    "countOfLetters": 6360,
   },
   {
     "id": 19,
@@ -207,6 +243,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "مريم",
     "russian": "Мария",
+    "countOfWords": 982,
+    "countOfLetters": 3802,
   },
   {
     "id": 20,
@@ -218,6 +256,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "طه",
     "russian": "Та Ха",
+    "countOfWords": 1341,
+    "countOfLetters": 5242,
   },
   {
     "id": 21,
@@ -229,6 +269,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الأنبياء",
     "russian": "Пророки",
+    "countOfWords": 1168,
+    "countOfLetters": 4890,
   },
   {
     "id": 22,
@@ -240,6 +282,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الحج",
     "russian": "Паломничество",
+    "countOfWords": 1291,
+    "countOfLetters": 5070,
   },
   {
     "id": 23,
@@ -251,6 +295,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "المؤمنون",
     "russian": "Верующие",
+    "countOfWords": 1840,
+    "countOfLetters": 4802,
   },
   {
     "id": 24,
@@ -262,6 +308,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "النور",
     "russian": "Свет",
+    "countOfWords": 1316,
+    "countOfLetters": 5680,
   },
   {
     "id": 25,
@@ -273,6 +321,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الفرقان",
     "russian": "Различение",
+    "countOfWords": 892,
+    "countOfLetters": 3733,
   },
   {
     "id": 26,
@@ -284,6 +334,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الشعراء",
     "russian": "Поэты",
+    "countOfWords": 1297,
+    "countOfLetters": 5522,
   },
   {
     "id": 27,
@@ -295,6 +347,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "النمل",
     "russian": "Муравьи",
+    "countOfWords": 1149,
+    "countOfLetters": 4799,
   },
   {
     "id": 28,
@@ -306,6 +360,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "القصص",
     "russian": "Рассказ",
+    "countOfWords": 1441,
+    "countOfLetters": 5800,
   },
   {
     "id": 29,
@@ -317,6 +373,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "العنكبوت",
     "russian": "Паук",
+    "countOfWords": 1891,
+    "countOfLetters": 4195,
   },
   {
     "id": 30,
@@ -328,6 +386,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الروم",
     "russian": "Римляне",
+    "countOfWords": 819,
+    "countOfLetters": 3534,
   },
   {
     "id": 31,
@@ -339,6 +399,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "لقمان",
     "russian": "Лукман",
+    "countOfWords": 542,
+    "countOfLetters": 2171,
   },
   {
     "id": 32,
@@ -350,6 +412,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "السجدة",
     "russian": "Земной поклон",
+    "countOfWords": 370,
+    "countOfLetters": 1500,
   },
   {
     "id": 33,
@@ -361,6 +425,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الأحزاب",
     "russian": "Союзники",
+    "countOfWords": 1280,
+    "countOfLetters": 5796,
   },
   {
     "id": 34,
@@ -372,6 +438,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "سبإ",
     "russian": "Сава",
+    "countOfWords": 883,
+    "countOfLetters": 1512,
   },
   {
     "id": 35,
@@ -383,6 +451,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "فاطر",
     "russian": "Творец",
+    "countOfWords": 797,
+    "countOfLetters": 1313,
   },
   {
     "id": 36,
@@ -394,6 +464,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "يس",
     "russian": "Йа Син",
+    "countOfWords": 829,
+    "countOfLetters": 3000,
   },
   {
     "id": 37,
@@ -405,6 +477,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الصافات",
     "russian": "Выстроившиеся в ряды",
+    "countOfWords": 820,
+    "countOfLetters": 3823,
   },
   {
     "id": 38,
@@ -416,6 +490,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "ص",
     "russian": "Сад",
+    "countOfWords": 832,
+    "countOfLetters": 3029,
   },
   {
     "id": 39,
@@ -427,6 +503,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الزمر",
     "russian": "Толпы",
+    "countOfWords": 1192,
+    "countOfLetters": 4708,
   },
   {
     "id": 40,
@@ -438,6 +516,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "غافر",
     "russian": "Прощающий",
+    "countOfWords": 1199,
+    "countOfLetters": 4690,
   },
   {
     "id": 41,
@@ -449,6 +529,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "فصلت",
     "russian": "Разъяснены",
+    "countOfWords": 796,
+    "countOfLetters": 3350,
   },
   {
     "id": 42,
@@ -460,6 +542,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الشورى",
     "russian": "Совет",
+    "countOfWords": 886,
+    "countOfLetters": 3577,
   },
   {
     "id": 43,
@@ -471,6 +555,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الزخرف",
     "russian": "Украшения",
+    "countOfWords": 833,
+    "countOfLetters": 3400,
   },
   {
     "id": 44,
@@ -482,6 +568,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الدخان",
     "russian": "Дым",
+    "countOfWords": 346,
+    "countOfLetters": 1441,
   },
   {
     "id": 45,
@@ -493,6 +581,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الجاثية",
     "russian": "Коленопреклонённые",
+    "countOfWords": 448,
+    "countOfLetters": 2191,
   },
   {
     "id": 46,
@@ -504,6 +594,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الأحقاف",
     "russian": "Барханы",
+    "countOfWords": 644,
+    "countOfLetters": 2598,
   },
   {
     "id": 47,
@@ -515,6 +607,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "محمد",
     "russian": "Мухаммад",
+    "countOfWords": 539,
+    "countOfLetters": 2349,
   },
   {
     "id": 48,
@@ -526,6 +620,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الفتح",
     "russian": "Победа",
+    "countOfWords": 560,
+    "countOfLetters": 2438,
   },
   {
     "id": 49,
@@ -537,6 +633,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الحجرات",
     "russian": "Комнаты",
+    "countOfWords": 343,
+    "countOfLetters": 1496,
   },
   {
     "id": 50,
@@ -548,6 +646,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "ق",
     "russian": "Каф",
+    "countOfWords": 347,
+    "countOfLetters": 1507,
   },
   {
     "id": 51,
@@ -559,6 +659,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الذاريات",
     "russian": "Рассеивающие прах",
+    "countOfWords": 360,
+    "countOfLetters": 1286,
   },
   {
     "id": 52,
@@ -570,6 +672,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الطور",
     "russian": "Гора",
+    "countOfWords": 312,
+    "countOfLetters": 1500,
   },
   {
     "id": 53,
@@ -581,6 +685,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "النجم",
     "russian": "Звезда",
+    "countOfWords": 307,
+    "countOfLetters": 1405,
   },
   {
     "id": 54,
@@ -592,6 +698,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "القمر",
     "russian": "Месяц",
+    "countOfWords": 342,
+    "countOfLetters": 1420,
   },
   {
     "id": 55,
@@ -603,6 +711,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الرحمن",
     "russian": "Милостивый",
+    "countOfWords": 351,
+    "countOfLetters": 1434,
   },
   {
     "id": 56,
@@ -614,6 +724,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الواقعة",
     "russian": "Событие",
+    "countOfWords": 378,
+    "countOfLetters": 1703,
   },
   {
     "id": 57,
@@ -625,6 +737,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الحديد",
     "russian": "Железо",
+    "countOfWords": 544,
+    "countOfLetters": 2476,
   },
   {
     "id": 58,
@@ -636,6 +750,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "المجادلة",
     "russian": "Препирающаяся",
+    "countOfWords": 473,
+    "countOfLetters": 1792,
   },
   {
     "id": 59,
@@ -647,6 +763,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الحشر",
     "russian": "Сбор",
+    "countOfWords": 445,
+    "countOfLetters": 1913,
   },
   {
     "id": 60,
@@ -658,6 +776,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الممتحنة",
     "russian": "Испытуемая",
+    "countOfWords": 348,
+    "countOfLetters": 1510,
   },
   {
     "id": 61,
@@ -669,6 +789,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الصف",
     "russian": "Ряды",
+    "countOfWords": 221,
+    "countOfLetters": 900,
   },
   {
     "id": 62,
@@ -680,6 +802,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الجمعة",
     "russian": "Собрание",
+    "countOfWords": 180,
+    "countOfLetters": 720,
   },
   {
     "id": 63,
@@ -691,6 +815,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "المنافقون",
     "russian": "Лицемеры",
+    "countOfWords": 180,
+    "countOfLetters": 776,
   },
   {
     "id": 64,
@@ -702,6 +828,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "التغابن",
     "russian": "Взаимное обделение",
+    "countOfWords": 241,
+    "countOfLetters": 1070,
   },
   {
     "id": 65,
@@ -713,6 +841,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الطلاق",
     "russian": "Развод",
+    "countOfWords": 248,
+    "countOfLetters": 1060,
   },
   {
     "id": 66,
@@ -724,6 +854,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "التحريم",
     "russian": "Запрещение",
+    "countOfWords": 246,
+    "countOfLetters": 1160,
   },
   {
     "id": 67,
@@ -735,6 +867,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الملك",
     "russian": "Власть",
+    "countOfWords": 330,
+    "countOfLetters": 1300,
   },
   {
     "id": 68,
@@ -746,6 +880,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "القلم",
     "russian": "Письменная трость",
+    "countOfWords": 300,
+    "countOfLetters": 1256,
   },
   {
     "id": 69,
@@ -757,6 +893,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الحاقة",
     "russian": "Неминуемое",
+    "countOfWords": 256,
+    "countOfLetters": 1084,
   },
   {
     "id": 70,
@@ -768,6 +906,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "المعارج",
     "russian": "Ступени",
+    "countOfWords": 216,
+    "countOfLetters": 1061,
   },
   {
     "id": 71,
@@ -779,6 +919,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "نوح",
     "russian": "Ной",
+    "countOfWords": 224,
+    "countOfLetters": 929,
   },
   {
     "id": 72,
@@ -790,6 +932,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الجن",
     "russian": "Джинны",
+    "countOfWords": 235,
+    "countOfLetters": 870,
   },
   {
     "id": 73,
@@ -801,6 +945,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "المزمل",
     "russian": "Закутавшийся",
+    "countOfWords": 285,
+    "countOfLetters": 838,
   },
   {
     "id": 74,
@@ -812,6 +958,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "المدثر",
     "russian": "Завернувшийся",
+    "countOfWords": 255,
+    "countOfLetters": 1010,
   },
   {
     "id": 75,
@@ -823,6 +971,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "القيامة",
     "russian": "Воскресение",
+    "countOfWords": 199,
+    "countOfLetters": 652,
   },
   {
     "id": 76,
@@ -834,6 +984,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الانسان",
     "russian": "Человек",
+    "countOfWords": 240,
+    "countOfLetters": 1054,
   },
   {
     "id": 77,
@@ -845,6 +997,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "المرسلات",
     "russian": "Посылаемые",
+    "countOfWords": 181,
+    "countOfLetters": 216,
   },
   {
     "id": 78,
@@ -856,6 +1010,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "النبأ",
     "russian": "Весть",
+    "countOfWords": 173,
+    "countOfLetters": 770,
   },
   {
     "id": 79,
@@ -867,6 +1023,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "النازعات",
     "russian": "Исторгающие",
+    "countOfWords": 139,
+    "countOfLetters": 753,
   },
   {
     "id": 80,
@@ -878,6 +1036,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "عبس",
     "russian": "Нахмурился",
+    "countOfWords": 133,
+    "countOfLetters": 522,
   },
   {
     "id": 81,
@@ -889,6 +1049,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "التكوير",
     "russian": "Скручивание",
+    "countOfWords": 80,
+    "countOfLetters": 327,
   },
   {
     "id": 82,
@@ -900,6 +1062,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الإنفطار",
     "russian": "Раскалывание",
+    "countOfWords": 81,
+    "countOfLetters": 333,
   },
   {
     "id": 83,
@@ -910,7 +1074,9 @@ const List surah = [
     "french": "Les fraudeurs",
     "place": "Makkah",
     "arabic": "المطففين",
-    "russian": "Обвешивающие"
+    "russian": "Обвешивающие",
+    "countOfWords": 177,
+    "countOfLetters": 830,
   },
   {
     "id": 84,
@@ -921,7 +1087,9 @@ const List surah = [
     "french": "La déchirure",
     "place": "Makkah",
     "arabic": "الإنشقاق",
-    "russian": "Разверзнется"
+    "russian": "Разверзнется",
+    "countOfWords": 109,
+    "countOfLetters": 430,
   },
   {
     "id": 85,
@@ -933,6 +1101,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "البروج",
     "russian": "Созвездия зодиака",
+    "countOfWords": 109,
+    "countOfLetters": 458,
   },
   {
     "id": 86,
@@ -944,6 +1114,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الطارق",
     "russian": "Ночной путник",
+    "countOfWords": 61,
+    "countOfLetters": 245,
   },
   {
     "id": 87,
@@ -955,6 +1127,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الأعلى",
     "russian": "Всевышний",
+    "countOfWords": 72,
+    "countOfLetters": 270,
   },
   {
     "id": 88,
@@ -966,6 +1140,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الغاشية",
     "russian": "Покрывающее",
+    "countOfWords": 72,
+    "countOfLetters": 330,
   },
   {
     "id": 89,
@@ -977,6 +1153,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الفجر",
     "russian": "Заря",
+    "countOfWords": 137,
+    "countOfLetters": 577,
   },
   {
     "id": 90,
@@ -988,6 +1166,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "البلد",
     "russian": "Город",
+    "countOfWords": 82,
+    "countOfLetters": 330,
   },
   {
     "id": 91,
@@ -999,6 +1179,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الشمس",
     "russian": "Солнце",
+    "countOfWords": 54,
+    "countOfLetters": 247,
   },
   {
     "id": 92,
@@ -1010,6 +1192,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الليل",
     "russian": "Ночь",
+    "countOfWords": 72,
+    "countOfLetters": 302,
   },
   {
     "id": 93,
@@ -1021,6 +1205,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الضحى",
     "russian": "Утро",
+    "countOfWords": 40,
+    "countOfLetters": 192,
   },
   {
     "id": 94,
@@ -1032,6 +1218,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الشرح",
     "russian": "Раскрытие",
+    "countOfWords": 27,
+    "countOfLetters": 103,
   },
   {
     "id": 95,
@@ -1043,6 +1231,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "التين",
     "russian": "Смоковница",
+    "countOfWords": 34,
+    "countOfLetters": 150,
   },
   {
     "id": 96,
@@ -1054,6 +1244,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "العلق",
     "russian": "Сгусток крови",
+    "countOfWords": 92,
+    "countOfLetters": 280,
   },
   {
     "id": 97,
@@ -1065,6 +1257,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "القدر",
     "russian": "Предопределение",
+    "countOfWords": 30,
+    "countOfLetters": 112,
   },
   {
     "id": 98,
@@ -1076,6 +1270,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "البينة",
     "russian": "Ясное знамение",
+    "countOfWords": 94,
+    "countOfLetters": 392,
   },
   {
     "id": 99,
@@ -1087,6 +1283,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الزلزلة",
     "russian": "Сотрясение",
+    "countOfWords": 35,
+    "countOfLetters": 149,
   },
   {
     "id": 100,
@@ -1098,6 +1296,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "العاديات",
     "russian": "Скачущие",
+    "countOfWords": 40,
+    "countOfLetters": 163,
   },
   {
     "id": 101,
@@ -1109,6 +1309,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "القارعة",
     "russian": "Великое бедствие",
+    "countOfWords": 36,
+    "countOfLetters": 150,
   },
   {
     "id": 102,
@@ -1120,6 +1322,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "التكاثر",
     "russian": "Страсть к приумножению",
+    "countOfWords": 28,
+    "countOfLetters": 120,
   },
   {
     "id": 103,
@@ -1131,6 +1335,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "العصر",
     "russian": "Время",
+    "countOfWords": 14,
+    "countOfLetters": 68,
   },
   {
     "id": 104,
@@ -1142,6 +1348,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الهمزة",
     "russian": "Хулитель",
+    "countOfWords": 33,
+    "countOfLetters": 130,
   },
   {
     "id": 105,
@@ -1153,6 +1361,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الفيل",
     "russian": "Слон",
+    "countOfWords": 23,
+    "countOfLetters": 96,
   },
   {
     "id": 106,
@@ -1164,6 +1374,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "قريش",
     "russian": "Курейшиты",
+    "countOfWords": 17,
+    "countOfLetters": 93,
   },
   {
     "id": 107,
@@ -1175,6 +1387,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الماعون",
     "russian": "Мелочь",
+    "countOfWords": 25,
+    "countOfLetters": 125,
   },
   {
     "id": 108,
@@ -1186,6 +1400,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الكوثر",
     "russian": "Изобилие",
+    "countOfWords": 10,
+    "countOfLetters": 42,
   },
   {
     "id": 109,
@@ -1197,6 +1413,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الكافرون",
     "russian": "Неверующие",
+    "countOfWords": 26,
+    "countOfLetters": 94,
   },
   {
     "id": 110,
@@ -1208,6 +1426,8 @@ const List surah = [
     "place": "Madinah",
     "arabic": "النصر",
     "russian": "Помощь",
+    "countOfWords": 19,
+    "countOfLetters": 78,
   },
   {
     "id": 111,
@@ -1219,6 +1439,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "المسد",
     "russian": "Пальмовые волокна",
+    "countOfWords": 20,
+    "countOfLetters": 77,
   },
   {
     "id": 112,
@@ -1230,6 +1452,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الإخلاص",
     "russian": "Очищение веры",
+    "countOfWords": 15,
+    "countOfLetters": 47,
   },
   {
     "id": 113,
@@ -1241,6 +1465,8 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الفلق",
     "russian": "Рассвет",
+    "countOfWords": 23,
+    "countOfLetters": 74,
   },
   {
     "id": 114,
@@ -1252,5 +1478,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الناس",
     "russian": "Люди",
+    "countOfWords": 20,
+    "countOfLetters": 79,
   }
 ];

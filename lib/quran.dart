@@ -142,6 +142,22 @@ String getSurahNameEnglish(int surahNumber) {
   return surah[surahNumber - 1]['english'].toString();
 }
 
+///Takes [surahNumber] and returns the Surah count words
+int getSurahCountWords(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+  return surah[surahNumber - 1]['countOfWords'] as int;
+}
+
+///Takes [surahNumber] and returns the Surah count letters
+int getSurahCountLetters(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+  return surah[surahNumber - 1]['countOfLetters'] as int;
+}
+
 ///Takes [surahNumber] returns the Surah name in Turkish
 String getSurahNameTurkish(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {

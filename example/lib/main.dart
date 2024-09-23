@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:quran/quran.dart' as quran;
 
 void main() {
@@ -36,8 +37,12 @@ class _QuranExampleState extends State<QuranExample> {
               Text("\nTotal Verses: \n${quran.getVerseCount(18)}"),
               Text(
                   "\nPlace of Revelation: \n${quran.getPlaceOfRevelation(18)}"),
-              const Text("\nBasmala: \n${quran.basmala}"),
-              Text("\nVerse 1: \n${quran.getVerse(18, 1)}"),
+              Text("\nBasmala: \n${quran.basmala}",
+                  style: GoogleFonts.amiriQuran()),
+              Text(
+                "\nVerse 1: \n${quran.getVerse(18, 1)}",
+                style: GoogleFonts.amiriQuran(),
+              ),
             ],
           ),
         ),

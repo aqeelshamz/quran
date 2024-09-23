@@ -85,13 +85,67 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 - Portuguese - **`Translation.pt`**
 - Italian - **`Translation.itPiccardo`**
 - Dutch - **`Translation.nlSiregar`**
+- Russian - **`Translation.ruKuliev`**
+
+## Font Setup
+It is recommended to use [google_fonts](https://pub.dev/packages/google_fonts) package and use the following fonts for better Quranic text display:
+
+- **Amiri** - **`GoogleFonts.amiri()`**
+- **Amiri Quran** - **`GoogleFonts.amiriQuran()`**
+
+#### Setup
+
+Add the following dependencies in your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.1.0
+  quran: ^1.2.3
+```
+
+#### Usage Example
+
+Setting font globally:
+
+```dart
+MaterialApp(
+  theme: ThemeData(
+    textTheme: GoogleFonts.amiriTextTheme(),
+  ),
+);
+```
+
+```dart
+MaterialApp(
+  theme: ThemeData(
+    textTheme: GoogleFonts.amiriQuranTextTheme(),
+  ),
+);
+```
+
+For specific text:
+
+```dart
+Text(
+  quran.basmala,
+  style: GoogleFonts.amiri(),
+),
+```
+
+```dart
+Text(
+  quran.getVerse(18, 1),
+  style: GoogleFonts.amiriQuran(),
+),
+```
 
 ## Example
 
-![example](https://raw.githubusercontent.com/aqeelshamz/quran/main/images/1.png)
-
 ```dart
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:quran/quran.dart' as quran;
 
 void main() {
@@ -114,8 +168,14 @@ void main() {
               Text("\nSurah URL: \n" + quran.getSurahURL(18)),
               Text("\nTotal Verses: \n" + quran.getVerseCount(18).toString()),
               Text("\nPlace of Revelation: \n" + quran.getPlaceOfRevelation(18)),
-              Text("\nBasmala: \n" + quran.getBasmala()),
-              Text("\nVerse 1: \n" + quran.getVerse(18, 1))
+              Text(
+                "\nBasmala: \n${quran.basmala}",
+                style: GoogleFonts.amiriQuran(),
+              ),
+              Text(
+                "\nVerse 1: \n${quran.getVerse(18, 1)}",
+                style: GoogleFonts.amiriQuran(),
+              ),
             ],
           ),
         ),
@@ -125,10 +185,11 @@ void main() {
 }
 ```
 
-![example2](https://raw.githubusercontent.com/aqeelshamz/quran/main/images/2.png)
+![example](https://raw.githubusercontent.com/aqeelshamz/quran/main/images/1.png)
 
 ```dart
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:quran/quran.dart' as quran;
 
 void main() {
@@ -148,6 +209,7 @@ void main() {
                   title: Text(
                     quran.getVerse(18, index + 1, verseEndSymbol: true),
                     textAlign: TextAlign.right,
+                    style: GoogleFonts.amiri(),
                   ),
                 );
               },
@@ -159,3 +221,6 @@ void main() {
   );
 }
 ```
+
+![example2](https://raw.githubusercontent.com/aqeelshamz/quran/main/images/2.png)
+

@@ -1,16 +1,22 @@
 library quran;
 
 import 'dart:math';
-
-import 'package:quran/translations/en_saheeh.dart';
-import 'package:quran/translations/tr_saheeh.dart';
-import 'package:quran/translations/ml_abdulhameed.dart';
-import 'package:quran/translations/fr_hamidullah.dart';
-import 'package:quran/translations/en_clearquran.dart';
-import 'package:quran/translations/fa_husseindari.dart';
-import 'package:quran/translations/it_piccardo.dart';
-import 'package:quran/translations/nl_siregar.dart';
-import 'package:quran/translations/pt.dart';
+import './translations/en_saheeh.dart';
+import './translations/en_clearQuran.dart';
+import './translations/ru_kuliev.dart';
+import './translations/tr_saheeh.dart';
+import './translations/ml_abdulhameed.dart';
+import './translations/fr_Hamidullah.dart';
+import './translations/fa_husseinDari.dart';
+import './translations/it_piccardo.dart';
+import './translations/nl_siregar.dart';
+import './translations/pt.dart';
+import './translations/ur_translation.dart';
+import './translations/bangali.dart';
+import './translations/chinese.dart';
+import './translations/indonesian.dart';
+import './translations/spanish.dart';
+import './translations/swedish.dart';
 
 import 'juz_data.dart';
 import 'page_data.dart';
@@ -128,12 +134,44 @@ String getSurahName(int surahNumber) {
   return surah[surahNumber - 1]['name'].toString();
 }
 
+///Takes [surahNumber] and returns the Surah count words
+int getSurahCountWords(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+  return surah[surahNumber - 1]['countOfWords'] as int;
+}
+
+///Takes [surahNumber] and returns the Surah count letters
+int getSurahCountLetters(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+  return surah[surahNumber - 1]['countOfLetters'] as int;
+}
+
 ///Takes [surahNumber] returns the Surah name in English
 String getSurahNameEnglish(int surahNumber) {
   if (surahNumber > 114 || surahNumber <= 0) {
     throw "No Surah found with given surahNumber";
   }
   return surah[surahNumber - 1]['english'].toString();
+}
+
+///Takes [surahNumber] and returns the Surah count words
+int getSurahCountWords(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+  return surah[surahNumber - 1]['countOfWords'] as int;
+}
+
+///Takes [surahNumber] and returns the Surah count letters
+int getSurahCountLetters(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+  return surah[surahNumber - 1]['countOfLetters'] as int;
 }
 
 ///Takes [surahNumber] returns the Surah name in Turkish
@@ -158,6 +196,14 @@ String getSurahNameArabic(int surahNumber) {
     throw "No Surah found with given surahNumber";
   }
   return surah[surahNumber - 1]['arabic'].toString();
+}
+
+///Takes [surahNumber] returns the Surah name in Russian
+String getSurahNameRussian(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+  return surah[surahNumber - 1]['russian'].toString();
 }
 
 ///Takes [surahNumber], [verseNumber] and returns the page number of the Quran
@@ -286,6 +332,7 @@ enum SurahSeperator {
   surahNameEnglish,
   surahNameTurkish,
   surahNameFrench,
+  surahNameRussian,
 }
 
 ///Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
@@ -313,6 +360,8 @@ List<String> getVersesTextByPage(int pageNumber,
       verses.add(getSurahNameTurkish(data["surah"]));
     } else if (surahSeperator == SurahSeperator.surahNameFrench) {
       verses.add(getSurahNameFrench(data["surah"]));
+    } else if (surahSeperator == SurahSeperator.surahNameRussian) {
+      verses.add(getSurahNameRussian(data["surah"]));
     }
     for (int j = data["start"]; j <= data["end"]; j++) {
       verses.add(getVerse(data["surah"], j, verseEndSymbol: verseEndSymbol));
@@ -356,7 +405,14 @@ enum Translation {
   frHamidullah,
   itPiccardo,
   nlSiregar,
-  pt
+  pt,
+  ruKuliev,
+  urdu,
+  bangali,
+  chinese,
+  indonesian,
+  spanish,
+  swedish,
 }
 
 ///Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
@@ -394,6 +450,27 @@ String getVerseTranslation(int surahNumber, int verseNumber,
       break;
     case Translation.frHamidullah:
       translationText = frHamidullah;
+      break;
+    case Translation.ruKuliev:
+      translationText = ruKuliev;
+      break;
+    case Translation.urdu:
+      translationText = urduTranslation;
+      break;
+    case Translation.bangali:
+      translationText = bangali;
+      break;
+    case Translation.chinese:
+      translationText = chinese;
+      break;
+    case Translation.indonesian:
+      translationText = indonesian;
+      break;
+    case Translation.spanish:
+      translationText = spanish;
+      break;
+    case Translation.swedish:
+      translationText = swedish;
       break;
     default:
       translationText = enSaheeh;
@@ -448,6 +525,27 @@ Map searchWordsInTranslation(List<String> words,
       break;
     case Translation.frHamidullah:
       translationText = frHamidullah;
+      break;
+    case Translation.ruKuliev:
+      translationText = ruKuliev;
+      break;
+    case Translation.urdu:
+      translationText = urduTranslation;
+      break;
+    case Translation.bangali:
+      translationText = bangali;
+      break;
+    case Translation.chinese:
+      translationText = chinese;
+      break;
+    case Translation.indonesian:
+      translationText = indonesian;
+      break;
+    case Translation.spanish:
+      translationText = spanish;
+      break;
+    case Translation.swedish:
+      translationText = swedish;
       break;
     default:
       translationText = enSaheeh;

@@ -1,3 +1,9 @@
+## 1.3.2
+* Minor bug fixes
+
+## 1.3.1
+* New translations added - Spanish, Chinese, Indonesian, Urdu, Bengali, Swedish
+
 ## 1.3.0
 * Updated dependencies
 

@@ -1,4 +1,4 @@
-const List bangali = [
+const List bengali = [
   {
     "surah_number": 1,
     "verse_number": 1,

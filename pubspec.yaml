@@ -1,6 +1,6 @@
 name: quran
 description: Quran text, translation, audio URLs, and details of pages, juz, surah, ayah, place of revelation etc.
-version: 1.3.2
+version: 1.3.3
 homepage: https://github.com/aqeelshamz/quran
 
 environment:
@@ -15,13 +15,13 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  test:
+  test: ^1.25.7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
-flutter:
+# flutter:
 
   # To add assets to your package, add an assets section, like this:
   # assets:

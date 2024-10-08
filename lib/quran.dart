@@ -5,7 +5,7 @@ import './translations/ru_kuliev.dart';
 import './translations/tr_saheeh.dart';
 import './translations/ml_abdulhameed.dart';
 import './translations/fr_hamidullah.dart';
-import './translations/fa_husseinDari.dart';
+import './translations/fa_husseindari.dart';
 import './translations/it_piccardo.dart';
 import './translations/nl_siregar.dart';
 import './translations/portuguese.dart';

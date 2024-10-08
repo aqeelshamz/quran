@@ -2,7 +2,7 @@ const List mlAbdulHameed = [
   {
     "surah_number": 1,
     "verse_number": 1,
-    "content": "പരമകാരുണികനും കരുണാനിധിയുമായ അല്ലാഹുവിന്റെ നാമത്തില്‍ ."
+    "content": "പരമകാരുണികനും കരുണാനിധിയുമായ അല്ലാഹുവിന്റെ നാമത്തില്‍."
   },
   {
     "surah_number": 1,

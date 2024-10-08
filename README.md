@@ -9,89 +9,96 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 
 **Constants:**
 
-- **`basmala`** - The constant 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ'
-- **`sajdah`** - The constant 'سَجْدَةٌ'
-- **`totalJuzCount`** - The constant total juz count
-- **`totalMadaniSurahs`** - The constant total of madani surahs
-- **`totalMakkiSurahs`** - The constant total of makki surahs
-- **`totalPagesCount`** - The most standard and common copy of Arabic only Quran total pages count
-- **`totalSurahCount`** - The constant total surah count
-- **`totalVerseCount`** - The constant total verse count
+-   **`basmala`** - The constant 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ'
+-   **`sajdah`** - The constant 'سَجْدَةٌ'
+-   **`totalJuzCount`** - The constant total juz count
+-   **`totalMadaniSurahs`** - The constant total of madani surahs
+-   **`totalMakkiSurahs`** - The constant total of makki surahs
+-   **`totalPagesCount`** - The most standard and common copy of Arabic only Quran total pages count
+-   **`totalSurahCount`** - The constant total surah count
+-   **`totalVerseCount`** - The constant total verse count
 
 **Functions:**
 
 **_Juz:_**
 
-- **`getJuzNumber(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns Juz number
-- **`getSurahAndVersesFromJuz(int juzNumber)`** - Takes [juzNumber] and returns a map containing Surah and Verse numbers
+-   **`getJuzNumber(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns Juz number
+-   **`getSurahAndVersesFromJuz(int juzNumber)`** - Takes [juzNumber] and returns a map containing Surah and Verse numbers
 
 **_Surah:_**
 
-- **`getSurahName(int surahNumber)`** - Takes [surahNumber] and returns the Surah name
-- **`getSurahNameArabic(int surahNumber)`** - Takes [surahNumber] returns the Surah name in Arabic
-- **`getSurahNameEnglish(int surahNumber)`** - Takes [surahNumber] returns the Surah name in English
-- **`getSurahNameTurkish(int surahNumber)`** - Takes [surahNumber] returns the Surah name in Turkish
-- **`getSurahNameFrench(int surahNumber)`** - Takes [surahNumber] returns the Surah name in French
-- **`getPlaceOfRevelation(int surahNumber)`** - Takes [surahNumber] and returns the Place of Revelation (Makkah / Madinah) of that Surah
-- **`getVerseCount(int surahNumber)`** - Takes [surahNumber] and returns the count of total Verses in that Surah
+-   **`getSurahName(int surahNumber)`** - Takes [surahNumber] and returns the Surah name
+-   **`getSurahNameArabic(int surahNumber)`** - Takes [surahNumber] returns the Surah name in Arabic
+-   **`getSurahNameEnglish(int surahNumber)`** - Takes [surahNumber] returns the Surah name in English
+-   **`getSurahNameTurkish(int surahNumber)`** - Takes [surahNumber] returns the Surah name in Turkish
+-   **`getSurahNameFrench(int surahNumber)`** - Takes [surahNumber] returns the Surah name in French
+-   **`getPlaceOfRevelation(int surahNumber)`** - Takes [surahNumber] and returns the Place of Revelation (Makkah / Madinah) of that Surah
+-   **`getVerseCount(int surahNumber)`** - Takes [surahNumber] and returns the count of total Verses in that Surah
 
 **_Verse:_**
 
-- **`getVerse(int surahNumber, int verseNumber, {bool verseEndSymbol})`** - Takes [surahNumber], [verseNumber] & [verseEndSymbol] (optional) and returns the Verse in Arabic
-- **`getVerseEndSymbol(int verseNumber, {bool arabicNumeral})`** - Takes [verseNumber], [arabicNumeral] (optional) and returns '۝' symbol with verse number
-- **`isSajdahVerse(int surahNumber, int verseNumber)`** - Takes [surahNumber], [verseNumber] and returns true if verse is sajdah verse
-- **`getVerseTranslation(int surahNumber, int verseNumber, {bool verseEndSymbol, Translation translation})`** - Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
+-   **`getVerse(int surahNumber, int verseNumber, {bool verseEndSymbol})`** - Takes [surahNumber], [verseNumber] & [verseEndSymbol] (optional) and returns the Verse in Arabic
+-   **`getVerseEndSymbol(int verseNumber, {bool arabicNumeral})`** - Takes [verseNumber], [arabicNumeral] (optional) and returns '۝' symbol with verse number
+-   **`isSajdahVerse(int surahNumber, int verseNumber)`** - Takes [surahNumber], [verseNumber] and returns true if verse is sajdah verse
+-   **`getVerseTranslation(int surahNumber, int verseNumber, {bool verseEndSymbol, Translation translation})`** - Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
 
-- Random Verse - Use `RandomVerse` class to create a random verse. Example:
-  ```dart
-  RandomVerse randomVerse = RandomVerse();
-  print(randomVerse.surahNumber);
-  print(randomVerse.verseNumber);
-  print(randomVerse.verse);
-  print(randomVerse.translation);
-  ```
+-   Random Verse - Use `RandomVerse` class to create a random verse. Example:
+    ```dart
+    RandomVerse randomVerse = RandomVerse();
+    print(randomVerse.surahNumber);
+    print(randomVerse.verseNumber);
+    print(randomVerse.verse);
+    print(randomVerse.translation);
+    ```
 
 **_Page:_**
 
-- **`getPageData(int pageNumber)`** - Takes [pageNumber] and returns a list containing Surahs and the starting and ending Verse numbers in that page
-- **`getPageNumber(int surahNumber, int verseNumber)`** - Takes [surahNumber], [verseNumber] and returns the page number of the Quran
-- **`getSurahCountByPage(int pageNumber)`** - Takes [pageNumber] and returns total surahs count in that page
-- **`getSurahPages(int surahNumber)`** - Takes [surahNumber] and returns the list of page numbers of that surah
-- **`getVerseCountByPage(int pageNumber)`** - Takes [pageNumber] and returns total verses count in that page
-- **`getVersesTextByPage(int pageNumber, {bool verseEndSymbol, SurahSeperator surahSeperator, customSurahSeperator})`** - Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
+-   **`getPageData(int pageNumber)`** - Takes [pageNumber] and returns a list containing Surahs and the starting and ending Verse numbers in that page
+-   **`getPageNumber(int surahNumber, int verseNumber)`** - Takes [surahNumber], [verseNumber] and returns the page number of the Quran
+-   **`getSurahCountByPage(int pageNumber)`** - Takes [pageNumber] and returns total surahs count in that page
+-   **`getSurahPages(int surahNumber)`** - Takes [surahNumber] and returns the list of page numbers of that surah
+-   **`getVerseCountByPage(int pageNumber)`** - Takes [pageNumber] and returns total verses count in that page
+-   **`getVersesTextByPage(int pageNumber, {bool verseEndSymbol, SurahSeperator surahSeperator, customSurahSeperator})`** - Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
 
 **_URLs:_**
 
-- **`getAudioURLBySurah(int surahNumber)`** - Takes [surahNumber] and returns audio URL of that surah
-- **`getAudioURLByVerse(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns audio URL of that verse
-- **`getAudioURLByVerseNumber(int surahNumber)`** - Takes [verseNumber] and returns audio URL of that verse
-- **`getJuzURL(int juzNumber)`** - Takes [juzNumber] and returns Juz URL (from Quran.com)
-- **`getSurahURL(int surahNumber)`** - Takes [surahNumber] and returns Surah URL (from Quran.com)
-- **`getVerseURL(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns Verse URL (from Quran.com)
+-   **`getAudioURLBySurah(int surahNumber)`** - Takes [surahNumber] and returns audio URL of that surah
+-   **`getAudioURLByVerse(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns audio URL of that verse
+-   **`getAudioURLByVerseNumber(int surahNumber)`** - Takes [verseNumber] and returns audio URL of that verse
+-   **`getJuzURL(int juzNumber)`** - Takes [juzNumber] and returns Juz URL (from Quran.com)
+-   **`getSurahURL(int surahNumber)`** - Takes [surahNumber] and returns Surah URL (from Quran.com)
+-   **`getVerseURL(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns Verse URL (from Quran.com)
 
 **_Search:_**
 
-- **`searchWords(List<String> words)`** - Takes a list of words [words] and returns a map containing no. of occurences and result of the word search in the arabic quran text
-- **`searchWordsInTranslation(List<String> words, {Translation translation})`** - Takes a list of words [words] and [translation] (optional) and returns a map containing no. of occurences and result of the word search in the traslation
+-   **`searchWords(List<String> words)`** - Takes a list of words [words] and returns a map containing no. of occurences and result of the word search in the arabic quran text
+-   **`searchWordsInTranslation(List<String> words, {Translation translation})`** - Takes a list of words [words] and [translation] (optional) and returns a map containing no. of occurences and result of the word search in the traslation
 
 **Translations:**
 
-- English (Saheeh International) - **`Translation.enSaheeh`**
-- English (Clear Quran) - **`Translation.enClearQuran`**
-- French (Muhammad Hamidullah) - **`Translation.frHamidullah`**
-- Turkish - **`Translation.trSaheeh`**
-- Malayalam (Cheriyamundam Abdul Hameed and Kunhi Mohammed Parappoor) - **`Translation.mlAbdulHameed`**
-- Farsi - **`Translation.faHusseinDari`**
-- Portuguese - **`Translation.pt`**
-- Italian - **`Translation.itPiccardo`**
-- Dutch - **`Translation.nlSiregar`**
-- Russian - **`Translation.ruKuliev`**
+-   English (Saheeh International) - **`Translation.enSaheeh`**
+-   English (Clear Quran) - **`Translation.enClearQuran`**
+-   French (Muhammad Hamidullah) - **`Translation.frHamidullah`**
+-   Turkish - **`Translation.trSaheeh`**
+-   Malayalam (Cheriyamundam Abdul Hameed and Kunhi Mohammed Parappoor) - **`Translation.mlAbdulHameed`**
+-   Farsi - **`Translation.faHusseinDari`**
+-   Portuguese - **`Translation.portuguese`**
+-   Italian - **`Translation.itPiccardo`**
+-   Dutch - **`Translation.nlSiregar`**
+-   Russian - **`Translation.ruKuliev`**
+-   Bengali - **`Translation.bengali`**
+-   Chinese - **`Translation.chinese`**
+-   Swedish - **`Translation.swedish`**
+-   Spanish - **`Translation.spanish`**
+-   Urdu - **`Translation.urdu`**
+-   Indonesian - **`Translation.indonesian`**
 
 ## Font Setup
+
 It is recommended to use [google_fonts](https://pub.dev/packages/google_fonts) package and use the following fonts for better Quranic text display:
 
-- **Amiri** - **`GoogleFonts.amiri()`**
-- **Amiri Quran** - **`GoogleFonts.amiriQuran()`**
+-   **Amiri** - **`GoogleFonts.amiri()`**
+-   **Amiri Quran** - **`GoogleFonts.amiriQuran()`**
 
 #### Setup
 
@@ -99,10 +106,10 @@ Add the following dependencies in your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter:
-    sdk: flutter
-  google_fonts: ^2.1.0
-  quran: ^1.2.3
+    flutter:
+        sdk: flutter
+    google_fonts: ^2.1.0
+    quran: ^1.2.3
 ```
 
 #### Usage Example
@@ -223,4 +230,3 @@ void main() {
 ```
 
 ![example2](https://raw.githubusercontent.com/aqeelshamz/quran/main/images/2.png)
-

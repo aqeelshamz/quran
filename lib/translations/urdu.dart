@@ -1,4 +1,4 @@
-const List urduTranslation = [
+const List urdu = [
   {
     "surah_number": 1,
     "verse_number": 1,

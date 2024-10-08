@@ -1,4 +1,4 @@
-const List pt = [
+const List portuguese = [
   {
     "surah_number": 1,
     "verse_number": 1,

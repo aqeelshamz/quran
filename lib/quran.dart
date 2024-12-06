@@ -21,6 +21,8 @@ import 'page_data.dart';
 import 'quran_text.dart';
 import 'sajdah_verses.dart';
 import 'surah_data.dart';
+import 'translations/de_aburidamuhammad.dart';
+import 'translations/ms_abdullahmuhamma.dart';
 
 ///Takes [pageNumber] and returns a list containing Surahs and the starting and ending Verse numbers in that page
 ///
@@ -379,6 +381,8 @@ enum Translation {
   indonesian,
   spanish,
   swedish,
+  deAburidamuhammad,
+  msAbdullahmuhamma,
 }
 
 ///Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
@@ -437,6 +441,12 @@ String getVerseTranslation(int surahNumber, int verseNumber,
       break;
     case Translation.swedish:
       translationText = swedish;
+      break;
+    case Translation.deAburidamuhammad:
+      translationText = deAburidamuhammad;
+      break;
+    case Translation.msAbdullahmuhamma:
+      translationText = msAbdullahmuhamma;
       break;
     default:
       translationText = enSaheeh;

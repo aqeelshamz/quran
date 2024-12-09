@@ -15,6 +15,7 @@ import './translations/chinese.dart';
 import './translations/indonesian.dart';
 import './translations/spanish.dart';
 import './translations/swedish.dart';
+import './translations/hindi.dart';
 
 import 'juz_data.dart';
 import 'page_data.dart';
@@ -138,6 +139,14 @@ String getSurahNameEnglish(int surahNumber) {
     throw "No Surah found with given surahNumber";
   }
   return surah[surahNumber - 1]['english'].toString();
+}
+
+///Takes [surahNumber] returns the Surah name in Hindi
+String getSurahNameHindi(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+  return surah[surahNumber - 1]['hindi'].toString();
 }
 
 ///Takes [surahNumber] returns the Surah name in Turkish
@@ -413,6 +422,7 @@ enum Translation {
   indonesian,
   spanish,
   swedish,
+  hindi,
 }
 
 ///Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
@@ -471,6 +481,9 @@ String getVerseTranslation(int surahNumber, int verseNumber,
       break;
     case Translation.swedish:
       translationText = swedish;
+      break;
+    case Translation.hindi:
+      translationText = hindi;
       break;
     default:
       translationText = enSaheeh;
@@ -546,6 +559,9 @@ Map searchWordsInTranslation(List<String> words,
       break;
     case Translation.swedish:
       translationText = swedish;
+      break;
+    case Translation.hindi:
+      translationText = hindi;
       break;
     default:
       translationText = enSaheeh;

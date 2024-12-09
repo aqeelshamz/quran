@@ -353,6 +353,30 @@ String getAudioURLByVerse(int surahNumber, int verseNumber) {
   return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNum.mp3";
 }
 
+///Takes [surahNumber] & [verseNumber] and returns english translation audio URL of that verse
+String getEnglishAudioURLByVerse(int surahNumber, int verseNumber) {
+  int verseNum = 0;
+  for (var i in quranText) {
+    if (i['surah_number'] == surahNumber && i['verse_number'] == verseNumber) {
+      verseNum = quranText.indexOf(i) + 1;
+      break;
+    }
+  }
+  return "https://cdn.islamic.network/quran/audio/192/en.walk/$verseNum.mp3";
+}
+
+///Takes [surahNumber] & [verseNumber] and returns russian translation audio URL of that verse
+String getRussianAudioURLByVerse(int surahNumber, int verseNumber) {
+  int verseNum = 0;
+  for (var i in quranText) {
+    if (i['surah_number'] == surahNumber && i['verse_number'] == verseNumber) {
+      verseNum = quranText.indexOf(i) + 1;
+      break;
+    }
+  }
+  return "https://cdn.islamic.network/quran/audio/128/ru.kuliev-audio/$verseNum.mp3";
+}
+
 ///Takes [surahNumber] & [verseNumber] and returns true if verse is sajdah
 bool isSajdahVerse(int surahNumber, int verseNumber) =>
     sajdahVerses[surahNumber] == verseNumber;
@@ -360,6 +384,16 @@ bool isSajdahVerse(int surahNumber, int verseNumber) =>
 ///Takes [verseNumber] and returns audio URL of that verse
 String getAudioURLByVerseNumber(int verseNumber) {
   return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNumber.mp3";
+}
+
+///Takes [verseNumber] and returns audio URL of that verse's english translation
+String getEnglishAudioURLByVerseNumber(int verseNumber) {
+  return "https://cdn.islamic.network/quran/audio/192/en.walk/$verseNumber.mp3";
+}
+
+///Takes [verseNumber] and returns audio URL of that verse's russian translation
+String getRussianAudioURLByVerseNumber(int verseNumber) {
+  return "https://cdn.islamic.network/quran/audio/128/ru.kuliev-audio/$verseNumber.mp3";
 }
 
 enum Translation {

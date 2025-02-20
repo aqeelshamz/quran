@@ -1,3 +1,5 @@
+ﺭَﺑَّﻨَﺎ ﺗَﻘَﺒَّﻞْ ﻣِﻨَّﺎ
+
 [![pub package](https://img.shields.io/pub/v/quran.svg)](https://pub.dev/packages/quran)
 [![npm package](https://img.shields.io/npm/v/quran-db.svg)](https://www.npmjs.com/package/quran-db)
 

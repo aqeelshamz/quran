@@ -9,6 +9,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الفاتحة",
     "russian": "Открывающая Коран",
+    "hindi" : "अल-फ़ातिहा"
   },
   {
     "id": 2,
@@ -20,6 +21,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "البقرة",
     "russian": "Корова",
+    "hindi" : "अल-बक़रा"
   },
   {
     "id": 3,
@@ -31,6 +33,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "آل عمران",
     "russian": "Семейство Имрана",
+    "hindi" : "आले-इमरान"
   },
   {
     "id": 4,
@@ -42,6 +45,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "النساء",
     "russian": "Женщины",
+    "hindi" : "अन-निसा"
   },
   {
     "id": 5,
@@ -53,6 +57,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "المائدة",
     "russian": "Трапеза",
+    "hindi" : "अल-माइदा"
   },
   {
     "id": 6,
@@ -64,6 +69,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الأنعام",
     "russian": "Скот",
+    "hindi" : "अल-अनआम"
   },
   {
     "id": 7,
@@ -75,6 +81,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الأعراف",
     "russian": "Ограды",
+    "hindi" : "अल-आराफ़"
   },
   {
     "id": 8,
@@ -86,6 +93,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الأنفال",
     "russian": "Трофеи",
+    "hindi" : "अल-अनफ़ाल"
   },
   {
     "id": 9,
@@ -97,6 +105,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "التوبة",
     "russian": "Покаяние",
+    "hindi" : "अत-तौबा"
   },
   {
     "id": 10,
@@ -108,6 +117,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "يونس",
     "russian": "Иона",
+    "hindi" : "यूनुस"
   },
   {
     "id": 11,
@@ -119,6 +129,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "هود",
     "russian": "Худ",
+    "hindi" : "हूद"
   },
   {
     "id": 12,
@@ -130,6 +141,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "يوسف",
     "russian": "Иосиф",
+    "hindi" : "यूसुफ़"
   },
   {
     "id": 13,
@@ -141,6 +153,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الرعد",
     "russian": "Гром",
+    "hindi" : "अर-रअद"
   },
   {
     "id": 14,
@@ -152,6 +165,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "ابراهيم",
     "russian": "Авраам",
+    "hindi" : "इबराहीम"
   },
   {
     "id": 15,
@@ -163,6 +177,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الحجر",
     "russian": "Хиджр",
+    "hindi" : "अल-हिज्र"
   },
   {
     "id": 16,
@@ -174,6 +189,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "النحل",
     "russian": "Пчёлы",
+    "hindi" : "अल-नहल"
   },
   {
     "id": 17,
@@ -185,6 +201,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الإسراء",
     "russian": "Ночной перенос",
+    "hindi" : "अल-इसरा"
   },
   {
     "id": 18,
@@ -196,6 +213,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الكهف",
     "russian": "Пещера",
+    "hindi" : "अल-कहफ़"
   },
   {
     "id": 19,
@@ -207,6 +225,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "مريم",
     "russian": "Мария",
+    "hindi" : "मरयम"
   },
   {
     "id": 20,
@@ -218,6 +237,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "طه",
     "russian": "Та Ха",
+    "hindi" : "ता-हा"
   },
   {
     "id": 21,
@@ -229,6 +249,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الأنبياء",
     "russian": "Пророки",
+    "hindi" : "अल-अंबिया"
   },
   {
     "id": 22,
@@ -240,6 +261,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الحج",
     "russian": "Паломничество",
+    "hindi" : "अल-हज"
   },
   {
     "id": 23,
@@ -251,6 +273,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "المؤمنون",
     "russian": "Верующие",
+    "hindi" : "अल-मोमिनून"
   },
   {
     "id": 24,
@@ -262,6 +285,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "النور",
     "russian": "Свет",
+    "hindi" : "अन-नूर"
   },
   {
     "id": 25,
@@ -273,6 +297,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الفرقان",
     "russian": "Различение",
+    "hindi" : "अल-फ़ुरक़ान"
   },
   {
     "id": 26,
@@ -284,6 +309,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الشعراء",
     "russian": "Поэты",
+    "hindi" : "अश-शुअरा"
   },
   {
     "id": 27,
@@ -295,6 +321,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "النمل",
     "russian": "Муравьи",
+    "hindi" : "अन-नम्ल"
   },
   {
     "id": 28,
@@ -306,6 +333,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "القصص",
     "russian": "Рассказ",
+    "hindi" : "अल-क़सस"
   },
   {
     "id": 29,
@@ -317,6 +345,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "العنكبوت",
     "russian": "Паук",
+    "hindi" : "अल-अनकबूत"
   },
   {
     "id": 30,
@@ -328,6 +357,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الروم",
     "russian": "Римляне",
+    "hindi" : "अर-रूम"
   },
   {
     "id": 31,
@@ -339,6 +369,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "لقمان",
     "russian": "Лукман",
+    "hindi" : "लु‌क़मान"
   },
   {
     "id": 32,
@@ -350,6 +381,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "السجدة",
     "russian": "Земной поклон",
+    "hindi" : "अस-सजदा"
   },
   {
     "id": 33,
@@ -361,6 +393,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الأحزاب",
     "russian": "Союзники",
+    "hindi" : "अल-अहज़ाब"
   },
   {
     "id": 34,
@@ -372,6 +405,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "سبإ",
     "russian": "Сава",
+    "hindi" : "सबा"
   },
   {
     "id": 35,
@@ -383,6 +417,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "فاطر",
     "russian": "Творец",
+    "hindi" : "अल-फ़ातिर"
   },
   {
     "id": 36,
@@ -394,6 +429,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "يس",
     "russian": "Йа Син",
+    "hindi" : "या सीन"
   },
   {
     "id": 37,
@@ -405,6 +441,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الصافات",
     "russian": "Выстроившиеся в ряды",
+    "hindi" : "अस-साफ़्फ़ात"
   },
   {
     "id": 38,
@@ -416,6 +453,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "ص",
     "russian": "Сад",
+    "hindi" : "साद"
   },
   {
     "id": 39,
@@ -427,6 +465,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الزمر",
     "russian": "Толпы",
+    "hindi" : "अज़-ज़ुमर"
   },
   {
     "id": 40,
@@ -438,6 +477,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "غافر",
     "russian": "Прощающий",
+    "hindi" : "ग़ाफ़िर"
   },
   {
     "id": 41,
@@ -449,6 +489,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "فصلت",
     "russian": "Разъяснены",
+    "hindi" : "फुस्सिलत"
   },
   {
     "id": 42,
@@ -460,6 +501,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الشورى",
     "russian": "Совет",
+    "hindi" : "अश-शूरा"
   },
   {
     "id": 43,
@@ -471,6 +513,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الزخرف",
     "russian": "Украшения",
+    "hindi" : "अज़-ज़ुख़रुफ़"
   },
   {
     "id": 44,
@@ -482,6 +525,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الدخان",
     "russian": "Дым",
+    "hindi" : "अद-दुख़ान"
   },
   {
     "id": 45,
@@ -493,6 +537,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الجاثية",
     "russian": "Коленопреклонённые",
+    "hindi" : "अल-जासिया"
   },
   {
     "id": 46,
@@ -504,6 +549,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الأحقاف",
     "russian": "Барханы",
+    "hindi" : "अल-अहक़ाफ़"
   },
   {
     "id": 47,
@@ -515,6 +561,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "محمد",
     "russian": "Мухаммад",
+    "hindi" : "मुहम्मद"
   },
   {
     "id": 48,
@@ -526,6 +573,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الفتح",
     "russian": "Победа",
+    "hindi" : "अल-फ़तह"
   },
   {
     "id": 49,
@@ -537,6 +585,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الحجرات",
     "russian": "Комнаты",
+    "hindi" : "अल-हुजुरात"
   },
   {
     "id": 50,
@@ -548,6 +597,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "ق",
     "russian": "Каф",
+    "hindi" : "क़ाफ़"
   },
   {
     "id": 51,
@@ -559,6 +609,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الذاريات",
     "russian": "Рассеивающие прах",
+    "hindi" : "अज़-ज़ारीयात"
   },
   {
     "id": 52,
@@ -570,6 +621,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الطور",
     "russian": "Гора",
+    "hindi" : "अत-तूर"
   },
   {
     "id": 53,
@@ -581,6 +633,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "النجم",
     "russian": "Звезда",
+    "hindi" : "अन-नज्म"
   },
   {
     "id": 54,
@@ -592,6 +645,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "القمر",
     "russian": "Месяц",
+    "hindi" : "अल-क़मर"
   },
   {
     "id": 55,
@@ -603,6 +657,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الرحمن",
     "russian": "Милостивый",
+    "hindi" : "अर-रहमान"
   },
   {
     "id": 56,
@@ -614,6 +669,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الواقعة",
     "russian": "Событие",
+    "hindi" : "अल-वाक़िआ"
   },
   {
     "id": 57,
@@ -625,6 +681,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الحديد",
     "russian": "Железо",
+    "hindi" : "अल-हदीद"
   },
   {
     "id": 58,
@@ -636,6 +693,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "المجادلة",
     "russian": "Препирающаяся",
+    "hindi" : "अल-मुजादला"
   },
   {
     "id": 59,
@@ -647,6 +705,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الحشر",
     "russian": "Сбор",
+    "hindi" : "अल-हश्र"
   },
   {
     "id": 60,
@@ -658,6 +717,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الممتحنة",
     "russian": "Испытуемая",
+    "hindi" : "अल-मुमतहिना"
   },
   {
     "id": 61,
@@ -669,6 +729,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الصف",
     "russian": "Ряды",
+    "hindi" : "अस-सफ़्फ़"
   },
   {
     "id": 62,
@@ -680,6 +741,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الجمعة",
     "russian": "Собрание",
+    "hindi" : "अल-जुमा"
   },
   {
     "id": 63,
@@ -691,6 +753,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "المنافقون",
     "russian": "Лицемеры",
+    "hindi" : "अल-मुनाफ़िक़ून"
   },
   {
     "id": 64,
@@ -702,6 +765,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "التغابن",
     "russian": "Взаимное обделение",
+    "hindi" : "अत-तग़ाबुन"
   },
   {
     "id": 65,
@@ -713,6 +777,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الطلاق",
     "russian": "Развод",
+    "hindi" : "अत-तलाक़"
   },
   {
     "id": 66,
@@ -724,6 +789,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "التحريم",
     "russian": "Запрещение",
+    "hindi" : "अत-तहरीम"
   },
   {
     "id": 67,
@@ -735,6 +801,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الملك",
     "russian": "Власть",
+    "hindi" : "अल-मुल्क"
   },
   {
     "id": 68,
@@ -746,6 +813,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "القلم",
     "russian": "Письменная трость",
+    "hindi" : "अल-क़लम"
   },
   {
     "id": 69,
@@ -757,6 +825,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الحاقة",
     "russian": "Неминуемое",
+    "hindi" : "अल-हाक़्क़ा"
   },
   {
     "id": 70,
@@ -768,6 +837,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "المعارج",
     "russian": "Ступени",
+    "hindi" : "अल-मआरिज"
   },
   {
     "id": 71,
@@ -779,6 +849,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "نوح",
     "russian": "Ной",
+    "hindi" : "नूह"
   },
   {
     "id": 72,
@@ -790,6 +861,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الجن",
     "russian": "Джинны",
+    "hindi" : "अल-जिन्न"
   },
   {
     "id": 73,
@@ -801,6 +873,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "المزمل",
     "russian": "Закутавшийся",
+    "hindi" : "अल-मुज़्ज़म्मिल"
   },
   {
     "id": 74,
@@ -812,6 +885,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "المدثر",
     "russian": "Завернувшийся",
+    "hindi" : "अल-मुद्दस्सिर"
   },
   {
     "id": 75,
@@ -823,6 +897,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "القيامة",
     "russian": "Воскресение",
+    "hindi" : "अल-क़ियामह"
   },
   {
     "id": 76,
@@ -834,6 +909,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الانسان",
     "russian": "Человек",
+    "hindi" : "अद-दहर"
   },
   {
     "id": 77,
@@ -845,6 +921,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "المرسلات",
     "russian": "Посылаемые",
+    "hindi" : "अल-मुरसलात"
   },
   {
     "id": 78,
@@ -856,6 +933,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "النبأ",
     "russian": "Весть",
+    "hindi" : "अन-नबा"
   },
   {
     "id": 79,
@@ -867,6 +945,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "النازعات",
     "russian": "Исторгающие",
+    "hindi" : "अन-नाज़िआत"
   },
   {
     "id": 80,
@@ -878,6 +957,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "عبس",
     "russian": "Нахмурился",
+    "hindi" : "अ ब स"
   },
   {
     "id": 81,
@@ -889,6 +969,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "التكوير",
     "russian": "Скручивание",
+    "hindi" : "अत-तक्वीर"
   },
   {
     "id": 82,
@@ -900,6 +981,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الإنفطار",
     "russian": "Раскалывание",
+    "hindi" : "अल-इनफ़ितार"
   },
   {
     "id": 83,
@@ -910,7 +992,8 @@ const List surah = [
     "french": "Les fraudeurs",
     "place": "Makkah",
     "arabic": "المطففين",
-    "russian": "Обвешивающие"
+    "russian": "Обвешивающие",
+    "hindi" : "अल-मुतफ़्फ़िफ़ीन"
   },
   {
     "id": 84,
@@ -921,7 +1004,8 @@ const List surah = [
     "french": "La déchirure",
     "place": "Makkah",
     "arabic": "الإنشقاق",
-    "russian": "Разверзнется"
+    "russian": "Разверзнется",
+    "hindi" : "अल-इनशिक़ाक़"
   },
   {
     "id": 85,
@@ -933,6 +1017,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "البروج",
     "russian": "Созвездия зодиака",
+    "hindi" : "अल-बुरूज"
   },
   {
     "id": 86,
@@ -944,6 +1029,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الطارق",
     "russian": "Ночной путник",
+    "hindi" : "अत-तारिक़"
   },
   {
     "id": 87,
@@ -955,6 +1041,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الأعلى",
     "russian": "Всевышний",
+    "hindi" : "अल-आला"
   },
   {
     "id": 88,
@@ -966,6 +1053,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الغاشية",
     "russian": "Покрывающее",
+    "hindi" : "अल-ग़ाशिया"
   },
   {
     "id": 89,
@@ -977,6 +1065,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الفجر",
     "russian": "Заря",
+    "hindi" : "अल-फज़्र"
   },
   {
     "id": 90,
@@ -988,6 +1077,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "البلد",
     "russian": "Город",
+    "hindi" : "अल-बलद"
   },
   {
     "id": 91,
@@ -999,6 +1089,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الشمس",
     "russian": "Солнце",
+    "hindi" : "अश-शम्स"
   },
   {
     "id": 92,
@@ -1010,6 +1101,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الليل",
     "russian": "Ночь",
+    "hindi" : "अल-लैल"
   },
   {
     "id": 93,
@@ -1021,6 +1113,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الضحى",
     "russian": "Утро",
+    "hindi" : "अज़-ज़ुहा"
   },
   {
     "id": 94,
@@ -1032,6 +1125,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الشرح",
     "russian": "Раскрытие",
+    "hindi" : "अल-इनशिराह"
   },
   {
     "id": 95,
@@ -1043,6 +1137,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "التين",
     "russian": "Смоковница",
+    "hindi" : "अत-तीन"
   },
   {
     "id": 96,
@@ -1054,6 +1149,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "العلق",
     "russian": "Сгусток крови",
+    "hindi" : "अल-अलक़"
   },
   {
     "id": 97,
@@ -1065,6 +1161,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "القدر",
     "russian": "Предопределение",
+    "hindi" : "अल-क़द्र"
   },
   {
     "id": 98,
@@ -1076,6 +1173,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "البينة",
     "russian": "Ясное знамение",
+    "hindi" : "अल-बय्यिनह"
   },
   {
     "id": 99,
@@ -1087,6 +1185,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "الزلزلة",
     "russian": "Сотрясение",
+    "hindi" : "अज़-ज़िलज़ाल"
   },
   {
     "id": 100,
@@ -1098,6 +1197,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "العاديات",
     "russian": "Скачущие",
+    "hindi" : "अल-आदियात"
   },
   {
     "id": 101,
@@ -1109,6 +1209,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "القارعة",
     "russian": "Великое бедствие",
+    "hindi" : "अल-क़ारियह"
   },
   {
     "id": 102,
@@ -1120,6 +1221,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "التكاثر",
     "russian": "Страсть к приумножению",
+    "hindi" : "अत-तकासुर"
   },
   {
     "id": 103,
@@ -1131,6 +1233,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "العصر",
     "russian": "Время",
+    "hindi" : "अल-अस्र"
   },
   {
     "id": 104,
@@ -1142,6 +1245,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الهمزة",
     "russian": "Хулитель",
+    "hindi" : "अल-हु-मज़ह"
   },
   {
     "id": 105,
@@ -1153,6 +1257,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الفيل",
     "russian": "Слон",
+    "hindi" : "अल-फ़ील"
   },
   {
     "id": 106,
@@ -1164,6 +1269,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "قريش",
     "russian": "Курейшиты",
+    "hindi" : "अल-क़ुरैश"
   },
   {
     "id": 107,
@@ -1175,6 +1281,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الماعون",
     "russian": "Мелочь",
+    "hindi" : "अल-माऊन"
   },
   {
     "id": 108,
@@ -1186,6 +1293,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الكوثر",
     "russian": "Изобилие",
+    "hindi" : "अल-कौसर"
   },
   {
     "id": 109,
@@ -1197,6 +1305,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الكافرون",
     "russian": "Неверующие",
+    "hindi" : "अल-काफ़िरून"
   },
   {
     "id": 110,
@@ -1208,6 +1317,7 @@ const List surah = [
     "place": "Madinah",
     "arabic": "النصر",
     "russian": "Помощь",
+    "hindi" : "अन-नस्र"
   },
   {
     "id": 111,
@@ -1219,6 +1329,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "المسد",
     "russian": "Пальмовые волокна",
+    "hindi" : "अल-लहब"
   },
   {
     "id": 112,
@@ -1230,6 +1341,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الإخلاص",
     "russian": "Очищение веры",
+    "hindi" : "अल-इख़लास"
   },
   {
     "id": 113,
@@ -1241,6 +1353,7 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الفلق",
     "russian": "Рассвет",
+    "hindi" : "अल-फ़लक़"
   },
   {
     "id": 114,
@@ -1252,5 +1365,6 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الناس",
     "russian": "Люди",
+    "hindi" : "अन-नास"
   }
 ];

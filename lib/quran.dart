@@ -15,6 +15,7 @@ import './translations/chinese.dart';
 import './translations/indonesian.dart';
 import './translations/spanish.dart';
 import './translations/swedish.dart';
+import './translations/hindi.dart';
 
 import 'juz_data.dart';
 import 'page_data.dart';
@@ -138,6 +139,14 @@ String getSurahNameEnglish(int surahNumber) {
     throw "No Surah found with given surahNumber";
   }
   return surah[surahNumber - 1]['english'].toString();
+}
+
+///Takes [surahNumber] returns the Surah name in Hindi
+String getSurahNameHindi(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+  return surah[surahNumber - 1]['hindi'].toString();
 }
 
 ///Takes [surahNumber] returns the Surah name in Turkish
@@ -353,6 +362,30 @@ String getAudioURLByVerse(int surahNumber, int verseNumber) {
   return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNum.mp3";
 }
 
+///Takes [surahNumber] & [verseNumber] and returns english translation audio URL of that verse
+String getEnglishAudioURLByVerse(int surahNumber, int verseNumber) {
+  int verseNum = 0;
+  for (var i in quranText) {
+    if (i['surah_number'] == surahNumber && i['verse_number'] == verseNumber) {
+      verseNum = quranText.indexOf(i) + 1;
+      break;
+    }
+  }
+  return "https://cdn.islamic.network/quran/audio/192/en.walk/$verseNum.mp3";
+}
+
+///Takes [surahNumber] & [verseNumber] and returns russian translation audio URL of that verse
+String getRussianAudioURLByVerse(int surahNumber, int verseNumber) {
+  int verseNum = 0;
+  for (var i in quranText) {
+    if (i['surah_number'] == surahNumber && i['verse_number'] == verseNumber) {
+      verseNum = quranText.indexOf(i) + 1;
+      break;
+    }
+  }
+  return "https://cdn.islamic.network/quran/audio/128/ru.kuliev-audio/$verseNum.mp3";
+}
+
 ///Takes [surahNumber] & [verseNumber] and returns true if verse is sajdah
 bool isSajdahVerse(int surahNumber, int verseNumber) =>
     sajdahVerses[surahNumber] == verseNumber;
@@ -360,6 +393,16 @@ bool isSajdahVerse(int surahNumber, int verseNumber) =>
 ///Takes [verseNumber] and returns audio URL of that verse
 String getAudioURLByVerseNumber(int verseNumber) {
   return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNumber.mp3";
+}
+
+///Takes [verseNumber] and returns audio URL of that verse's english translation
+String getEnglishAudioURLByVerseNumber(int verseNumber) {
+  return "https://cdn.islamic.network/quran/audio/192/en.walk/$verseNumber.mp3";
+}
+
+///Takes [verseNumber] and returns audio URL of that verse's russian translation
+String getRussianAudioURLByVerseNumber(int verseNumber) {
+  return "https://cdn.islamic.network/quran/audio/128/ru.kuliev-audio/$verseNumber.mp3";
 }
 
 enum Translation {
@@ -379,6 +422,7 @@ enum Translation {
   indonesian,
   spanish,
   swedish,
+  hindi,
 }
 
 ///Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
@@ -437,6 +481,9 @@ String getVerseTranslation(int surahNumber, int verseNumber,
       break;
     case Translation.swedish:
       translationText = swedish;
+      break;
+    case Translation.hindi:
+      translationText = hindi;
       break;
     default:
       translationText = enSaheeh;
@@ -512,6 +559,9 @@ Map searchWordsInTranslation(List<String> words,
       break;
     case Translation.swedish:
       translationText = swedish;
+      break;
+    case Translation.hindi:
+      translationText = hindi;
       break;
     default:
       translationText = enSaheeh;

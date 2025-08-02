@@ -1,3 +1,12 @@
+## 1.4.0
+* **Memory**: Reduced memory footprint by eliminating redundant key storage
+* **API**: All existing function signatures remain compatible - no code changes required for users
+* Quran script is updated from tanzil.net with the simple (plain) option
+* Data structure: `quranText` List replaced with `quranData` Map<int, Map<int, String>>
+* Updated `getVerse()`, `getAudioURLByVerse()`, and `searchWords()` functions for optimal performance
+* Fixed redundant default cases in translation switch statements
+* Fixed ios example project build issue
+
 ## 1.3.3
 * Minor bug fixes
 

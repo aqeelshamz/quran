@@ -213,15 +213,9 @@ int getVerseCount(int surahNumber) {
 ///Takes [surahNumber], [verseNumber] & [verseEndSymbol] (optional) and returns the Verse in Arabic
 String getVerse(int surahNumber, int verseNumber,
     {bool verseEndSymbol = false}) {
-  String verse = "";
-  for (var i in quranText) {
-    if (i['surah_number'] == surahNumber && i['verse_number'] == verseNumber) {
-      verse = i['content'].toString();
-      break;
-    }
-  }
+  final verse = quranData[surahNumber]?[verseNumber];
 
-  if (verse == "") {
+  if (verse == null) {
     throw "No verse found with given surahNumber and verseNumber.\n\n";
   }
 
@@ -344,12 +338,13 @@ String getAudioURLBySurah(int surahNumber) {
 ///Takes [surahNumber] & [verseNumber] and returns audio URL of that verse
 String getAudioURLByVerse(int surahNumber, int verseNumber) {
   int verseNum = 0;
-  for (var i in quranText) {
-    if (i['surah_number'] == surahNumber && i['verse_number'] == verseNumber) {
-      verseNum = quranText.indexOf(i) + 1;
-      break;
-    }
+
+  // Calculate absolute verse number by counting all verses before this one
+  for (int i = 1; i < surahNumber; i++) {
+    verseNum += quranData[i]?.length ?? 0;
   }
+  verseNum += verseNumber;
+
   return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNum.mp3";
 }
 
@@ -438,8 +433,6 @@ String getVerseTranslation(int surahNumber, int verseNumber,
     case Translation.swedish:
       translationText = swedish;
       break;
-    default:
-      translationText = enSaheeh;
   }
 
   for (var i in translationText) {
@@ -513,8 +506,6 @@ Map searchWordsInTranslation(List<String> words,
     case Translation.swedish:
       translationText = swedish;
       break;
-    default:
-      translationText = enSaheeh;
   }
 
   List<Map> result = [];
@@ -548,20 +539,20 @@ Map searchWordsInTranslation(List<String> words,
 Map searchWords(List<String> words) {
   List<Map> result = [];
 
-  for (var i in quranText) {
-    bool exist = false;
-    for (var word in words) {
-      if (i['content']
-          .toString()
-          .toLowerCase()
-          .contains(word.toString().toLowerCase())) {
-        exist = true;
+  quranData.forEach((surahNumber, verses) {
+    verses.forEach((verseNumber, content) {
+      bool exist = false;
+      for (var word in words) {
+        if (content.toLowerCase().contains(word.toString().toLowerCase())) {
+          exist = true;
+          break;
+        }
       }
-    }
-    if (exist) {
-      result.add({"surah": i["surah_number"], "verse": i["verse_number"]});
-    }
-  }
+      if (exist) {
+        result.add({"surah": surahNumber, "verse": verseNumber});
+      }
+    });
+  });
 
   return {"occurences": result.length, "result": result};
 }

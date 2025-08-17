@@ -83,8 +83,9 @@ int getVerseCountByPage(int pageNumber) {
   }
   int totalVerseCount = 0;
   for (int i = 0; i < pageData[pageNumber - 1].length; i++) {
-    totalVerseCount +=
-        int.parse(pageData[pageNumber - 1][i]!["end"].toString());
+    totalVerseCount += int.parse(
+      pageData[pageNumber - 1][i]!["end"].toString(),
+    );
   }
   return totalVerseCount;
 }
@@ -179,9 +180,11 @@ int getPageNumber(int surahNumber, int verseNumber) {
   }
 
   for (int pageIndex = 0; pageIndex < pageData.length; pageIndex++) {
-    for (int surahIndexInPage = 0;
-        surahIndexInPage < pageData[pageIndex].length;
-        surahIndexInPage++) {
+    for (
+      int surahIndexInPage = 0;
+      surahIndexInPage < pageData[pageIndex].length;
+      surahIndexInPage++
+    ) {
       final e = pageData[pageIndex][surahIndexInPage];
       if (e['surah'] == surahNumber &&
           e['start'] <= verseNumber &&
@@ -211,8 +214,11 @@ int getVerseCount(int surahNumber) {
 }
 
 ///Takes [surahNumber], [verseNumber] & [verseEndSymbol] (optional) and returns the Verse in Arabic
-String getVerse(int surahNumber, int verseNumber,
-    {bool verseEndSymbol = false}) {
+String getVerse(
+  int surahNumber,
+  int verseNumber, {
+  bool verseEndSymbol = false,
+}) {
   final verse = quranData[surahNumber]?[verseNumber];
 
   if (verse == null) {
@@ -223,19 +229,14 @@ String getVerse(int surahNumber, int verseNumber,
 }
 
 ///Takes [juzNumber] and returns Juz URL (from Quran.com)
-String getJuzURL(int juzNumber) {
-  return "https://quran.com/juz/$juzNumber";
-}
+String getJuzURL(int juzNumber) => "https://quran.com/juz/$juzNumber";
 
 ///Takes [surahNumber] and returns Surah URL (from Quran.com)
-String getSurahURL(int surahNumber) {
-  return "https://quran.com/$surahNumber";
-}
+String getSurahURL(int surahNumber) => "https://quran.com/$surahNumber";
 
 ///Takes [surahNumber] & [verseNumber] and returns Verse URL (from Quran.com)
-String getVerseURL(int surahNumber, int verseNumber) {
-  return "https://quran.com/$surahNumber/$verseNumber";
-}
+String getVerseURL(int surahNumber, int verseNumber) =>
+    "https://quran.com/$surahNumber/$verseNumber";
 
 ///Takes [verseNumber], [arabicNumeral] (optional) and returns '۝' symbol with verse number
 String getVerseEndSymbol(int verseNumber, {bool arabicNumeral = true}) {
@@ -297,10 +298,12 @@ enum SurahSeperator {
 
 ///Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
 ///if [customSurahSeperator] is given, [surahSeperator] will not work.
-List<String> getVersesTextByPage(int pageNumber,
-    {bool verseEndSymbol = false,
-    SurahSeperator surahSeperator = SurahSeperator.none,
-    String customSurahSeperator = ""}) {
+List<String> getVersesTextByPage(
+  int pageNumber, {
+  bool verseEndSymbol = false,
+  SurahSeperator surahSeperator = SurahSeperator.none,
+  String customSurahSeperator = "",
+}) {
   if (pageNumber > 604 || pageNumber <= 0) {
     throw "Invalid pageNumber";
   }
@@ -330,13 +333,39 @@ List<String> getVersesTextByPage(int pageNumber,
   return verses;
 }
 
-///Takes [surahNumber] and returns audio URL of that surah
-String getAudioURLBySurah(int surahNumber) {
-  return "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/$surahNumber.mp3";
+///Supported audio reciters for CDN islamic.network
+///Defaults to [Reciter.arAlafasy] to preserve existing behavior.
+enum Reciter {
+  arAlafasy('ar.alafasy', 'Alafasy'),
+  arHusary('ar.husary', 'Husary'),
+  arAhmedAjamy('ar.ahmedajamy', 'Ahmed al-Ajamy'),
+  arHudhaify('ar.hudhaify', 'Hudhaify'),
+  arMaherMuaiqly('ar.mahermuaiqly', 'Maher Al Muaiqly'),
+  arMuhammadAyyoub('ar.muhammadayyoub', 'Muhammad Ayyoub'),
+  arMuhammadJibreel('ar.muhammadjibreel', 'Muhammad Jibreel'),
+  arMinshawi('ar.minshawi', 'Minshawi'),
+  arShaatree('ar.shaatree', 'Abu Bakr Ash-Shaatree');
+
+  final String code;
+  final String englishName;
+  const Reciter(this.code, this.englishName);
 }
 
+///Takes [surahNumber] and returns audio URL of that surah
+String getAudioURLBySurah(
+  int surahNumber, {
+  Reciter reciter = Reciter.arAlafasy,
+  int bitrate = 128,
+}) =>
+    "https://cdn.islamic.network/quran/audio-surah/$bitrate/${reciter.code}/$surahNumber.mp3";
+
 ///Takes [surahNumber] & [verseNumber] and returns audio URL of that verse
-String getAudioURLByVerse(int surahNumber, int verseNumber) {
+String getAudioURLByVerse(
+  int surahNumber,
+  int verseNumber, {
+  Reciter reciter = Reciter.arAlafasy,
+  int bitrate = 128,
+}) {
   int verseNum = 0;
 
   // Calculate absolute verse number by counting all verses before this one
@@ -345,7 +374,7 @@ String getAudioURLByVerse(int surahNumber, int verseNumber) {
   }
   verseNum += verseNumber;
 
-  return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNum.mp3";
+  return "https://cdn.islamic.network/quran/audio/$bitrate/${reciter.code}/$verseNum.mp3";
 }
 
 ///Takes [surahNumber] & [verseNumber] and returns true if verse is sajdah
@@ -353,9 +382,12 @@ bool isSajdahVerse(int surahNumber, int verseNumber) =>
     sajdahVerses[surahNumber] == verseNumber;
 
 ///Takes [verseNumber] and returns audio URL of that verse
-String getAudioURLByVerseNumber(int verseNumber) {
-  return "https://cdn.islamic.network/quran/audio/128/ar.alafasy/$verseNumber.mp3";
-}
+String getAudioURLByVerseNumber(
+  int verseNumber, {
+  Reciter reciter = Reciter.arAlafasy,
+  int bitrate = 128,
+}) =>
+    "https://cdn.islamic.network/quran/audio/$bitrate/${reciter.code}/$verseNumber.mp3";
 
 enum Translation {
   enSaheeh,
@@ -377,63 +409,32 @@ enum Translation {
 }
 
 ///Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
-String getVerseTranslation(int surahNumber, int verseNumber,
-    {bool verseEndSymbol = false,
-    Translation translation = Translation.enSaheeh}) {
+String getVerseTranslation(
+  int surahNumber,
+  int verseNumber, {
+  bool verseEndSymbol = false,
+  Translation translation = Translation.enSaheeh,
+}) {
   String verse = "";
 
-  var translationText = enSaheeh;
-
-  switch (translation) {
-    case Translation.enSaheeh:
-      translationText = enSaheeh;
-      break;
-    case Translation.enClearQuran:
-      translationText = enClearQuran;
-      break;
-    case Translation.faHusseinDari:
-      translationText = faHusseinDari;
-      break;
-    case Translation.itPiccardo:
-      translationText = itPiccardo;
-      break;
-    case Translation.nlSiregar:
-      translationText = nlSiregar;
-      break;
-    case Translation.portuguese:
-      translationText = portuguese;
-      break;
-    case Translation.trSaheeh:
-      translationText = trSaheeh;
-      break;
-    case Translation.mlAbdulHameed:
-      translationText = mlAbdulHameed;
-      break;
-    case Translation.frHamidullah:
-      translationText = frHamidullah;
-      break;
-    case Translation.ruKuliev:
-      translationText = ruKuliev;
-      break;
-    case Translation.urdu:
-      translationText = urdu;
-      break;
-    case Translation.bengali:
-      translationText = bengali;
-      break;
-    case Translation.chinese:
-      translationText = chinese;
-      break;
-    case Translation.indonesian:
-      translationText = indonesian;
-      break;
-    case Translation.spanish:
-      translationText = spanish;
-      break;
-    case Translation.swedish:
-      translationText = swedish;
-      break;
-  }
+  final translationText = switch (translation) {
+    Translation.enSaheeh => enSaheeh,
+    Translation.enClearQuran => enClearQuran,
+    Translation.faHusseinDari => faHusseinDari,
+    Translation.itPiccardo => itPiccardo,
+    Translation.nlSiregar => nlSiregar,
+    Translation.portuguese => portuguese,
+    Translation.trSaheeh => trSaheeh,
+    Translation.mlAbdulHameed => mlAbdulHameed,
+    Translation.frHamidullah => frHamidullah,
+    Translation.ruKuliev => ruKuliev,
+    Translation.urdu => urdu,
+    Translation.bengali => bengali,
+    Translation.chinese => chinese,
+    Translation.indonesian => indonesian,
+    Translation.spanish => spanish,
+    Translation.swedish => swedish,
+  };
 
   for (var i in translationText) {
     if (i['surah_number'] == surahNumber && i['verse_number'] == verseNumber) {
@@ -453,70 +454,37 @@ String getVerseTranslation(int surahNumber, int verseNumber,
 }
 
 ///Takes a list of words [words] and [translation] (optional) and returns a map containing no. of occurences and result of the word search in the traslation
-Map searchWordsInTranslation(List<String> words,
-    {Translation translation = Translation.enSaheeh}) {
-  var translationText = enSaheeh;
-
-  switch (translation) {
-    case Translation.enSaheeh:
-      translationText = enSaheeh;
-      break;
-    case Translation.enClearQuran:
-      translationText = enClearQuran;
-      break;
-    case Translation.faHusseinDari:
-      translationText = faHusseinDari;
-      break;
-    case Translation.itPiccardo:
-      translationText = itPiccardo;
-      break;
-    case Translation.nlSiregar:
-      translationText = nlSiregar;
-      break;
-    case Translation.portuguese:
-      translationText = portuguese;
-      break;
-    case Translation.trSaheeh:
-      translationText = trSaheeh;
-      break;
-    case Translation.mlAbdulHameed:
-      translationText = mlAbdulHameed;
-      break;
-    case Translation.frHamidullah:
-      translationText = frHamidullah;
-      break;
-    case Translation.ruKuliev:
-      translationText = ruKuliev;
-      break;
-    case Translation.urdu:
-      translationText = urdu;
-      break;
-    case Translation.bengali:
-      translationText = bengali;
-      break;
-    case Translation.chinese:
-      translationText = chinese;
-      break;
-    case Translation.indonesian:
-      translationText = indonesian;
-      break;
-    case Translation.spanish:
-      translationText = spanish;
-      break;
-    case Translation.swedish:
-      translationText = swedish;
-      break;
-  }
+Map searchWordsInTranslation(
+  List<String> words, {
+  Translation translation = Translation.enSaheeh,
+}) {
+  final translationText = switch (translation) {
+    Translation.enSaheeh => enSaheeh,
+    Translation.enClearQuran => enClearQuran,
+    Translation.faHusseinDari => faHusseinDari,
+    Translation.itPiccardo => itPiccardo,
+    Translation.nlSiregar => nlSiregar,
+    Translation.portuguese => portuguese,
+    Translation.trSaheeh => trSaheeh,
+    Translation.mlAbdulHameed => mlAbdulHameed,
+    Translation.frHamidullah => frHamidullah,
+    Translation.ruKuliev => ruKuliev,
+    Translation.urdu => urdu,
+    Translation.bengali => bengali,
+    Translation.chinese => chinese,
+    Translation.indonesian => indonesian,
+    Translation.spanish => spanish,
+    Translation.swedish => swedish,
+  };
 
   List<Map> result = [];
 
   for (var i in translationText) {
     bool exist = false;
     for (var word in words) {
-      if (i['content']
-          .toString()
-          .toLowerCase()
-          .contains(word.toString().toLowerCase())) {
+      if (i['content'].toString().toLowerCase().contains(
+        word.toString().toLowerCase(),
+      )) {
         exist = true;
       }
     }

@@ -1,3 +1,22 @@
+## 1.5.0
+* Reciters: Added `Reciter` enum with many supported identifiers (e.g., ar.alafasy, ar.husary, ar.minshawi, ar.shaatree, ar.abdullahbasfar, ar.abdurrahmaansudais, ar.abdulbasitmurattal, ar.hudhaify, ar.mahermuaiqly, ar.muhammadjibreel, etc.)
+* Display: Each enum value now includes `englishName` for UI display (e.g., "Alafasy", "Husary", "Abdurrahmaan As-Sudais")
+* API: Audio URL helpers accept a reciter and bitrate while keeping defaults for backward compatibility
+	* `getAudioURLBySurah(int surahNumber, { Reciter reciter = Reciter.arAlafasy, int bitrate = 128 })`
+	* `getAudioURLByVerse(int surahNumber, int verseNumber, { Reciter reciter = Reciter.arAlafasy, int bitrate = 128 })`
+	* `getAudioURLByVerseNumber(int verseNumber, { Reciter reciter = Reciter.arAlafasy, int bitrate = 128 })`
+* Defaults preserved: Existing code continues to use Alafasy at 128 kbps without changes
+* Reference: Reciter identifiers align with the editions list: https://api.alquran.cloud/v1/edition?format=audio
+
+## 1.4.0
+* **Memory**: Reduced memory footprint by eliminating redundant key storage
+* **API**: All existing function signatures remain compatible - no code changes required for users
+* Quran script is updated from tanzil.net with the simple (plain) option
+* Data structure: `quranText` List replaced with `quranData` Map<int, Map<int, String>>
+* Updated `getVerse()`, `getAudioURLByVerse()`, and `searchWords()` functions for optimal performance
+* Fixed redundant default cases in translation switch statements
+* Fixed ios example project build issue
+
 ## 1.3.3
 * Minor bug fixes
 

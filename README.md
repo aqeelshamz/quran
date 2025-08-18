@@ -64,12 +64,38 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 
 **_URLs:_**
 
--   **`getAudioURLBySurah(int surahNumber)`** - Takes [surahNumber] and returns audio URL of that surah
--   **`getAudioURLByVerse(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns audio URL of that verse
--   **`getAudioURLByVerseNumber(int surahNumber)`** - Takes [verseNumber] and returns audio URL of that verse
+-   **`getAudioURLBySurah(int surahNumber, { Reciter reciter = Reciter.arAlafasy, int bitrate = 128 })`** - Takes [surahNumber] and returns audio URL of that surah
+-   **`getAudioURLByVerse(int surahNumber, int verseNumber, { Reciter reciter = Reciter.arAlafasy, int bitrate = 128 })`** - Takes [surahNumber] & [verseNumber] and returns audio URL of that verse
+-   **`getAudioURLByVerseNumber(int verseNumber, { Reciter reciter = Reciter.arAlafasy, int bitrate = 128 })`** - Takes [verseNumber] and returns audio URL of that verse
 -   **`getJuzURL(int juzNumber)`** - Takes [juzNumber] and returns Juz URL (from Quran.com)
 -   **`getSurahURL(int surahNumber)`** - Takes [surahNumber] and returns Surah URL (from Quran.com)
 -   **`getVerseURL(int surahNumber, int verseNumber)`** - Takes [surahNumber] & [verseNumber] and returns Verse URL (from Quran.com)
+
+> Notes
+> - Defaults preserve existing behavior: Alafasy at 128 kbps.
+> - Common bitrates: 64, 128, 192 (availability may vary per reciter).
+
+### Reciters
+
+You can choose a reciter via the `Reciter` enum. Each has a human-friendly `englishName` for display. Examples:
+
+```dart
+getAudioURLBySurah(1, reciter: Reciter.arHusary); // Husary
+getAudioURLByVerse(2, 255, reciter: Reciter.arAlafasy, bitrate: 64);
+getAudioURLByVerseNumber(1234, reciter: Reciter.arShaatree, bitrate: 192);
+```
+
+Available reciters:
+
+- Reciter.arAlafasy (Alafasy)
+- Reciter.arHusary (Husary)
+- Reciter.arAhmedAjamy (Ahmed al-Ajamy)
+- Reciter.arHudhaify (Hudhaify)
+- Reciter.arMaherMuaiqly (Maher Al Muaiqly)
+- Reciter.arMuhammadAyyoub (Muhammad Ayyoub)
+- Reciter.arMuhammadJibreel (Muhammad Jibreel)
+- Reciter.arMinshawi (Minshawi)
+- Reciter.arShaatree (Abu Bakr Ash-Shaatree)
 
 **_Search:_**
 

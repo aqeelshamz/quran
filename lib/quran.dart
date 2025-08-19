@@ -1,11 +1,11 @@
 import 'dart:math';
 import './translations/en_saheeh.dart';
-import './translations/en_clearquran.dart';
+import './translations/en_clear_quran.dart';
 import './translations/ru_kuliev.dart';
 import './translations/tr_saheeh.dart';
 import './translations/ml_abdulhameed.dart';
 import './translations/fr_hamidullah.dart';
-import './translations/fa_husseindari.dart';
+import './translations/fa_hussein_dari.dart';
 import './translations/it_piccardo.dart';
 import './translations/nl_siregar.dart';
 import './translations/portuguese.dart';

@@ -1,5 +1,3 @@
-ﺭَﺑَّﻨَﺎ ﺗَﻘَﺒَّﻞْ ﻣِﻨَّﺎ
-
 [![pub package](https://img.shields.io/pub/v/quran.svg)](https://pub.dev/packages/quran)
 [![npm package](https://img.shields.io/npm/v/quran-db.svg)](https://www.npmjs.com/package/quran-db)
 
@@ -258,3 +256,13 @@ void main() {
 ```
 
 ![example2](https://raw.githubusercontent.com/aqeelshamz/quran/main/images/2.png)
+
+# Contributors
+
+<a href = "https://github.com/aqeelshamz/quran/contributors">
+  <img src = "https://contrib.rocks/image?repo=aqeelshamz/quran"/>
+</a>
+
+ﺭَﺑَّﻨَﺎ ﺗَﻘَﺒَّﻞْ ﻣِﻨَّﺎ 🤲 (Our Lord, accept this from us)
+
+Include us in your sincere duas. Jazakallah Khairan.

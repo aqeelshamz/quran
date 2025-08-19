@@ -17,9 +17,7 @@ class _QuranExampleState extends State<QuranExample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Quran Demo"),
-      ),
+      appBar: AppBar(title: const Text("Quran Demo")),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(15.0),
@@ -29,16 +27,21 @@ class _QuranExampleState extends State<QuranExample> {
               Text("Juz Number: \n${quran.getJuzNumber(18, 1)}"),
               Text("\nJuz URL: \n${quran.getJuzURL(15)}"),
               Text(
-                  "\nSurah and Verses in Juz 15: \n${quran.getSurahAndVersesFromJuz(15)}"),
+                "\nSurah and Verses in Juz 15: \n${quran.getSurahAndVersesFromJuz(15)}",
+              ),
               Text("\nSurah Name: \n${quran.getSurahName(18)}"),
               Text(
-                  "\nSurah Name (English): \n${quran.getSurahNameEnglish(18)}"),
+                "\nSurah Name (English): \n${quran.getSurahNameEnglish(18)}",
+              ),
               Text("\nSurah URL: \n${quran.getSurahURL(18)}"),
               Text("\nTotal Verses: \n${quran.getVerseCount(18)}"),
               Text(
-                  "\nPlace of Revelation: \n${quran.getPlaceOfRevelation(18)}"),
-              Text("\nBasmala: \n${quran.basmala}",
-                  style: GoogleFonts.amiriQuran()),
+                "\nPlace of Revelation: \n${quran.getPlaceOfRevelation(18)}",
+              ),
+              Text(
+                "\nBasmala: \n${quran.basmala}",
+                style: GoogleFonts.amiriQuran(),
+              ),
               Text(
                 "\nVerse 1: \n${quran.getVerse(18, 1)}",
                 style: GoogleFonts.amiriQuran(),

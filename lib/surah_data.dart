@@ -910,7 +910,7 @@ const List surah = [
     "french": "Les fraudeurs",
     "place": "Makkah",
     "arabic": "المطففين",
-    "russian": "Обвешивающие"
+    "russian": "Обвешивающие",
   },
   {
     "id": 84,
@@ -921,7 +921,7 @@ const List surah = [
     "french": "La déchirure",
     "place": "Makkah",
     "arabic": "الإنشقاق",
-    "russian": "Разверзнется"
+    "russian": "Разверзнется",
   },
   {
     "id": 85,
@@ -1252,5 +1252,5 @@ const List surah = [
     "place": "Makkah",
     "arabic": "الناس",
     "russian": "Люди",
-  }
+  },
 ];

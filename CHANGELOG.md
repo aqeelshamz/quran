@@ -1,3 +1,5 @@
+## 1.4.1
+* Analysis Issue fixes
 ## 1.4.0
 * **Memory**: Reduced memory footprint by eliminating redundant key storage
 * **API**: All existing function signatures remain compatible - no code changes required for users

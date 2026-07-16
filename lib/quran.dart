@@ -62,7 +62,11 @@ const int totalSurahCount = 114;
 ///The constant total verse count
 const int totalVerseCount = 6236;
 
-///The constant 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ'
+///The constant Basmala, in the Uthmani script.
+///
+///Note: since v1.4.0 the verse text uses the simple (plain) tanzil script,
+///so this constant does not match the Basmala embedded in [getVerse] output.
+///Use [getBasmala] for a Basmala that matches the verse text.
 const String basmala = "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
 
 ///The constant 'سَجْدَةٌ'
@@ -213,16 +217,46 @@ int getVerseCount(int surahNumber) {
   return int.parse(surah[surahNumber - 1]['aya'].toString());
 }
 
-///Takes [surahNumber], [verseNumber] & [verseEndSymbol] (optional) and returns the Verse in Arabic
+///Takes [surahNumber] and returns the Basmala that is prefixed to the first
+///verse of that Surah, or `null` if the Surah has no prefixed Basmala.
+///
+///Returns `null` for Surah 1 (Al-Fatihah), whose Basmala is verse 1 itself, and
+///for Surah 9 (At-Tawbah), which has no Basmala. The returned text is in the
+///same script as [getVerse] output, unlike the [basmala] constant.
+String? getBasmala(int surahNumber) {
+  if (surahNumber > 114 || surahNumber <= 0) {
+    throw "No Surah found with given surahNumber";
+  }
+
+  if (surahNumber == 1 || surahNumber == 9) return null;
+
+  //Surah 1 verse 1 is the Basmala itself, so it doubles as the canonical
+  //source of the Basmala in whichever script quranData currently uses.
+  return quranData[1]![1]!;
+}
+
+///Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) &
+///[includeBasmala] (optional) and returns the Verse in Arabic
+///
+///The first verse of every Surah except 1 and 9 has the Basmala prefixed to it.
+///Pass [includeBasmala] as `false` to get the verse without it, e.g. to render
+///the Basmala separately as a heading. See [getBasmala].
 String getVerse(
   int surahNumber,
   int verseNumber, {
   bool verseEndSymbol = false,
+  bool includeBasmala = true,
 }) {
-  final verse = quranData[surahNumber]?[verseNumber];
+  var verse = quranData[surahNumber]?[verseNumber];
 
   if (verse == null) {
     throw "No verse found with given surahNumber and verseNumber.\n\n";
+  }
+
+  final basmalaPrefix =
+      (includeBasmala || verseNumber != 1) ? null : getBasmala(surahNumber);
+  if (basmalaPrefix != null && verse.startsWith(basmalaPrefix)) {
+    verse = verse.substring(basmalaPrefix.length).trimLeft();
   }
 
   return verse + (verseEndSymbol ? getVerseEndSymbol(verseNumber) : "");
@@ -303,6 +337,7 @@ List<String> getVersesTextByPage(
   bool verseEndSymbol = false,
   SurahSeperator surahSeperator = SurahSeperator.none,
   String customSurahSeperator = "",
+  bool includeBasmala = true,
 }) {
   if (pageNumber > 604 || pageNumber <= 0) {
     throw "Invalid pageNumber";
@@ -327,7 +362,12 @@ List<String> getVersesTextByPage(
       verses.add(getSurahNameRussian(data["surah"]));
     }
     for (int j = data["start"]; j <= data["end"]; j++) {
-      verses.add(getVerse(data["surah"], j, verseEndSymbol: verseEndSymbol));
+      verses.add(getVerse(
+        data["surah"],
+        j,
+        verseEndSymbol: verseEndSymbol,
+        includeBasmala: includeBasmala,
+      ));
     }
   }
   return verses;

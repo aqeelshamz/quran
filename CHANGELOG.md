@@ -1,3 +1,8 @@
+## 1.5.0
+* **New**: `getBasmala(surahNumber)` returns the Basmala prefixed to a Surah's first verse, or `null` for Surah 1 (its Basmala is verse 1 itself) and Surah 9 (no Basmala). Unlike the `basmala` constant, it matches the script used by the verse text.
+* **New**: `getVerse()` and `getVersesTextByPage()` accept `includeBasmala` (defaults to `true`), allowing the Basmala to be separated from a Surah's first verse and rendered as a heading.
+* **API**: Defaults preserve existing behavior - no code changes required for users.
+
 ## 1.4.1
 * Analysis Issue fixes
 ## 1.4.0

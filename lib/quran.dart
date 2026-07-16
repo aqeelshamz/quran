@@ -87,9 +87,10 @@ int getVerseCountByPage(int pageNumber) {
   }
   int totalVerseCount = 0;
   for (int i = 0; i < pageData[pageNumber - 1].length; i++) {
-    totalVerseCount += int.parse(
-      pageData[pageNumber - 1][i]!["end"].toString(),
-    );
+    final surahOnPage = pageData[pageNumber - 1][i]!;
+    final start = int.parse(surahOnPage["start"].toString());
+    final end = int.parse(surahOnPage["end"].toString());
+    totalVerseCount += end - start + 1;
   }
   return totalVerseCount;
 }

@@ -37,7 +37,8 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 
 **_Verse:_**
 
--   **`getVerse(int surahNumber, int verseNumber, {bool verseEndSymbol})`** - Takes [surahNumber], [verseNumber] & [verseEndSymbol] (optional) and returns the Verse in Arabic
+-   **`getVerse(int surahNumber, int verseNumber, {bool verseEndSymbol, bool includeBasmala})`** - Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [includeBasmala] (optional) and returns the Verse in Arabic
+-   **`getBasmala(int surahNumber)`** - Takes [surahNumber] and returns the Basmala prefixed to that Surah's first verse, or `null` for Surah 1 (its Basmala is verse 1 itself) and Surah 9 (no Basmala)
 -   **`getVerseEndSymbol(int verseNumber, {bool arabicNumeral})`** - Takes [verseNumber], [arabicNumeral] (optional) and returns '۝' symbol with verse number
 -   **`isSajdahVerse(int surahNumber, int verseNumber)`** - Takes [surahNumber], [verseNumber] and returns true if verse is sajdah verse
 -   **`getVerseTranslation(int surahNumber, int verseNumber, {bool verseEndSymbol, Translation translation})`** - Takes [surahNumber], [verseNumber], [verseEndSymbol] (optional) & [translation] (optional) and returns verse translation
@@ -58,7 +59,7 @@ To use this plugin, add `quran` as a [dependency in your pubspec.yaml file](http
 -   **`getSurahCountByPage(int pageNumber)`** - Takes [pageNumber] and returns total surahs count in that page
 -   **`getSurahPages(int surahNumber)`** - Takes [surahNumber] and returns the list of page numbers of that surah
 -   **`getVerseCountByPage(int pageNumber)`** - Takes [pageNumber] and returns total verses count in that page
--   **`getVersesTextByPage(int pageNumber, {bool verseEndSymbol, SurahSeperator surahSeperator, customSurahSeperator})`** - Takes [pageNumber], [verseEndSymbol], [surahSeperator] & [customSurahSeperator] and returns the list of verses in that page
+-   **`getVersesTextByPage(int pageNumber, {bool verseEndSymbol, SurahSeperator surahSeperator, customSurahSeperator, bool includeBasmala})`** - Takes [pageNumber], [verseEndSymbol], [surahSeperator], [customSurahSeperator] & [includeBasmala] (optional) and returns the list of verses in that page
 
 **_URLs:_**
 

@@ -429,24 +429,18 @@ String getAudioURLByVerse(
 
 ///Takes [surahNumber] & [verseNumber] and returns english translation audio URL of that verse
 String getEnglishAudioURLByVerse(int surahNumber, int verseNumber) {
-  int verseNum = 0;
-  for (var i in quranText) {
-    if (i['surah_number'] == surahNumber && i['verse_number'] == verseNumber) {
-      verseNum = quranText.indexOf(i) + 1;
-      break;
-    }
+  int verseNum = verseNumber;
+  for (int i = 1; i < surahNumber; i++) {
+    verseNum += quranData[i]?.length ?? 0;
   }
   return "https://cdn.islamic.network/quran/audio/192/en.walk/$verseNum.mp3";
 }
 
 ///Takes [surahNumber] & [verseNumber] and returns russian translation audio URL of that verse
 String getRussianAudioURLByVerse(int surahNumber, int verseNumber) {
-  int verseNum = 0;
-  for (var i in quranText) {
-    if (i['surah_number'] == surahNumber && i['verse_number'] == verseNumber) {
-      verseNum = quranText.indexOf(i) + 1;
-      break;
-    }
+  int verseNum = verseNumber;
+  for (int i = 1; i < surahNumber; i++) {
+    verseNum += quranData[i]?.length ?? 0;
   }
   return "https://cdn.islamic.network/quran/audio/128/ru.kuliev-audio/$verseNum.mp3";
 }
